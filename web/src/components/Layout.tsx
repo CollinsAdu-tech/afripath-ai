@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { Arrow, Hills, Logo } from './Icons';
 import { SITE } from '../lib/useTitle';
+import { useWaking } from '../api/wake';
 
 export const NAV = [
   { to: '/opportunities', label: 'Opportunities' },
@@ -81,6 +82,16 @@ function ScrollToTop() {
   return null;
 }
 
+/** Shown while the engine is slow to answer, so a first visit after a quiet spell does not look broken. */
+function WakeNotice() {
+  const waking = useWaking();
+  return (
+    <div className="wake" role="status" aria-live="polite" hidden={!waking}>
+      {waking && <><span className="wake-dot" aria-hidden="true" /><span><b>Waking up the server.</b> The first visit after a quiet spell can take up to a minute. Thanks for waiting, it will carry on by itself.</span></>}
+    </div>
+  );
+}
+
 export function Layout() {
   return (
     <>
@@ -89,6 +100,7 @@ export function Layout() {
       <main id="main"><Outlet /></main>
       <Footer />
       <ScrollToTop />
+      <WakeNotice />
     </>
   );
 }

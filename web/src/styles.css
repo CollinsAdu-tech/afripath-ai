@@ -443,3 +443,10 @@ ul.plain { list-style: none; padding-left: 0 !important; }
 .sec-head > .display { margin-inline: auto; }
 @media (max-width: 700px) { .hero-photo { min-height: 0; } .cta .notebook { display: none; } }
 .site-footer { overflow: hidden; }
+
+/* ---------- Waking-the-server notice ---------- */
+.wake { position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 60; width: min(560px, calc(100% - 32px)); display: flex; gap: 12px; align-items: center; background: var(--forest); color: var(--cream); padding: 14px 18px; border-radius: 22px; box-shadow: 0 6px 0 rgba(21, 38, 28, .25), 0 14px 30px rgba(21, 38, 28, .25); font-size: .95rem; line-height: 1.4; }
+.wake[hidden] { display: none; }
+.wake-dot { flex: none; width: 14px; height: 14px; border-radius: 50%; background: var(--lime); animation: wake-pulse 1.2s ease-in-out infinite; }
+@keyframes wake-pulse { 0%, 100% { transform: scale(.7); opacity: .6; } 50% { transform: scale(1.1); opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .wake-dot { animation: none; } }
