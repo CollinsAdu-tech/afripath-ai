@@ -1,0 +1,27 @@
+{
+  "name": "kareer-pathfinder-engine",
+  "version": "0.1.0",
+  "description": "Deterministic, explainable career recommendation engine for Kareer Pathfinder AI (MVP V1)",
+  "type": "module",
+  "main": "src/engine/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/api/start.js",
+    "test": "node --test \"test/**/*.test.js\"",
+    "data-quality": "node scripts/generate-data-quality-report.js",
+    "examples": "node scripts/generate-examples.js",
+    "recommend": "node scripts/recommend.js",
+    "openapi": "node scripts/generate-openapi.js",
+    "dev": "node scripts/dev.mjs",
+    "test:web": "npm --prefix web test",
+    "build:web": "npm --prefix web run build",
+    "test:all": "npm test && npm run test:web"
+  },
+  "exports": {
+    ".": "./src/engine/index.js",
+    "./knowledge": "./src/knowledge/knowledgeBase.js",
+    "./knowledge/load": "./src/knowledge/loadFromDirectory.js"
+  }
+}

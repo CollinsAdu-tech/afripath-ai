@@ -1,0 +1,10 @@
+{
+  "method": "POST",
+  "path": "/v1/roadmaps",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "careerId": "career_does_not_exist"
+  }
+}

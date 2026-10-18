@@ -1,0 +1,17 @@
+{
+  "httpStatus": 422,
+  "body": {
+    "error": {
+      "code": "VALIDATION_ERROR",
+      "message": "\"options.maxResults\" must be a whole number from 1 to 3.",
+      "details": [
+        {
+          "field": "options.maxResults",
+          "code": "OUT_OF_RANGE",
+          "message": "Use 1, 2 or 3."
+        }
+      ],
+      "requestId": "<request-id>"
+    }
+  }
+}

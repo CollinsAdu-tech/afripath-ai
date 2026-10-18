@@ -1,0 +1,1375 @@
+{
+  "httpStatus": 200,
+  "body": {
+    "status": "ok",
+    "message": "Here are paths that line up with your answers. They are starting points for exploring, not a verdict.",
+    "recommendations": [
+      {
+        "rank": 1,
+        "careerId": "career_full_stack_web_development",
+        "title": "Full Stack Web Development",
+        "category": "Software Development",
+        "summary": "Build complete web applications end-to-end by learning front-end interfaces, back-end APIs, databases, version control, and deployment.",
+        "fit": {
+          "kind": "heuristic_fit_score",
+          "scale": "0-100",
+          "score": 88.9,
+          "label": "Strong alignment with your answers",
+          "labelId": "strong_alignment",
+          "basis": "broad_answers",
+          "disclaimer": "Heuristic fit score based only on your answers. Not a prediction of success."
+        },
+        "explanation": {
+          "headline": "Full Stack Web Development lines up with several of your answers",
+          "summary": "You said you are interested in programming and building websites, which is central to Full Stack Web Development. Your strengths in logical reasoning and problem-solving are used a lot in this path.",
+          "reasons": [
+            {
+              "factor": "interests",
+              "text": "You said you are interested in programming and building websites, which is central to Full Stack Web Development.",
+              "matched": [
+                {
+                  "id": "web_building",
+                  "label": "Programming and building websites"
+                }
+              ]
+            },
+            {
+              "factor": "strengths",
+              "text": "Your strengths in logical reasoning and problem-solving are used a lot in this path.",
+              "matched": [
+                {
+                  "id": "logical_reasoning",
+                  "label": "Logical reasoning"
+                },
+                {
+                  "id": "problem_solving",
+                  "label": "Problem-solving"
+                }
+              ]
+            },
+            {
+              "factor": "strengths",
+              "text": "You want to develop programming, and this path gives plenty of chances to practise.",
+              "matched": [
+                {
+                  "id": "programming",
+                  "label": "Programming"
+                }
+              ]
+            },
+            {
+              "factor": "workStyle",
+              "text": "You like building and experimenting, which is how much of the work in this path is done.",
+              "matched": [
+                {
+                  "id": "building",
+                  "label": "Building and experimenting"
+                }
+              ]
+            },
+            {
+              "factor": "goals",
+              "text": "This path supports your goals: pursue a technical career.",
+              "matched": [
+                {
+                  "id": "technical_career",
+                  "label": "Pursue a technical career"
+                }
+              ]
+            },
+            {
+              "factor": "academic",
+              "text": "Your background in ICT / Computing is helpful here.",
+              "matched": [
+                {
+                  "id": "ict_computing",
+                  "label": "ICT / Computing"
+                }
+              ]
+            },
+            {
+              "factor": "academic",
+              "text": "Your current preparation lines up well with where this path starts.",
+              "matched": []
+            }
+          ],
+          "notes": [
+            "A short questionnaire cannot tell you what you can or cannot do. Treat this as a starting point for exploring."
+          ]
+        },
+        "matched": {
+          "interests": [
+            {
+              "id": "web_building",
+              "label": "Programming and building websites"
+            }
+          ],
+          "strengths": [
+            {
+              "id": "logical_reasoning",
+              "label": "Logical reasoning"
+            },
+            {
+              "id": "problem_solving",
+              "label": "Problem-solving"
+            }
+          ],
+          "skillsToDevelop": [
+            {
+              "id": "programming",
+              "label": "Programming"
+            }
+          ],
+          "workStyles": [
+            {
+              "id": "building",
+              "label": "Building and experimenting"
+            }
+          ],
+          "goals": [
+            {
+              "id": "technical_career",
+              "label": "Pursue a technical career"
+            }
+          ],
+          "subjects": [
+            {
+              "id": "ict_computing",
+              "label": "ICT / Computing"
+            }
+          ]
+        },
+        "factorBreakdown": [
+          {
+            "factor": "interests",
+            "label": "Interests",
+            "status": "evaluated",
+            "weightPercent": 35,
+            "score": 81.3,
+            "contributionPoints": 28.4
+          },
+          {
+            "factor": "strengths",
+            "label": "Strengths and skills",
+            "status": "evaluated",
+            "weightPercent": 25,
+            "score": 91.2,
+            "contributionPoints": 22.8
+          },
+          {
+            "factor": "workStyle",
+            "label": "Preferred way of working",
+            "status": "evaluated",
+            "weightPercent": 15,
+            "score": 100,
+            "contributionPoints": 15
+          },
+          {
+            "factor": "academic",
+            "label": "Academic preparation",
+            "status": "evaluated",
+            "weightPercent": 15,
+            "score": 91.3,
+            "contributionPoints": 13.7
+          },
+          {
+            "factor": "goals",
+            "label": "Goals",
+            "status": "evaluated",
+            "weightPercent": 10,
+            "score": 90,
+            "contributionPoints": 9
+          }
+        ],
+        "careerBasis": [
+          "KB category: Software Development; Exploration stage starts from web basics (HTML/CSS, JavaScript); projects: portfolio site, e-commerce, CMS, collaboration"
+        ],
+        "skillGaps": {
+          "skillsToBuild": [
+            {
+              "skillId": "fs_skill_html_css",
+              "name": "HTML and CSS",
+              "level": null,
+              "evidence": null
+            },
+            {
+              "skillId": "fs_skill_javascript",
+              "name": "JavaScript",
+              "level": null,
+              "evidence": null
+            },
+            {
+              "skillId": "fs_skill_frontend",
+              "name": "Front-end development",
+              "level": null,
+              "evidence": null
+            },
+            {
+              "skillId": "fs_skill_react_next",
+              "name": "React / Next.js",
+              "level": null,
+              "evidence": null
+            }
+          ],
+          "strengthsToBuild": [
+            {
+              "id": "programming",
+              "label": "Programming"
+            },
+            {
+              "id": "creativity",
+              "label": "Creativity"
+            }
+          ],
+          "prerequisites": [],
+          "bridgePath": null
+        },
+        "roadmap": {
+          "startingPoint": {
+            "stageId": "fs_stage_exploration",
+            "order": 1,
+            "name": "Exploration",
+            "reason": "Everyone starts at the first stage unless they tell us they have already covered it. Move on whenever you feel ready."
+          },
+          "stages": [
+            {
+              "stageId": "fs_stage_exploration",
+              "order": 1,
+              "name": "Exploration",
+              "status": "start_here",
+              "durationPerSource": "Weeks 0–4"
+            },
+            {
+              "stageId": "fs_stage_foundations",
+              "order": 2,
+              "name": "Foundations",
+              "status": "upcoming",
+              "durationPerSource": "Months 1–3"
+            },
+            {
+              "stageId": "fs_stage_participation",
+              "order": 3,
+              "name": "Participation",
+              "status": "upcoming",
+              "durationPerSource": "Months 3–6"
+            },
+            {
+              "stageId": "fs_stage_going_deeper",
+              "order": 4,
+              "name": "Going Deeper",
+              "status": "upcoming",
+              "durationPerSource": "Months 6–18"
+            }
+          ]
+        },
+        "firstStep": {
+          "text": "Start with “The Odin Project — Full Stack JavaScript”.",
+          "stageId": "fs_stage_exploration",
+          "activityId": null,
+          "resource": {
+            "resourceId": "fs_res_odin",
+            "title": "The Odin Project — Full Stack JavaScript",
+            "url": "https://www.theodinproject.com/paths/full-stack-javascript"
+          },
+          "flags": [],
+          "why": "It is the first item for the stage you are starting at, after taking your access needs into account."
+        },
+        "startingResources": [
+          {
+            "resourceId": "fs_res_odin",
+            "title": "The Odin Project — Full Stack JavaScript",
+            "provider": "The Odin Project",
+            "type": "curriculum",
+            "url": "https://www.theodinproject.com/paths/full-stack-javascript",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends as a main beginner-friendly path."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "fs_res_freecodecamp_rwd",
+            "title": "freeCodeCamp Responsive Web Design",
+            "provider": "freeCodeCamp",
+            "type": "course",
+            "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Beginner HTML/CSS learning path from source."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "fs_res_freecodecamp_js",
+            "title": "freeCodeCamp JavaScript Algorithms and Data Structures",
+            "provider": "freeCodeCamp",
+            "type": "course",
+            "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "JavaScript fundamentals and algorithms."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "fs_res_mdn",
+            "title": "MDN Web Docs",
+            "provider": "Mozilla",
+            "type": "documentation",
+            "url": "https://developer.mozilla.org/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "text"
+              ]
+            },
+            "notes": [
+              "Reference documentation."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "fs_res_codecademy",
+            "title": "Codecademy Full Stack Engineer Career Path",
+            "provider": "Codecademy",
+            "type": "course_path",
+            "url": "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path",
+            "bestFor": null,
+            "access": {
+              "cost": "may_involve_cost",
+              "costNote": "The knowledge base notes this may involve costs or fees. Check current pricing before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Pricing and current access may vary."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          }
+        ],
+        "projects": [
+          {
+            "projectId": "fs_project_portfolio",
+            "title": "Personal portfolio website",
+            "description": "Create a personal portfolio with projects, screenshots, and live demo links.",
+            "type": "portfolio",
+            "difficulty": "not_specified",
+            "deliverable": null,
+            "safetyNote": null,
+            "notes": [],
+            "skills": []
+          },
+          {
+            "projectId": "fs_project_ecommerce",
+            "title": "E-commerce mini shop",
+            "description": "Build a small shop with a cart and a mocked checkout flow; do not process real payments in the beginner version.",
+            "type": "ecommerce",
+            "difficulty": "not_specified",
+            "deliverable": null,
+            "safetyNote": null,
+            "notes": [],
+            "skills": []
+          },
+          {
+            "projectId": "fs_project_social_dashboard",
+            "title": "Social media dashboard",
+            "description": "Build a dashboard with a feed and filtering controls.",
+            "type": "dashboard",
+            "difficulty": "not_specified",
+            "deliverable": null,
+            "safetyNote": null,
+            "notes": [],
+            "skills": []
+          }
+        ],
+        "accessConsiderations": [],
+        "knowledgeGaps": [
+          "The knowledge base links projects to the whole path, not to individual stages, so projects are not matched to a stage."
+        ],
+        "roadmapRequest": {
+          "method": "POST",
+          "path": "/v1/roadmaps",
+          "body": {
+            "careerId": "career_full_stack_web_development"
+          }
+        }
+      },
+      {
+        "rank": 2,
+        "careerId": "career_ai_ml_engineering",
+        "title": "AI/ML Engineering",
+        "category": "Artificial Intelligence and Machine Learning",
+        "summary": "AI/ML Engineering helps build systems that learn from data and make useful predictions or decisions.",
+        "fit": {
+          "kind": "heuristic_fit_score",
+          "scale": "0-100",
+          "score": 87.9,
+          "label": "Strong alignment with your answers",
+          "labelId": "strong_alignment",
+          "basis": "broad_answers",
+          "disclaimer": "Heuristic fit score based only on your answers. Not a prediction of success."
+        },
+        "explanation": {
+          "headline": "AI/ML Engineering lines up with several of your answers",
+          "summary": "You said you are interested in building intelligent systems, which is central to AI/ML Engineering. Your strengths in logical reasoning and problem-solving are used a lot in this path.",
+          "reasons": [
+            {
+              "factor": "interests",
+              "text": "You said you are interested in building intelligent systems, which is central to AI/ML Engineering.",
+              "matched": [
+                {
+                  "id": "intelligent_systems",
+                  "label": "Building intelligent systems"
+                }
+              ]
+            },
+            {
+              "factor": "strengths",
+              "text": "Your strengths in logical reasoning and problem-solving are used a lot in this path.",
+              "matched": [
+                {
+                  "id": "logical_reasoning",
+                  "label": "Logical reasoning"
+                },
+                {
+                  "id": "problem_solving",
+                  "label": "Problem-solving"
+                }
+              ]
+            },
+            {
+              "factor": "strengths",
+              "text": "You want to develop programming, and this path gives plenty of chances to practise.",
+              "matched": [
+                {
+                  "id": "programming",
+                  "label": "Programming"
+                }
+              ]
+            },
+            {
+              "factor": "workStyle",
+              "text": "You like building and experimenting, which is how much of the work in this path is done.",
+              "matched": [
+                {
+                  "id": "building",
+                  "label": "Building and experimenting"
+                }
+              ]
+            },
+            {
+              "factor": "goals",
+              "text": "This path supports your goals: pursue a technical career.",
+              "matched": [
+                {
+                  "id": "technical_career",
+                  "label": "Pursue a technical career"
+                }
+              ]
+            },
+            {
+              "factor": "academic",
+              "text": "Your background in mathematics and ICT / Computing is helpful here.",
+              "matched": [
+                {
+                  "id": "mathematics",
+                  "label": "Mathematics"
+                },
+                {
+                  "id": "ict_computing",
+                  "label": "ICT / Computing"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "A short questionnaire cannot tell you what you can or cannot do. Treat this as a starting point for exploring."
+          ]
+        },
+        "matched": {
+          "interests": [
+            {
+              "id": "intelligent_systems",
+              "label": "Building intelligent systems"
+            }
+          ],
+          "strengths": [
+            {
+              "id": "logical_reasoning",
+              "label": "Logical reasoning"
+            },
+            {
+              "id": "problem_solving",
+              "label": "Problem-solving"
+            }
+          ],
+          "skillsToDevelop": [
+            {
+              "id": "programming",
+              "label": "Programming"
+            }
+          ],
+          "workStyles": [
+            {
+              "id": "building",
+              "label": "Building and experimenting"
+            }
+          ],
+          "goals": [
+            {
+              "id": "technical_career",
+              "label": "Pursue a technical career"
+            }
+          ],
+          "subjects": [
+            {
+              "id": "mathematics",
+              "label": "Mathematics"
+            },
+            {
+              "id": "ict_computing",
+              "label": "ICT / Computing"
+            }
+          ]
+        },
+        "factorBreakdown": [
+          {
+            "factor": "interests",
+            "label": "Interests",
+            "status": "evaluated",
+            "weightPercent": 35,
+            "score": 82.5,
+            "contributionPoints": 28.9
+          },
+          {
+            "factor": "strengths",
+            "label": "Strengths and skills",
+            "status": "evaluated",
+            "weightPercent": 25,
+            "score": 88.3,
+            "contributionPoints": 22.1
+          },
+          {
+            "factor": "workStyle",
+            "label": "Preferred way of working",
+            "status": "evaluated",
+            "weightPercent": 15,
+            "score": 100,
+            "contributionPoints": 15
+          },
+          {
+            "factor": "academic",
+            "label": "Academic preparation",
+            "status": "evaluated",
+            "weightPercent": 15,
+            "score": 86.3,
+            "contributionPoints": 12.9
+          },
+          {
+            "factor": "goals",
+            "label": "Goals",
+            "status": "evaluated",
+            "weightPercent": 10,
+            "score": 90,
+            "contributionPoints": 9
+          }
+        ],
+        "careerBasis": [
+          "KB summary: builds systems that learn from data and make predictions or decisions",
+          "KB Level 1 resources: Kaggle Python, Intro to Machine Learning, Google generative-AI intro",
+          "KB audience: undergraduates of any major; source says a formal technical background is not required",
+          "KB Level 1 has no prerequisites and includes a Python micro-course; the KB states no maths requirement, so prep is kept low"
+        ],
+        "skillGaps": {
+          "skillsToBuild": [
+            {
+              "skillId": "skill_python_programming",
+              "name": "Python programming",
+              "level": "beginner",
+              "evidence": "Kaggle Python is in the quick start and Level 1"
+            },
+            {
+              "skillId": "skill_gen_ai_fundamentals",
+              "name": "Generative AI fundamentals",
+              "level": "introductory",
+              "evidence": "Google Cloud Intro to Gen AI"
+            },
+            {
+              "skillId": "skill_ai_fundamentals",
+              "name": "AI fundamentals",
+              "level": "introductory",
+              "evidence": "Microsoft Learn AI Fundamentals"
+            },
+            {
+              "skillId": "skill_ml_fundamentals",
+              "name": "Machine learning fundamentals",
+              "level": "beginner_to_intermediate",
+              "evidence": "Kaggle Intro to ML and Google ML Crash Course"
+            }
+          ],
+          "strengthsToBuild": [
+            {
+              "id": "analytical_thinking",
+              "label": "Analytical thinking"
+            },
+            {
+              "id": "programming",
+              "label": "Programming"
+            },
+            {
+              "id": "mathematics",
+              "label": "Mathematics"
+            }
+          ],
+          "prerequisites": [
+            {
+              "dimension": "programming",
+              "label": "Programming",
+              "yourLevel": "not started yet",
+              "helpfulLevel": "a beginner",
+              "message": "Programming becomes more important as you go deeper into this path. You are not started yet so far, and being a beginner would help over time. This is guidance, not a requirement: you can still start at the first stage."
+            }
+          ],
+          "bridgePath": {
+            "careerId": "career_intro_to_coding",
+            "title": "Intro to Coding",
+            "summary": "A four-week beginner track for learning programming fundamentals with JavaScript and browser-based tools, then sharing a small portfolio of projects.",
+            "setupRequirements": "Browser-based tools; no local development setup required for the starter activities",
+            "why": "If you have never coded before, this beginner track can be a gentle on-ramp, before or alongside this path."
+          }
+        },
+        "roadmap": {
+          "startingPoint": {
+            "stageId": "ai_ml_level_1",
+            "order": 1,
+            "name": "Exploration",
+            "reason": "Everyone starts at the first stage unless they tell us they have already covered it. Move on whenever you feel ready."
+          },
+          "stages": [
+            {
+              "stageId": "ai_ml_level_1",
+              "order": 1,
+              "name": "Exploration",
+              "status": "start_here",
+              "durationPerSource": "No prerequisites"
+            },
+            {
+              "stageId": "ai_ml_level_2",
+              "order": 2,
+              "name": "Foundations",
+              "status": "upcoming",
+              "durationPerSource": "1–3 months"
+            },
+            {
+              "stageId": "ai_ml_level_3",
+              "order": 3,
+              "name": "Participation",
+              "status": "upcoming",
+              "durationPerSource": "3–6 months"
+            },
+            {
+              "stageId": "ai_ml_level_4",
+              "order": 4,
+              "name": "Going deeper",
+              "status": "upcoming",
+              "durationPerSource": "6–18 months"
+            }
+          ]
+        },
+        "firstStep": {
+          "text": "Start with “Introduction to Generative AI”.",
+          "stageId": "ai_ml_level_1",
+          "activityId": "a1_google_genai_intro",
+          "resource": {
+            "resourceId": "res_google_cloud_intro_gen_ai",
+            "title": "Introduction to Generative AI",
+            "url": "https://www.cloudskillsboost.google/paths/118"
+          },
+          "flags": [],
+          "why": "It is the first item for the stage you are starting at, after taking your access needs into account."
+        },
+        "startingResources": [
+          {
+            "resourceId": "res_google_cloud_intro_gen_ai",
+            "title": "Introduction to Generative AI",
+            "provider": "Google Cloud Skills Boost",
+            "type": "course",
+            "url": "https://www.cloudskillsboost.google/paths/118",
+            "bestFor": null,
+            "access": {
+              "cost": "source_mentions_free",
+              "costNote": "The source describes free access, but this has not been independently verified. Check current terms before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source says hands-on, no cost; verify current access and price."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "res_kaggle_intro_ml",
+            "title": "Intro to Machine Learning",
+            "provider": "Kaggle Learn",
+            "type": "micro_course",
+            "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "res_kaggle_python",
+            "title": "Python",
+            "provider": "Kaggle Learn",
+            "type": "micro_course",
+            "url": "https://www.kaggle.com/learn/python",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "res_microsoft_ai_fundamentals",
+            "title": "AI Fundamentals",
+            "provider": "Microsoft Learn",
+            "type": "learning_path",
+            "url": "https://learn.microsoft.com/en-us/training/paths/get-started-ai-fundamentals/",
+            "bestFor": null,
+            "access": {
+              "cost": "source_mentions_free",
+              "costNote": "The source describes free access, but this has not been independently verified. Check current terms before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source says free modules and optional certification."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "res_freecodecamp_ml_crash_course",
+            "title": "ML Crash Course",
+            "provider": "freeCodeCamp",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "video_heavy",
+              "needsAccountSetup": false,
+              "formats": [
+                "video"
+              ]
+            },
+            "notes": [],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          }
+        ],
+        "projects": [
+          {
+            "projectId": "proj_data_report",
+            "title": "Data report",
+            "description": null,
+            "type": "data_analysis",
+            "difficulty": "not_specified",
+            "deliverable": "A documented data report",
+            "safetyNote": null,
+            "notes": [],
+            "skills": [
+              "Applied project development"
+            ]
+          },
+          {
+            "projectId": "proj_image_classifier",
+            "title": "Image classifier",
+            "description": null,
+            "type": "machine_learning",
+            "difficulty": "not_specified",
+            "deliverable": "An image classification project",
+            "safetyNote": null,
+            "notes": [],
+            "skills": [
+              "Machine learning fundamentals",
+              "Applied project development"
+            ]
+          },
+          {
+            "projectId": "proj_chatbot",
+            "title": "Chatbot",
+            "description": null,
+            "type": "applied_ai",
+            "difficulty": "not_specified",
+            "deliverable": "A working chatbot project",
+            "safetyNote": null,
+            "notes": [],
+            "skills": [
+              "Applied project development"
+            ]
+          }
+        ],
+        "accessConsiderations": [],
+        "knowledgeGaps": [
+          "The knowledge base links projects to the whole path, not to individual stages, so projects are not matched to a stage.",
+          "5 project records are held back until a data review fixes their category."
+        ],
+        "roadmapRequest": {
+          "method": "POST",
+          "path": "/v1/roadmaps",
+          "body": {
+            "careerId": "career_ai_ml_engineering"
+          }
+        }
+      },
+      {
+        "rank": 3,
+        "careerId": "career_intro_to_coding",
+        "title": "Intro to Coding",
+        "category": "Programming Fundamentals",
+        "summary": "A four-week beginner track for learning programming fundamentals with JavaScript and browser-based tools, then sharing a small portfolio of projects.",
+        "fit": {
+          "kind": "heuristic_fit_score",
+          "scale": "0-100",
+          "score": 75.4,
+          "label": "Strong alignment with your answers",
+          "labelId": "strong_alignment",
+          "basis": "broad_answers",
+          "disclaimer": "Heuristic fit score based only on your answers. Not a prediction of success."
+        },
+        "explanation": {
+          "headline": "Intro to Coding lines up with several of your answers",
+          "summary": "You said you are interested in programming and building websites, which is central to Intro to Coding. Your strengths in logical reasoning and problem-solving are used a lot in this path.",
+          "reasons": [
+            {
+              "factor": "interests",
+              "text": "You said you are interested in programming and building websites, which is central to Intro to Coding.",
+              "matched": [
+                {
+                  "id": "web_building",
+                  "label": "Programming and building websites"
+                }
+              ]
+            },
+            {
+              "factor": "strengths",
+              "text": "Your strengths in logical reasoning and problem-solving are used a lot in this path.",
+              "matched": [
+                {
+                  "id": "logical_reasoning",
+                  "label": "Logical reasoning"
+                },
+                {
+                  "id": "problem_solving",
+                  "label": "Problem-solving"
+                }
+              ]
+            },
+            {
+              "factor": "strengths",
+              "text": "You want to develop programming, and this path gives plenty of chances to practise.",
+              "matched": [
+                {
+                  "id": "programming",
+                  "label": "Programming"
+                }
+              ]
+            },
+            {
+              "factor": "workStyle",
+              "text": "You like building and experimenting, which is how much of the work in this path is done.",
+              "matched": [
+                {
+                  "id": "building",
+                  "label": "Building and experimenting"
+                }
+              ]
+            },
+            {
+              "factor": "goals",
+              "text": "This path supports your goals: pursue a technical career.",
+              "matched": [
+                {
+                  "id": "technical_career",
+                  "label": "Pursue a technical career"
+                }
+              ]
+            },
+            {
+              "factor": "academic",
+              "text": "Your background in ICT / Computing is helpful here.",
+              "matched": [
+                {
+                  "id": "ict_computing",
+                  "label": "ICT / Computing"
+                }
+              ]
+            },
+            {
+              "factor": "academic",
+              "text": "Your current preparation lines up well with where this path starts.",
+              "matched": []
+            }
+          ],
+          "notes": [
+            "A short questionnaire cannot tell you what you can or cannot do. Treat this as a starting point for exploring."
+          ]
+        },
+        "matched": {
+          "interests": [
+            {
+              "id": "web_building",
+              "label": "Programming and building websites"
+            }
+          ],
+          "strengths": [
+            {
+              "id": "logical_reasoning",
+              "label": "Logical reasoning"
+            },
+            {
+              "id": "problem_solving",
+              "label": "Problem-solving"
+            }
+          ],
+          "skillsToDevelop": [
+            {
+              "id": "programming",
+              "label": "Programming"
+            }
+          ],
+          "workStyles": [
+            {
+              "id": "building",
+              "label": "Building and experimenting"
+            }
+          ],
+          "goals": [
+            {
+              "id": "technical_career",
+              "label": "Pursue a technical career"
+            }
+          ],
+          "subjects": [
+            {
+              "id": "ict_computing",
+              "label": "ICT / Computing"
+            }
+          ]
+        },
+        "factorBreakdown": [
+          {
+            "factor": "interests",
+            "label": "Interests",
+            "status": "evaluated",
+            "weightPercent": 35,
+            "score": 56.3,
+            "contributionPoints": 19.7
+          },
+          {
+            "factor": "strengths",
+            "label": "Strengths and skills",
+            "status": "evaluated",
+            "weightPercent": 25,
+            "score": 81,
+            "contributionPoints": 20.3
+          },
+          {
+            "factor": "workStyle",
+            "label": "Preferred way of working",
+            "status": "evaluated",
+            "weightPercent": 15,
+            "score": 100,
+            "contributionPoints": 15
+          },
+          {
+            "factor": "academic",
+            "label": "Academic preparation",
+            "status": "evaluated",
+            "weightPercent": 15,
+            "score": 90,
+            "contributionPoints": 13.5
+          },
+          {
+            "factor": "goals",
+            "label": "Goals",
+            "status": "evaluated",
+            "weightPercent": 10,
+            "score": 70,
+            "contributionPoints": 7
+          }
+        ],
+        "careerBasis": [
+          "KB: four-week beginner JavaScript track for total beginners, students and career-switchers; browser-based tools, no local setup",
+          "Treated as a general foundation path: moderately aligned with many technical interests, strongly aligned with building and programming"
+        ],
+        "skillGaps": {
+          "skillsToBuild": [
+            {
+              "skillId": "coding_skill_programming_concepts",
+              "name": "Programming concepts and computational thinking",
+              "level": "beginner",
+              "evidence": "Week 1 covers what code is, syntax, variables, and basic logic."
+            },
+            {
+              "skillId": "coding_skill_javascript_syntax",
+              "name": "JavaScript syntax and variables",
+              "level": "beginner",
+              "evidence": "freeCodeCamp, Codecademy, and simple Replit exercises."
+            },
+            {
+              "skillId": "coding_skill_input_output",
+              "name": "Basic input and output",
+              "level": "beginner",
+              "evidence": "Week 2 focus on input/output and mini-projects."
+            },
+            {
+              "skillId": "coding_skill_functions",
+              "name": "Functions and reusable code",
+              "level": "beginner",
+              "evidence": "Week 2 function exercises and W3Schools reference."
+            }
+          ],
+          "strengthsToBuild": [],
+          "prerequisites": [],
+          "bridgePath": null
+        },
+        "roadmap": {
+          "startingPoint": {
+            "stageId": "coding_week_1_foundations",
+            "order": 1,
+            "name": "Foundations — thinking like a programmer",
+            "reason": "Everyone starts at the first stage unless they tell us they have already covered it. Move on whenever you feel ready."
+          },
+          "stages": [
+            {
+              "stageId": "coding_week_1_foundations",
+              "order": 1,
+              "name": "Foundations — thinking like a programmer",
+              "status": "start_here",
+              "durationPerSource": "Week 1"
+            },
+            {
+              "stageId": "coding_week_2_functions_io",
+              "order": 2,
+              "name": "Input, output, and functions",
+              "status": "upcoming",
+              "durationPerSource": "Week 2"
+            },
+            {
+              "stageId": "coding_week_3_loops_arrays",
+              "order": 3,
+              "name": "Loops, arrays, and real projects",
+              "status": "upcoming",
+              "durationPerSource": "Week 3"
+            },
+            {
+              "stageId": "coding_week_4_final_project",
+              "order": 4,
+              "name": "Final mini-project",
+              "status": "upcoming",
+              "durationPerSource": "Week 4"
+            }
+          ]
+        },
+        "firstStep": {
+          "text": "Start with “Complete the first 10 freeCodeCamp Basic JavaScript lessons”.",
+          "stageId": "coding_week_1_foundations",
+          "activityId": "coding_w1_day1",
+          "resource": {
+            "resourceId": "coding_res_freecodecamp_js",
+            "title": "JavaScript Algorithms and Data Structures / Basic JavaScript lessons",
+            "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/"
+          },
+          "flags": [],
+          "why": "It is the first item for the stage you are starting at, after taking your access needs into account."
+        },
+        "startingResources": [
+          {
+            "resourceId": "coding_res_freecodecamp_js",
+            "title": "JavaScript Algorithms and Data Structures / Basic JavaScript lessons",
+            "provider": "freeCodeCamp",
+            "type": "interactive_course",
+            "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
+            "bestFor": "Structured practice and beginner JavaScript exercises",
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "interactive"
+              ]
+            },
+            "notes": [],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "coding_res_codecademy_js",
+            "title": "Learn JavaScript / Introduction to JavaScript",
+            "provider": "Codecademy",
+            "type": "interactive_course",
+            "url": "https://www.codecademy.com/learn/introduction-to-javascript",
+            "bestFor": "Interactive beginner lessons",
+            "access": {
+              "cost": "source_mentions_free",
+              "costNote": "The source describes free access, but this has not been independently verified. Check current terms before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "interactive"
+              ]
+            },
+            "notes": [
+              "The source describes a free introductory module; verify current course access and account requirements."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "coding_res_replit",
+            "title": "Replit Online IDE",
+            "provider": "Replit",
+            "type": "browser_coding_tool",
+            "url": "https://replit.com/",
+            "bestFor": "Writing and running code in the browser",
+            "access": {
+              "cost": "source_mentions_free",
+              "costNote": "The source describes free access, but this has not been independently verified. Check current terms before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "interactive"
+              ]
+            },
+            "notes": [
+              "Platform features and free usage limits may change."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "coding_res_crash_course",
+            "title": "Programming Foundations (Crash Course)",
+            "provider": "Not specified in source",
+            "type": "video",
+            "url": null,
+            "bestFor": "An introductory overview of programming foundations",
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "video_heavy",
+              "needsAccountSetup": false,
+              "formats": [
+                "video"
+              ]
+            },
+            "notes": [
+              "Resolve and verify the exact video before displaying a clickable link."
+            ],
+            "verificationStatus": "source_named_resource_exact_url_not_provided",
+            "linkStatus": "no_link_provided",
+            "flags": []
+          }
+        ],
+        "projects": [
+          {
+            "projectId": "coding_project_calculator_quiz",
+            "title": "Calculator or short quiz",
+            "description": "Build a simple interactive calculator or quiz to practise variables, conditions, functions, and input/output.",
+            "type": "beginner_interactive_program",
+            "difficulty": "beginner",
+            "deliverable": "Working browser-based project with a short README or explanation.",
+            "safetyNote": null,
+            "notes": [],
+            "skills": [
+              "JavaScript syntax and variables",
+              "Basic input and output",
+              "Functions and reusable code"
+            ]
+          },
+          {
+            "projectId": "coding_project_number_guessing",
+            "title": "Number-guessing game",
+            "description": "Create a game that compares a user's guess with a target and gives feedback; use loops or repeated attempts where appropriate.",
+            "type": "beginner_game",
+            "difficulty": "beginner",
+            "deliverable": "Playable game and a brief explanation of the logic.",
+            "safetyNote": null,
+            "notes": [],
+            "skills": [
+              "Loops and repetition",
+              "JavaScript syntax and variables",
+              "Practice, debugging, and help-seeking"
+            ]
+          },
+          {
+            "projectId": "coding_project_todo_list",
+            "title": "Simple to-do list",
+            "description": "Make a small to-do list that lets a user add and view tasks; keep the scope beginner-friendly.",
+            "type": "beginner_productivity_tool",
+            "difficulty": "beginner",
+            "deliverable": "Working list with clearly documented features and limitations.",
+            "safetyNote": null,
+            "notes": [],
+            "skills": [
+              "Arrays and simple data collections",
+              "Functions and reusable code",
+              "Basic input and output"
+            ]
+          }
+        ],
+        "accessConsiderations": [],
+        "knowledgeGaps": [
+          "The knowledge base links projects to the whole path, not to individual stages, so projects are not matched to a stage."
+        ],
+        "roadmapRequest": {
+          "method": "POST",
+          "path": "/v1/roadmaps",
+          "body": {
+            "careerId": "career_intro_to_coding"
+          }
+        }
+      }
+    ],
+    "explore": {
+      "otherCareers": [
+        {
+          "careerId": "career_cloud_computing_aws",
+          "title": "Cloud Computing (AWS)",
+          "category": "Cloud Computing",
+          "summary": "Learn cloud concepts and AWS services, deploy real projects, document architecture and security decisions, and optionally pursue entry-level certification.",
+          "fitScore": 68.8
+        },
+        {
+          "careerId": "career_data_careers",
+          "title": "Data Careers",
+          "category": "Data",
+          "summary": "Build practical data skills through one focused learning track, consistent practice, and one or two portfolio projects.",
+          "fitScore": 65.6
+        },
+        {
+          "careerId": "career_cybersecurity",
+          "title": "Cybersecurity",
+          "category": "Cybersecurity",
+          "summary": "Protect computer systems, networks, people, and personal data from digital threats.",
+          "fitScore": 60
+        },
+        {
+          "careerId": "career_quantum_computing",
+          "title": "Quantum Computing",
+          "category": "Quantum Technologies",
+          "summary": "Explore quantum information and computation by learning core concepts, building circuits, and testing small simulations with tools such as Qiskit.",
+          "fitScore": 53.1
+        },
+        {
+          "careerId": "career_ai_safety",
+          "title": "AI Safety, Alignment and Governance",
+          "category": "AI Safety and Responsible AI",
+          "summary": "Study how to make AI systems more reliable, controllable, accountable, and beneficial, spanning technical alignment, evaluations, governance, and responsible deployment.",
+          "fitScore": 52.1
+        },
+        {
+          "careerId": "career_project_management",
+          "title": "Project Management, Agile and Workflow Automation",
+          "category": "Project and Operations Management",
+          "summary": "Learn to define project scope, coordinate stakeholders, manage time and risks, run iterative delivery, and automate repeatable workflows using project-management tools.",
+          "fitScore": 38.1
+        }
+      ],
+      "hint": "Want to see other options? Browse these paths, or change your answers and ask again."
+    },
+    "notes": [],
+    "scoreNote": "This is a heuristic fit score (0 to 100) based only on the answers you gave. It is not a prediction of success and not a judgement of your potential. Use it to explore.",
+    "evidence": {
+      "level": "sufficient",
+      "answeredFactors": [
+        "interests",
+        "strengths",
+        "workStyle",
+        "academic",
+        "goals"
+      ],
+      "share": 100
+    },
+    "missingInformation": [],
+    "warnings": [],
+    "meta": {
+      "engineVersion": "0.1.0",
+      "knowledgeBaseVersion": "0.7",
+      "taxonomyVersion": "0.1.0-editorial",
+      "scoringModel": "weighted-affinity-v1",
+      "weights": {
+        "interests": 0.35,
+        "strengths": 0.25,
+        "workStyle": 0.15,
+        "academic": 0.15,
+        "goals": 0.1
+      }
+    }
+  }
+}

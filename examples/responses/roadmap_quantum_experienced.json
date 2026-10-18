@@ -1,0 +1,609 @@
+{
+  "httpStatus": 200,
+  "body": {
+    "career": {
+      "careerId": "career_quantum_computing",
+      "title": "Quantum Computing",
+      "category": "Quantum Technologies",
+      "summary": "Explore quantum information and computation by learning core concepts, building circuits, and testing small simulations with tools such as Qiskit."
+    },
+    "startingPoint": {
+      "stageId": "quantum_computing_level_2",
+      "order": 2,
+      "name": "Foundations",
+      "reason": "You said you already have some experience here, so the plan starts at this stage. The earlier stages stay available if you want to revisit them."
+    },
+    "firstAction": {
+      "text": "Start with “Quantum Computing for the Very Curious”.",
+      "stageId": "quantum_computing_level_2",
+      "activityId": "quantum_computing_activity_1",
+      "resource": {
+        "resourceId": "res_quantum_computing_quantum_computing_for_the_very_curious",
+        "title": "Quantum Computing for the Very Curious",
+        "url": "https://quantum.country/qcvc"
+      },
+      "flags": [],
+      "why": "It is the first item for the stage you are starting at, after taking your access needs into account."
+    },
+    "pacing": {
+      "weeklyHours": 8,
+      "suggestedItemsPerWeek": 3,
+      "firstWeek": [
+        {
+          "title": "Quantum Computing for the Very Curious",
+          "resource": {
+            "resourceId": "res_quantum_computing_quantum_computing_for_the_very_curious",
+            "title": "Quantum Computing for the Very Curious",
+            "url": "https://quantum.country/qcvc"
+          }
+        },
+        {
+          "title": "Microsoft Quantum Katas",
+          "resource": {
+            "resourceId": "res_quantum_computing_microsoft_quantum_katas",
+            "title": "Microsoft Quantum Katas",
+            "url": "https://github.com/microsoft/QuantumKatas"
+          }
+        },
+        {
+          "title": "Qiskit documentation",
+          "resource": {
+            "resourceId": "res_quantum_computing_qiskit_documentation",
+            "title": "Qiskit documentation",
+            "url": "https://docs.quantum.ibm.com/"
+          }
+        }
+      ],
+      "note": "A suggestion for pacing only. Stage durations are shown exactly as written by the sources and are not turned into deadlines."
+    },
+    "stages": [
+      {
+        "stageId": "quantum_computing_level_1",
+        "order": 1,
+        "name": "Exploration",
+        "status": "covered_by_your_answers",
+        "durationPerSource": "Days 0–7",
+        "prerequisitesPerSource": [],
+        "focus": null,
+        "actions": [],
+        "weeklyPlanPerSource": [],
+        "checkpoints": [],
+        "activities": [
+          {
+            "activityId": "quantum_computing_activity_1",
+            "title": "Quantum Computing for the Very Curious",
+            "type": "guided_learning",
+            "day": null,
+            "note": null,
+            "resources": [
+              {
+                "resourceId": "res_quantum_computing_quantum_computing_for_the_very_curious",
+                "title": "Quantum Computing for the Very Curious",
+                "url": "https://quantum.country/qcvc"
+              }
+            ]
+          },
+          {
+            "activityId": "quantum_computing_activity_2",
+            "title": "Introduction to Quantum Computing",
+            "type": "guided_learning",
+            "day": null,
+            "note": null,
+            "resources": [
+              {
+                "resourceId": "res_quantum_computing_introduction_to_quantum_computing",
+                "title": "Introduction to Quantum Computing",
+                "url": "https://www.youtube.com/watch?v=JhHMJCUmq28"
+              }
+            ]
+          }
+        ],
+        "resources": [
+          {
+            "resourceId": "res_quantum_computing_quantum_computing_for_the_very_curious",
+            "title": "Quantum Computing for the Very Curious",
+            "provider": "Quantum Country",
+            "type": "interactive_text",
+            "url": "https://quantum.country/qcvc",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "interactive"
+              ]
+            },
+            "notes": [
+              "Introductory learning resource; verify current availability."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "res_quantum_computing_introduction_to_quantum_computing",
+            "title": "Introduction to Quantum Computing",
+            "provider": "Qiskit / YouTube",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=JhHMJCUmq28",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "video_heavy",
+              "needsAccountSetup": false,
+              "formats": [
+                "video"
+              ]
+            },
+            "notes": [
+              "Introductory video listed in the user-provided roadmap."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          }
+        ],
+        "communities": [],
+        "gaps": []
+      },
+      {
+        "stageId": "quantum_computing_level_2",
+        "order": 2,
+        "name": "Foundations",
+        "status": "start_here",
+        "durationPerSource": "Weeks 1–3",
+        "prerequisitesPerSource": [],
+        "focus": null,
+        "actions": [],
+        "weeklyPlanPerSource": [],
+        "checkpoints": [],
+        "activities": [
+          {
+            "activityId": "quantum_computing_activity_1",
+            "title": "Quantum Computing for the Very Curious",
+            "type": "guided_learning",
+            "day": null,
+            "note": null,
+            "resources": [
+              {
+                "resourceId": "res_quantum_computing_quantum_computing_for_the_very_curious",
+                "title": "Quantum Computing for the Very Curious",
+                "url": "https://quantum.country/qcvc"
+              }
+            ]
+          },
+          {
+            "activityId": "quantum_computing_activity_2",
+            "title": "Microsoft Quantum Katas",
+            "type": "guided_learning",
+            "day": null,
+            "note": null,
+            "resources": [
+              {
+                "resourceId": "res_quantum_computing_microsoft_quantum_katas",
+                "title": "Microsoft Quantum Katas",
+                "url": "https://github.com/microsoft/QuantumKatas"
+              }
+            ]
+          },
+          {
+            "activityId": "quantum_computing_activity_3",
+            "title": "Qiskit documentation",
+            "type": "guided_learning",
+            "day": null,
+            "note": null,
+            "resources": [
+              {
+                "resourceId": "res_quantum_computing_qiskit_documentation",
+                "title": "Qiskit documentation",
+                "url": "https://docs.quantum.ibm.com/"
+              }
+            ]
+          }
+        ],
+        "resources": [
+          {
+            "resourceId": "res_quantum_computing_microsoft_quantum_katas",
+            "title": "Microsoft Quantum Katas",
+            "provider": "Microsoft",
+            "type": "coding_exercises",
+            "url": "https://github.com/microsoft/QuantumKatas",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "interactive"
+              ]
+            },
+            "notes": [
+              "Hands-on exercises; check current tooling requirements."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "res_quantum_computing_qiskit_documentation",
+            "title": "Qiskit documentation",
+            "provider": "IBM / Qiskit",
+            "type": "documentation",
+            "url": "https://docs.quantum.ibm.com/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "text"
+              ]
+            },
+            "notes": [
+              "Use current documentation; older Qiskit Textbook and IBM Quantum Lab links may be legacy."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          }
+        ],
+        "communities": [],
+        "gaps": []
+      },
+      {
+        "stageId": "quantum_computing_level_3",
+        "order": 3,
+        "name": "Participation",
+        "status": "upcoming",
+        "durationPerSource": "Weeks 3–6",
+        "prerequisitesPerSource": [],
+        "focus": null,
+        "actions": [],
+        "weeklyPlanPerSource": [],
+        "checkpoints": [],
+        "activities": [
+          {
+            "activityId": "quantum_computing_activity_1",
+            "title": "Qiskit YouTube channel",
+            "type": "guided_learning",
+            "day": null,
+            "note": null,
+            "resources": [
+              {
+                "resourceId": "res_quantum_computing_qiskit_youtube_channel",
+                "title": "Qiskit YouTube channel",
+                "url": "https://www.youtube.com/@qiskit"
+              }
+            ]
+          },
+          {
+            "activityId": "quantum_computing_activity_2",
+            "title": "IBM Quantum platform",
+            "type": "guided_learning",
+            "day": null,
+            "note": null,
+            "resources": [
+              {
+                "resourceId": "res_quantum_computing_ibm_quantum_platform",
+                "title": "IBM Quantum platform",
+                "url": "https://quantum.ibm.com/"
+              }
+            ]
+          }
+        ],
+        "resources": [
+          {
+            "resourceId": "res_quantum_computing_qiskit_youtube_channel",
+            "title": "Qiskit YouTube channel",
+            "provider": "Qiskit",
+            "type": "video_channel",
+            "url": "https://www.youtube.com/@qiskit",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "video_heavy",
+              "needsAccountSetup": false,
+              "formats": [
+                "video"
+              ]
+            },
+            "notes": [
+              "Browse current beginner tutorials."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "res_quantum_computing_ibm_quantum_platform",
+            "title": "IBM Quantum platform",
+            "provider": "IBM Quantum",
+            "type": "platform",
+            "url": "https://quantum.ibm.com/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Account, access, and platform features may change."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          }
+        ],
+        "communities": [],
+        "gaps": []
+      },
+      {
+        "stageId": "quantum_computing_level_4",
+        "order": 4,
+        "name": "Deeper practice",
+        "status": "upcoming",
+        "durationPerSource": "6+ weeks",
+        "prerequisitesPerSource": [
+          "Understand basic quantum states and gates"
+        ],
+        "focus": null,
+        "actions": [],
+        "weeklyPlanPerSource": [],
+        "checkpoints": [],
+        "activities": [
+          {
+            "activityId": "quantum_computing_activity_1",
+            "title": "Microsoft Quantum Katas",
+            "type": "guided_learning",
+            "day": null,
+            "note": null,
+            "resources": [
+              {
+                "resourceId": "res_quantum_computing_microsoft_quantum_katas",
+                "title": "Microsoft Quantum Katas",
+                "url": "https://github.com/microsoft/QuantumKatas"
+              }
+            ]
+          },
+          {
+            "activityId": "quantum_computing_activity_2",
+            "title": "Qiskit documentation",
+            "type": "guided_learning",
+            "day": null,
+            "note": null,
+            "resources": [
+              {
+                "resourceId": "res_quantum_computing_qiskit_documentation",
+                "title": "Qiskit documentation",
+                "url": "https://docs.quantum.ibm.com/"
+              }
+            ]
+          },
+          {
+            "activityId": "quantum_computing_activity_3",
+            "title": "Qiskit Global Summer School",
+            "type": "guided_learning",
+            "day": null,
+            "note": null,
+            "resources": [
+              {
+                "resourceId": "res_quantum_computing_qiskit_global_summer_school",
+                "title": "Qiskit Global Summer School",
+                "url": "https://qiskit.org/learn/"
+              }
+            ]
+          },
+          {
+            "activityId": "quantum_computing_activity_4",
+            "title": "Quantum Computing resources",
+            "type": "guided_learning",
+            "day": null,
+            "note": null,
+            "resources": [
+              {
+                "resourceId": "res_quantum_computing_qiskit_global_summer_school",
+                "title": "Qiskit Global Summer School",
+                "url": "https://qiskit.org/learn/"
+              }
+            ]
+          }
+        ],
+        "resources": [
+          {
+            "resourceId": "res_quantum_computing_qiskit_global_summer_school",
+            "title": "Qiskit Global Summer School",
+            "provider": "Qiskit / IBM",
+            "type": "program",
+            "url": "https://qiskit.org/learn/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Program availability and dates are time-sensitive; verify current season."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          }
+        ],
+        "communities": [],
+        "gaps": []
+      }
+    ],
+    "prerequisiteGuidance": {
+      "prerequisites": [],
+      "bridgePath": null
+    },
+    "projects": [
+      {
+        "projectId": "proj_quantum_computing_quantum_teleportation_circuit",
+        "title": "Quantum teleportation circuit",
+        "description": null,
+        "type": "quantum_circuit",
+        "difficulty": "intermediate",
+        "deliverable": "Annotated circuit and explanation of classical communication and entanglement",
+        "safetyNote": null,
+        "notes": [
+          "Explain the protocol accurately; it does not teleport matter or enable faster-than-light communication."
+        ],
+        "skills": [
+          "Quantum entanglement",
+          "Quantum teleportation concepts"
+        ]
+      },
+      {
+        "projectId": "proj_quantum_computing_tiny_grover_search",
+        "title": "Tiny Grover search",
+        "description": null,
+        "type": "quantum_algorithm",
+        "difficulty": "intermediate",
+        "deliverable": "Small circuit, simulator results, and comparison with classical search",
+        "safetyNote": null,
+        "notes": [
+          "Use a tiny toy example and avoid claims of practical quantum advantage."
+        ],
+        "skills": [
+          "Grover search concepts",
+          "Quantum circuits"
+        ]
+      },
+      {
+        "projectId": "proj_quantum_computing_variational_circuit_experiment",
+        "title": "Variational circuit experiment",
+        "description": null,
+        "type": "quantum_experiment",
+        "difficulty": "intermediate",
+        "deliverable": "Experiment notebook varying circuit parameters and reporting results",
+        "safetyNote": null,
+        "notes": [
+          "Document simulator limits and reproducibility."
+        ],
+        "skills": [
+          "Variational circuits",
+          "Circuit simulation"
+        ]
+      },
+      {
+        "projectId": "proj_quantum_computing_quantum_random_number_generator_simulation",
+        "title": "Quantum random number generator simulation",
+        "description": null,
+        "type": "simulation",
+        "difficulty": "beginner",
+        "deliverable": "Notebook that samples outcomes from a simulated circuit",
+        "safetyNote": null,
+        "notes": [
+          "Educational simulation only; do not claim certified randomness or use for production security."
+        ],
+        "skills": [
+          "Qiskit basics",
+          "Measurement and probability"
+        ]
+      },
+      {
+        "projectId": "proj_quantum_computing_bb84_style_key_distribution_simulation",
+        "title": "BB84-style key distribution simulation",
+        "description": null,
+        "type": "cryptography_simulation",
+        "difficulty": "beginner",
+        "deliverable": "Notebook explaining state preparation, measurement, and eavesdropping detection",
+        "safetyNote": null,
+        "notes": [
+          "Educational simulation only; not a production cryptographic implementation."
+        ],
+        "skills": [
+          "Quantum circuits",
+          "Measurement and probability"
+        ]
+      }
+    ],
+    "learningTracks": [],
+    "opportunityLeads": [
+      {
+        "opportunityId": "opp_quantum_computing_ibm_quantum_challenges",
+        "title": "IBM Quantum Challenges",
+        "type": "challenge",
+        "url": "https://quantum.ibm.com/",
+        "eligibility": "Eligibility and dates not specified; check current event page.",
+        "notes": "Challenges are time-sensitive and may not run continuously.",
+        "status": "unverified_lead",
+        "statusNote": "Unverified lead. Do not assume it is open or funded. Check the official page for current dates, eligibility and costs.",
+        "verificationStatus": "lead_only_not_currently_verified"
+      },
+      {
+        "opportunityId": "opp_quantum_computing_qiskit_global_summer_school",
+        "title": "Qiskit Global Summer School",
+        "type": "summer_school",
+        "url": "https://qiskit.org/learn/",
+        "eligibility": "Check current cohort dates and eligibility.",
+        "notes": "Past program listings do not establish a current application window.",
+        "status": "unverified_lead",
+        "statusNote": "Unverified lead. Do not assume it is open or funded. Check the official page for current dates, eligibility and costs.",
+        "verificationStatus": "lead_only_not_currently_verified"
+      },
+      {
+        "opportunityId": "opp_quantum_computing_qchack",
+        "title": "QCHack",
+        "type": "hackathon",
+        "url": "https://qchack.org/",
+        "eligibility": "Check current edition, eligibility, and format.",
+        "notes": "Event status is time-sensitive.",
+        "status": "unverified_lead",
+        "statusNote": "Unverified lead. Do not assume it is open or funded. Check the official page for current dates, eligibility and costs.",
+        "verificationStatus": "lead_only_not_currently_verified"
+      },
+      {
+        "opportunityId": "opp_quantum_computing_quantum_computing_community_events",
+        "title": "Quantum computing community events",
+        "type": "community_event",
+        "url": "https://quantum.ibm.com/",
+        "eligibility": "Check event announcements.",
+        "notes": "General lead, not a specific open opportunity.",
+        "status": "unverified_lead",
+        "statusNote": "Unverified lead. Do not assume it is open or funded. Check the official page for current dates, eligibility and costs.",
+        "verificationStatus": "lead_only_not_currently_verified"
+      }
+    ],
+    "guidance": [
+      {
+        "text": "Build intuition for states, gates, and measurement before trying to understand complex algorithms.",
+        "type": "learning_strategy"
+      },
+      {
+        "text": "Use small simulator experiments and explain what the outputs mean; screenshots alone are not a strong portfolio.",
+        "type": "portfolio_advice"
+      },
+      {
+        "text": "Clearly label QRNG and BB84-style work as educational simulations, not production security implementations.",
+        "type": "safety_note"
+      }
+    ],
+    "accessConsiderations": [],
+    "knowledgeGaps": [
+      "The knowledge base links projects to the whole path, not to individual stages, so projects are not matched to a stage."
+    ],
+    "caveats": [
+      "Links, course availability, prices and opportunities come from a knowledge base that has not been independently verified. Check each one before relying on it.",
+      "Stage durations are shown as written by the sources. They are not promises or deadlines."
+    ],
+    "warnings": [],
+    "meta": {
+      "engineVersion": "0.1.0",
+      "knowledgeBaseVersion": "0.7",
+      "taxonomyVersion": "0.1.0-editorial",
+      "scoringModel": "weighted-affinity-v1"
+    }
+  }
+}

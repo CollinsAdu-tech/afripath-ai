@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AfriPath AI — Take the survey</title>
+  <meta name="description" content="A short survey about your interests, strengths and goals. AfriPath AI turns it into career matches and a roadmap.">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="pill reveal">AfriPath AI · about 5 minutes</span>
+      <h1 class="display h-xl reveal" style="--d:.08s">Tell us about <span class="accent">you</span></h1>
+      <p class="lead reveal" style="--d:.16s">Answer what you like. Every question is optional, and skipping one never counts against you.</p>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-bottom:clamp(60px,8vw,130px)">
+    <div class="survey" id="survey-root" aria-live="polite">
+      <div class="panel survey-loading"><p>Loading the survey…</p></div>
+    </div>
+    <p class="survey-privacy small">Your answers are sent to the AfriPath AI engine to work out your matches. The engine does not store or log them. They stay in this browser tab so you can go back and change them.</p>
+  </section>
+</main>
+<div id="site-footer"></div>
+<script type="module" src="assets/js/survey.js"></script>
+</body>
+</html>

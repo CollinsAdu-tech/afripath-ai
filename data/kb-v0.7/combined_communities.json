@@ -1,0 +1,276 @@
+[
+  {
+    "community_id": "community_kaggle_forums",
+    "name": "Kaggle Forums",
+    "resource_id": "res_kaggle_forums",
+    "category": "online_community",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "community_id": "community_zindi_africa",
+    "name": "Zindi Africa",
+    "resource_id": "res_zindi_africa",
+    "category": "African data science community and competition platform",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "community_id": "community_data_science_africa",
+    "name": "Data Science Africa",
+    "resource_id": "res_data_science_africa",
+    "category": "community_event",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "community_id": "community_indabax",
+    "name": "IndabaX",
+    "resource_id": "res_indabax",
+    "category": "community_event",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "community_id": "community_encode_ssa",
+    "name": "Encode SSA",
+    "resource_id": null,
+    "category": "networking",
+    "source_note": "URL not provided in source; resolve and verify before publishing",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "community_id": "community_women_in_ai_africa",
+    "name": "Women in AI Africa",
+    "resource_id": null,
+    "category": "networking",
+    "source_note": "URL not provided in source; resolve and verify before publishing",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "community_id": "community_local_university_ai_clubs",
+    "name": "Local university AI clubs",
+    "resource_id": null,
+    "category": "networking",
+    "source_note": "Generic category in source; local options need to be identified",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "community_id": "cyber_comm_cybertalents",
+    "name": "CyberTalents",
+    "url": "https://cybertalents.com/competitions",
+    "community_type": "competition_and_ctf_platform",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "community_id": "cyber_comm_tryhackme",
+    "name": "TryHackMe community",
+    "url": "https://tryhackme.com/",
+    "community_type": "learning_and_practice_community",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "community_id": "cyber_comm_owasp",
+    "name": "OWASP chapters and meetups",
+    "url": "https://owasp.org/",
+    "community_type": "professional_community",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "community_id": "cyber_comm_isaca",
+    "name": "Local ISACA chapters",
+    "url": "https://www.isaca.org/",
+    "community_type": "professional_community",
+    "source_id": "source_tap_paths_cybersecurity",
+    "source_note": "Source mentions local chapters; identify a current local chapter before displaying."
+  },
+  {
+    "community_id": "cyber_comm_netacad",
+    "name": "Cisco Networking Academy community",
+    "url": "https://www.netacad.com/",
+    "community_type": "learning_community",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "community_id": "cyber_comm_telegram",
+    "name": "Cybersecurity Telegram group chats",
+    "url": "https://t.me/cybersecchats",
+    "community_type": "chat_group",
+    "source_id": "source_tap_paths_cybersecurity",
+    "source_note": "Review safety, moderation, privacy, and current activity before recommending."
+  },
+  {
+    "community_id": "cyber_comm_defcon",
+    "name": "DEF CON community and events",
+    "url": "https://defcon.org/",
+    "community_type": "conference_community",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "community_id": "data_comm_datascience_africa",
+    "name": "Data Science Africa",
+    "url": "https://www.datascienceafrica.org/",
+    "community_type": "data_science_community",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "community_id": "aws_comm_community",
+    "name": "AWS Community",
+    "url": "https://community.aws/",
+    "community_type": "cloud_community",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "community_id": "aws_comm_discord",
+    "name": "AWS Community Discord",
+    "url": "https://discord.gg/awscommunity",
+    "community_type": "chat_community",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "community_id": "aws_comm_africa",
+    "name": "AWS Community Africa groups",
+    "url": "https://community.aws/",
+    "community_type": "regional_community",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "source_note": "Source mentions regional groups; identify a current active group or event before recommending."
+  },
+  {
+    "community_id": "aws_comm_alumni",
+    "name": "AmaliTech and Azubi alumni networks",
+    "url": "https://amalitech.org/aws-restart-training-program/",
+    "community_type": "program_alumni_network",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "source_note": "Source mentions alumni networks; verify the program and current network details."
+  },
+  {
+    "community_id": "fs_comm_odin",
+    "name": "The Odin Project community",
+    "url": "https://www.theodinproject.com/paths/full-stack-javascript",
+    "community_type": "learning_community",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "community_id": "fs_comm_frontend",
+    "name": "Frontend communities",
+    "url": "https://developer.mozilla.org/",
+    "community_type": "developer_community",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "source_note": "Source refers broadly to frontend Discord communities; identify specific active communities before displaying."
+  },
+  {
+    "community_id": "fs_comm_hashnode",
+    "name": "Hashnode blogging community",
+    "url": "https://hashnode.com/",
+    "community_type": "developer_blogging",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "community_id": "fs_comm_github",
+    "name": "GitHub open-source community",
+    "url": "https://github.com/",
+    "community_type": "open_source",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "community_id": "coding_community_stackoverflow",
+    "name": "Stack Overflow",
+    "resource_id": "coding_res_stackoverflow",
+    "category": "programming Q&A",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "community_id": "coding_community_freecodecamp_forum",
+    "name": "freeCodeCamp Forum",
+    "resource_id": "coding_res_freecodecamp_forum",
+    "category": "beginner-friendly learning community",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "community_id": "community_quantum_computing_qiskit_advocates",
+    "name": "Qiskit Advocates",
+    "url": "https://qiskit.org/advocates/",
+    "category": "community",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "note": "Check current access and community rules."
+  },
+  {
+    "community_id": "community_quantum_computing_qiskit_africa",
+    "name": "Qiskit Africa",
+    "url": "https://qiskit.org/",
+    "category": "regional_community",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "note": "Check current access and community rules."
+  },
+  {
+    "community_id": "community_quantum_computing_qchack",
+    "name": "QCHack",
+    "url": "https://qchack.org/",
+    "category": "hackathon_community",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "note": "Check current access and community rules."
+  },
+  {
+    "community_id": "community_quantum_computing_womanium",
+    "name": "Womanium",
+    "url": "https://womanium.org/",
+    "category": "learning_community",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "note": "Check current access and community rules."
+  },
+  {
+    "community_id": "community_ai_safety_apart_research",
+    "name": "Apart Research",
+    "url": "https://apartresearch.com/",
+    "category": "research_community",
+    "source_id": "source_user_roadmap_ai_safety",
+    "note": "Check current access and community rules."
+  },
+  {
+    "community_id": "community_ai_safety_eleutherai",
+    "name": "EleutherAI",
+    "url": "https://www.eleuther.ai/",
+    "category": "research_community",
+    "source_id": "source_user_roadmap_ai_safety",
+    "note": "Check current access and community rules."
+  },
+  {
+    "community_id": "community_ai_safety_effective_altruism_forum",
+    "name": "Effective Altruism Forum",
+    "url": "https://forum.effectivealtruism.org/",
+    "category": "discussion_forum",
+    "source_id": "source_user_roadmap_ai_safety",
+    "note": "Check current access and community rules."
+  },
+  {
+    "community_id": "community_ai_safety_encode",
+    "name": "Encode",
+    "url": "https://encode.club/",
+    "category": "community",
+    "source_id": "source_user_roadmap_ai_safety",
+    "note": "Check current access and community rules."
+  },
+  {
+    "community_id": "community_project_management_project_management_institute_chapters",
+    "name": "Project Management Institute Chapters",
+    "url": "https://www.pmi.org/chapters",
+    "category": "professional_community",
+    "source_id": "source_user_roadmap_project_management",
+    "note": "Check current access and community rules."
+  },
+  {
+    "community_id": "community_project_management_scrum_org_community_and_learning",
+    "name": "Scrum.org Community and Learning",
+    "url": "https://www.scrum.org/",
+    "category": "professional_community",
+    "source_id": "source_user_roadmap_project_management",
+    "note": "Check current access and community rules."
+  }
+]

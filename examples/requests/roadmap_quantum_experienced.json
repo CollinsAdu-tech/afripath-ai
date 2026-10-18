@@ -1,0 +1,11 @@
+{
+  "careerId": "career_quantum_computing",
+  "profile": {
+    "mathConfidence": 4,
+    "programmingExperience": "comfortable",
+    "experienceByCareer": {
+      "career_quantum_computing": "some"
+    },
+    "weeklyHours": 8
+  }
+}

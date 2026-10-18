@@ -1,0 +1,10 @@
+{
+  "httpStatus": 400,
+  "body": {
+    "error": {
+      "code": "INVALID_JSON",
+      "message": "The request body is not valid JSON.",
+      "requestId": "<request-id>"
+    }
+  }
+}

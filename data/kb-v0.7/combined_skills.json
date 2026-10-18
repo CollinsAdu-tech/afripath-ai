@@ -1,0 +1,673 @@
+[
+  {
+    "skill_id": "skill_python_programming",
+    "name": "Python programming",
+    "level": "beginner",
+    "evidence": "Kaggle Python is in the quick start and Level 1",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "skill_id": "skill_ml_fundamentals",
+    "name": "Machine learning fundamentals",
+    "level": "beginner_to_intermediate",
+    "evidence": "Kaggle Intro to ML and Google ML Crash Course",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "skill_id": "skill_gen_ai_fundamentals",
+    "name": "Generative AI fundamentals",
+    "level": "introductory",
+    "evidence": "Google Cloud Intro to Gen AI",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "skill_id": "skill_ai_fundamentals",
+    "name": "AI fundamentals",
+    "level": "introductory",
+    "evidence": "Microsoft Learn AI Fundamentals",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "skill_id": "skill_deep_learning",
+    "name": "Deep learning",
+    "level": "advanced",
+    "evidence": "fast.ai Practical Deep Learning and DeepLearning.AI programs",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "skill_id": "skill_project_building",
+    "name": "Applied project development",
+    "level": "progressive",
+    "evidence": "Source recommends mini projects, portfolio projects, and publishing work",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "skill_id": "skill_version_control_publication",
+    "name": "Publishing code and portfolio work",
+    "level": "beginner_to_intermediate",
+    "evidence": "GitHub portfolio and project sharing recommendations",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "skill_id": "skill_open_source_collaboration",
+    "name": "Open-source collaboration",
+    "level": "intermediate_to_advanced",
+    "evidence": "Contributions to scikit-learn and Hugging Face",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "skill_id": "skill_competition_participation",
+    "name": "Data science competition participation",
+    "level": "progressive",
+    "evidence": "Kaggle and Zindi competitions",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "skill_id": "skill_community_networking",
+    "name": "Technical networking and peer collaboration",
+    "level": "progressive",
+    "evidence": "Forums, communities, events, and mentorship advice",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "skill_id": "cyber_skill_security_fundamentals",
+    "name": "Cybersecurity fundamentals",
+    "description": "Learn common threats and defensive security basics.",
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "skill_id": "cyber_skill_networking",
+    "name": "Networking fundamentals",
+    "description": "Understand networks and their security implications.",
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "skill_id": "cyber_skill_operating_systems",
+    "name": "Operating systems",
+    "description": "Build foundational knowledge of operating systems.",
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "skill_id": "cyber_skill_threat_awareness",
+    "name": "Threat awareness",
+    "description": "Recognize common digital threats and risk patterns.",
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "skill_id": "cyber_skill_lab_practice",
+    "name": "Hands-on lab practice",
+    "description": "Practice in guided labs and intentionally vulnerable environments.",
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "skill_id": "cyber_skill_documentation",
+    "name": "Technical documentation",
+    "description": "Record lab notes, screenshots, CTF writeups, and lessons learned.",
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "skill_id": "cyber_skill_incident_response",
+    "name": "Incident response basics",
+    "description": "Create a basic checklist for a common security incident scenario.",
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "skill_id": "cyber_skill_ethical_testing",
+    "name": "Ethical and authorized testing",
+    "description": "Test only owned or explicitly authorized systems, within defined scope.",
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "skill_id": "cyber_skill_digital_hygiene",
+    "name": "Digital safety education",
+    "description": "Explain personal security hygiene and safe digital habits.",
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "skill_id": "data_skill_data_vocabulary",
+    "name": "Data vocabulary and concepts",
+    "description": "Build concise notes on key terms, formulas, and common mistakes.",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "skill_id": "data_skill_python",
+    "name": "Python for data",
+    "description": "Practice Python where relevant to the selected track.",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "skill_id": "data_skill_r",
+    "name": "R for data",
+    "description": "Practice R if selecting the Data Analyst with R track.",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "skill_id": "data_skill_data_wrangling",
+    "name": "Data wrangling",
+    "description": "Practice preparing and cleaning data when included in the track.",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "skill_id": "data_skill_visualization",
+    "name": "Data visualization",
+    "description": "Communicate patterns visually when relevant to the track.",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "skill_id": "data_skill_practice_habits",
+    "name": "Practice and repetition",
+    "description": "Use exercises to identify and strengthen weak areas.",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "skill_id": "data_skill_project_work",
+    "name": "Project development",
+    "description": "Complete at least one guided or self-made project.",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "skill_id": "data_skill_storytelling",
+    "name": "Data storytelling",
+    "description": "Explain a finding or project clearly in about two minutes.",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "skill_id": "data_skill_documentation",
+    "name": "Learning documentation",
+    "description": "Maintain notes and a record of learning progress.",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "skill_id": "data_skill_portfolio",
+    "name": "Portfolio publishing",
+    "description": "Publish project evidence and a reflection on GitHub or LinkedIn.",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "skill_id": "aws_skill_cloud_concepts",
+    "name": "Cloud computing concepts",
+    "description": "Understand the core cloud service models and common cloud concepts.",
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "skill_id": "aws_skill_iam",
+    "name": "Identity and access management",
+    "description": "Understand IAM users, roles, MFA, and least privilege.",
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "skill_id": "aws_skill_networking",
+    "name": "Cloud networking",
+    "description": "Build a basic understanding of networking and application architecture.",
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "skill_id": "aws_skill_storage",
+    "name": "Cloud storage",
+    "description": "Use storage services appropriately and understand permissions.",
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "skill_id": "aws_skill_compute",
+    "name": "Cloud compute",
+    "description": "Understand compute options and deploy a small workload.",
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "skill_id": "aws_skill_architecture_diagrams",
+    "name": "Architecture diagrams",
+    "description": "Communicate the components and data flow of a cloud application.",
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "skill_id": "aws_skill_deployment",
+    "name": "Application deployment",
+    "description": "Deploy websites, APIs, or applications to cloud services.",
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "skill_id": "aws_skill_monitoring",
+    "name": "Monitoring basics",
+    "description": "Add basic monitoring to deployed projects.",
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "skill_id": "aws_skill_cost_awareness",
+    "name": "Cloud cost awareness",
+    "description": "Track service usage, check pricing, set budgets/alerts where available, and clean up resources.",
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "skill_id": "aws_skill_documentation",
+    "name": "Technical documentation",
+    "description": "Write deployment steps, README files, architecture notes, and project case studies.",
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "skill_id": "aws_skill_security",
+    "name": "Cloud security basics",
+    "description": "Apply least privilege, MFA, and safe configuration practices.",
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "skill_id": "fs_skill_html_css",
+    "name": "HTML and CSS",
+    "description": "Create structured, responsive web pages.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "fs_skill_javascript",
+    "name": "JavaScript",
+    "description": "Add behavior and interactivity to web applications.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "fs_skill_frontend",
+    "name": "Front-end development",
+    "description": "Build user interfaces, pages, components, and forms.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "fs_skill_react_next",
+    "name": "React / Next.js",
+    "description": "Build component-based applications using a modern web framework.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "fs_skill_backend_api",
+    "name": "Back-end development and APIs",
+    "description": "Create API routes or a small Express API.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "fs_skill_database",
+    "name": "Databases",
+    "description": "Persist application data using a database such as PostgreSQL or MongoDB.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "fs_skill_git",
+    "name": "Git and GitHub",
+    "description": "Use version control and publish repositories with clear documentation.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "fs_skill_deployment",
+    "name": "Deployment",
+    "description": "Deploy applications and share live demos.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "fs_skill_auth",
+    "name": "Authentication",
+    "description": "Implement authentication or a simple login flow responsibly.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "fs_skill_cicd",
+    "name": "CI/CD basics",
+    "description": "Understand automated checks and deployment workflows.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "fs_skill_design_patterns",
+    "name": "Design patterns",
+    "description": "Recognize reusable software design approaches.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "fs_skill_collaboration",
+    "name": "Team collaboration",
+    "description": "Pair-program, contribute to open source, and participate in hackathons.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "fs_skill_documentation",
+    "name": "Technical documentation",
+    "description": "Write READMEs with problem, features, stack, setup steps, and lessons learned.",
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "skill_id": "coding_skill_programming_concepts",
+    "name": "Programming concepts and computational thinking",
+    "level": "beginner",
+    "evidence": "Week 1 covers what code is, syntax, variables, and basic logic.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "skill_id": "coding_skill_javascript_syntax",
+    "name": "JavaScript syntax and variables",
+    "level": "beginner",
+    "evidence": "freeCodeCamp, Codecademy, and simple Replit exercises.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "skill_id": "coding_skill_input_output",
+    "name": "Basic input and output",
+    "level": "beginner",
+    "evidence": "Week 2 focus on input/output and mini-projects.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "skill_id": "coding_skill_functions",
+    "name": "Functions and reusable code",
+    "level": "beginner",
+    "evidence": "Week 2 function exercises and W3Schools reference.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "skill_id": "coding_skill_loops",
+    "name": "Loops and repetition",
+    "level": "beginner",
+    "evidence": "Week 3 exercises and game/to-do project.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "skill_id": "coding_skill_arrays",
+    "name": "Arrays and simple data collections",
+    "level": "beginner",
+    "evidence": "Week 3 learning activities.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "skill_id": "coding_skill_debugging",
+    "name": "Practice, debugging, and help-seeking",
+    "level": "beginner",
+    "evidence": "Use references and beginner communities to troubleshoot exercises.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "skill_id": "coding_skill_project_delivery",
+    "name": "Mini-project planning and delivery",
+    "level": "beginner",
+    "evidence": "Build and share a final mini-project.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "skill_id": "coding_skill_code_sharing",
+    "name": "Publishing code and reflecting on learning",
+    "level": "beginner",
+    "evidence": "GitHub or public Replit link plus a short reflection.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "skill_id": "skill_quantum_computing_qubits_and_quantum_states",
+    "name": "Qubits and quantum states",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_quantum_computing_superposition",
+    "name": "Superposition",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_quantum_computing_measurement_and_probability",
+    "name": "Measurement and probability",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_quantum_computing_quantum_gates",
+    "name": "Quantum gates",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_quantum_computing_quantum_circuits",
+    "name": "Quantum circuits",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_quantum_computing_circuit_simulation",
+    "name": "Circuit simulation",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_quantum_computing_qiskit_basics",
+    "name": "Qiskit basics",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_quantum_computing_linear_algebra_foundations",
+    "name": "Linear algebra foundations",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_quantum_computing_quantum_entanglement",
+    "name": "Quantum entanglement",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_quantum_computing_quantum_teleportation_concepts",
+    "name": "Quantum teleportation concepts",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_quantum_computing_grover_search_concepts",
+    "name": "Grover search concepts",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_quantum_computing_variational_circuits",
+    "name": "Variational circuits",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_quantum_computing_scientific_documentation",
+    "name": "Scientific documentation",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "skill_id": "skill_ai_safety_ai_risk_literacy",
+    "name": "AI risk literacy",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_ai_safety_technical_alignment_concepts",
+    "name": "Technical alignment concepts",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_ai_safety_ai_evaluation_design",
+    "name": "AI evaluation design",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_ai_safety_model_behavior_analysis",
+    "name": "Model behavior analysis",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_ai_safety_red_teaming_fundamentals",
+    "name": "Red-teaming fundamentals",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_ai_safety_interpretability_awareness",
+    "name": "Interpretability awareness",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_ai_safety_governance_and_policy_analysis",
+    "name": "Governance and policy analysis",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_ai_safety_responsible_ai_principles",
+    "name": "Responsible AI principles",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_ai_safety_incident_analysis",
+    "name": "Incident analysis",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_ai_safety_research_reading_and_synthesis",
+    "name": "Research reading and synthesis",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_ai_safety_experimental_design",
+    "name": "Experimental design",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_ai_safety_clear_uncertainty_communication",
+    "name": "Clear uncertainty communication",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_ai_safety_ethics_and_stakeholder_analysis",
+    "name": "Ethics and stakeholder analysis",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "skill_id": "skill_project_management_project_scoping",
+    "name": "Project scoping",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_milestone_planning",
+    "name": "Milestone planning",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_task_decomposition",
+    "name": "Task decomposition",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_stakeholder_communication",
+    "name": "Stakeholder communication",
+    "level": "beginner",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_risk_tracking",
+    "name": "Risk tracking",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_agile_principles",
+    "name": "Agile principles",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_scrum_and_sprint_planning",
+    "name": "Scrum and sprint planning",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_kanban_workflow_design",
+    "name": "Kanban workflow design",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_project_status_reporting",
+    "name": "Project status reporting",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_retrospectives",
+    "name": "Retrospectives",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_workflow_automation",
+    "name": "Workflow automation",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_form_to_task_automation",
+    "name": "Form-to-task automation",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_dashboard_design",
+    "name": "Dashboard design",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "skill_id": "skill_project_management_portfolio_case_study_writing",
+    "name": "Portfolio case-study writing",
+    "level": "intermediate",
+    "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice.",
+    "source_id": "source_user_roadmap_project_management"
+  }
+]

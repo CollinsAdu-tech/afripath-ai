@@ -1,0 +1,304 @@
+[
+  {
+    "opportunity_id": "opp_microsoft_student_ambassadors",
+    "title": "Microsoft Student Ambassador",
+    "opportunity_type": "student_program",
+    "resource_id": "res_microsoft_student_ambassadors",
+    "eligibility": "Not specified in source; verify current requirements",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "opportunity_id": "opp_aims_masters_ml",
+    "title": "African Master's in ML (AIMS)",
+    "opportunity_type": "education_opportunity",
+    "resource_id": "res_aims",
+    "eligibility": "Not specified in source; verify program-specific eligibility and funding",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "opportunity_id": "opp_indabax_scholarships_events",
+    "title": "IndabaX scholarships and events",
+    "opportunity_type": "scholarship_or_event",
+    "resource_id": "res_indabax_events",
+    "eligibility": "Not specified in source; check each event's current details",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "opportunity_id": "opp_kaggle_competitions",
+    "title": "Kaggle competitions",
+    "opportunity_type": "competition",
+    "resource_id": "res_kaggle_competitions",
+    "eligibility": "Varies by competition",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "opportunity_id": "opp_zindi_competitions",
+    "title": "Zindi Africa competitions",
+    "opportunity_type": "competition",
+    "resource_id": "res_zindi_competitions",
+    "eligibility": "Varies by competition",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "opportunity_id": "opp_devpost_hackathons",
+    "title": "Devpost hackathons",
+    "opportunity_type": "hackathon",
+    "resource_id": "res_devpost_hackathons",
+    "eligibility": "Varies by hackathon",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "opportunity_id": "cyber_opp_cybertalents_ctfs",
+    "title": "CyberTalents CTFs and competitions",
+    "opportunity_type": "competition",
+    "url": "https://cybertalents.com/competitions",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "Event-specific eligibility and prizes vary; do not label as a scholarship without an explicit current offer."
+  },
+  {
+    "opportunity_id": "cyber_opp_cisco_talent_bridge",
+    "title": "Cisco Networking Academy Talent Bridge",
+    "opportunity_type": "career_program",
+    "url": "https://www.netacad.com/careers/talent-bridge",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "Current status, geographic availability, and eligibility require verification."
+  },
+  {
+    "opportunity_id": "cyber_opp_tryhackme_contests",
+    "title": "TryHackMe contests",
+    "opportunity_type": "competition",
+    "url": "https://tryhackme.com/",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "Source mentions contests generally; find a specific active event before presenting it as an opportunity."
+  },
+  {
+    "opportunity_id": "data_opp_datacamp_student_access",
+    "title": "DataCamp student access",
+    "opportunity_type": "learning_access_program",
+    "url": "https://www.datacamp.com/students",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "The source claims three months free for eligible students using an academic email. Confirm current terms, country eligibility, and availability before making a promise."
+  },
+  {
+    "opportunity_id": "data_opp_datacamp_classrooms",
+    "title": "DataCamp for Classrooms",
+    "opportunity_type": "classroom_access_program",
+    "url": "https://www.datacamp.com/classrooms",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "Check current access conditions and whether the student qualifies."
+  },
+  {
+    "opportunity_id": "aws_opp_amalitech",
+    "title": "AmaliTech AWS re/Start Training Program",
+    "opportunity_type": "training_program_or_scholarship_claim",
+    "url": "https://amalitech.org/aws-restart-training-program/",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "The source calls this an AWS re/Start scholarship opportunity; verify whether the current cohort offers funding, the exact terms, and eligibility before describing it as a scholarship."
+  },
+  {
+    "opportunity_id": "aws_opp_azubi",
+    "title": "Azubi Africa Cloud Track",
+    "opportunity_type": "bootcamp_or_training_program",
+    "url": "https://azubiafrica.org/tracks/cloud-computing/",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "Verify current cohort, tuition, funding, and eligibility; do not imply a full scholarship without evidence."
+  },
+  {
+    "opportunity_id": "aws_opp_jam",
+    "title": "AWS Jam events",
+    "opportunity_type": "challenge_event",
+    "url": "https://aws.amazon.com/jam/",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "Event access and requirements vary."
+  },
+  {
+    "opportunity_id": "aws_opp_cloud_resume",
+    "title": "Cloud Resume Challenge",
+    "opportunity_type": "portfolio_challenge",
+    "url": "https://cloudresumechallenge.dev/",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "A portfolio challenge, not a scholarship or job guarantee."
+  },
+  {
+    "opportunity_id": "aws_opp_community_builders",
+    "title": "AWS Community Builders Program",
+    "opportunity_type": "community_program",
+    "url": "https://aws.amazon.com/developer/community/community-builders/",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "Application windows, eligibility, and program benefits require verification."
+  },
+  {
+    "opportunity_id": "fs_opp_outreachy",
+    "title": "Outreachy",
+    "opportunity_type": "internship_program",
+    "url": "https://www.outreachy.org/",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "Check current eligibility, application window, internship dates, and project availability."
+  },
+  {
+    "opportunity_id": "fs_opp_gsoc",
+    "title": "Google Summer of Code",
+    "opportunity_type": "open_source_program",
+    "url": "https://summerofcode.withgoogle.com/",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "Check current eligibility, program dates, and participating organizations."
+  },
+  {
+    "opportunity_id": "fs_opp_devpost",
+    "title": "Devpost hackathons",
+    "opportunity_type": "hackathon_platform",
+    "url": "https://devpost.com/",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "Individual event eligibility, deadlines, and prizes vary."
+  },
+  {
+    "opportunity_id": "fs_opp_mlh",
+    "title": "Major League Hacking events",
+    "opportunity_type": "hackathon_platform",
+    "url": "https://mlh.io/seasons/2024/events",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "source_link_may_be_outdated",
+    "eligibility_note": "Source link points to the 2024 season; find current events before recommending."
+  },
+  {
+    "opportunity_id": "fs_opp_github_pack",
+    "title": "GitHub Student Developer Pack",
+    "opportunity_type": "student_developer_benefits",
+    "url": "https://education.github.com/pack",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "Student verification and benefits vary; do not assume every learner qualifies."
+  },
+  {
+    "opportunity_id": "coding_opp_stanford_code_in_place",
+    "title": "Stanford Code in Place",
+    "opportunity_type": "learning_program",
+    "url": "https://codeinplace.stanford.edu/",
+    "source_id": "source_tap_paths_coding",
+    "verification_status": "not_independently_verified",
+    "eligibility_note": "The source says to keep an eye on the program. Check the current application window, eligibility, course format, and whether registration is open; do not imply that applications are currently open."
+  },
+  {
+    "opportunity_id": "opp_quantum_computing_ibm_quantum_challenges",
+    "title": "IBM Quantum Challenges",
+    "opportunity_type": "challenge",
+    "url": "https://quantum.ibm.com/",
+    "eligibility": "Eligibility and dates not specified; check current event page.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "lead_only_not_currently_verified",
+    "notes": "Challenges are time-sensitive and may not run continuously."
+  },
+  {
+    "opportunity_id": "opp_quantum_computing_qiskit_global_summer_school",
+    "title": "Qiskit Global Summer School",
+    "opportunity_type": "summer_school",
+    "url": "https://qiskit.org/learn/",
+    "eligibility": "Check current cohort dates and eligibility.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "lead_only_not_currently_verified",
+    "notes": "Past program listings do not establish a current application window."
+  },
+  {
+    "opportunity_id": "opp_quantum_computing_qchack",
+    "title": "QCHack",
+    "opportunity_type": "hackathon",
+    "url": "https://qchack.org/",
+    "eligibility": "Check current edition, eligibility, and format.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "lead_only_not_currently_verified",
+    "notes": "Event status is time-sensitive."
+  },
+  {
+    "opportunity_id": "opp_quantum_computing_quantum_computing_community_events",
+    "title": "Quantum computing community events",
+    "opportunity_type": "community_event",
+    "url": "https://quantum.ibm.com/",
+    "eligibility": "Check event announcements.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "lead_only_not_currently_verified",
+    "notes": "General lead, not a specific open opportunity."
+  },
+  {
+    "opportunity_id": "opp_ai_safety_apart_research_hackathons_and_sprints",
+    "title": "Apart Research hackathons and sprints",
+    "opportunity_type": "hackathon",
+    "url": "https://apartresearch.com/",
+    "eligibility": "Check current event requirements, dates, and any travel support.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "lead_only_not_currently_verified",
+    "notes": "Do not assume funding or acceptance."
+  },
+  {
+    "opportunity_id": "opp_ai_safety_ml4good_training_program",
+    "title": "ML4Good training program",
+    "opportunity_type": "training_program",
+    "url": "https://ml4good.org/",
+    "eligibility": "Check current cohort, location, eligibility, and sponsorship.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "lead_only_not_currently_verified",
+    "notes": "Any statement about fully sponsored trips requires current confirmation."
+  },
+  {
+    "opportunity_id": "opp_ai_safety_mats_research_fellowship",
+    "title": "MATS research fellowship",
+    "opportunity_type": "fellowship",
+    "url": "https://www.matsprogram.org/",
+    "eligibility": "Check current selection criteria, dates, and stipend details.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "lead_only_not_currently_verified",
+    "notes": "Funding and stipend are not guaranteed across cohorts."
+  },
+  {
+    "opportunity_id": "opp_ai_safety_80_000_hours_ai_safety_roles",
+    "title": "80,000 Hours AI safety roles",
+    "opportunity_type": "job_board",
+    "url": "https://80000hours.org/job-board/",
+    "eligibility": "Each role has its own eligibility requirements.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "lead_only_not_currently_verified",
+    "notes": "Job board lead, not a guaranteed placement."
+  },
+  {
+    "opportunity_id": "opp_project_management_pmi_educational_foundation_scholarships",
+    "title": "PMI Educational Foundation scholarships",
+    "opportunity_type": "scholarship",
+    "url": "https://pmief.org/",
+    "eligibility": "Check current award availability, applicant location, student status, and dates.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "lead_only_not_currently_verified",
+    "notes": "Eligibility and deadlines are not verified."
+  },
+  {
+    "opportunity_id": "opp_project_management_google_africa_developer_scholarships___learning_initiatives",
+    "title": "Google Africa Developer Scholarships / learning initiatives",
+    "opportunity_type": "scholarship_or_training_lead",
+    "url": "https://africa.googleblog.com/",
+    "eligibility": "Current program and Ghana eligibility not confirmed.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "lead_only_not_currently_verified",
+    "notes": "General blog URL only; not a verified active application."
+  },
+  {
+    "opportunity_id": "opp_project_management_university_hackathons_and_student_project_events",
+    "title": "University hackathons and student project events",
+    "opportunity_type": "hackathon",
+    "url": "",
+    "eligibility": "Depends on university and event.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "lead_only_not_currently_verified",
+    "notes": "No specific URL supplied; find opportunities through the student’s university or local chapters."
+  }
+]

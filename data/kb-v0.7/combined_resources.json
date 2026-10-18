@@ -1,0 +1,1575 @@
+[
+  {
+    "resource_id": "res_google_cloud_intro_gen_ai",
+    "title": "Introduction to Generative AI",
+    "provider": "Google Cloud Skills Boost",
+    "url": "https://www.cloudskillsboost.google/paths/118",
+    "resource_type": "course",
+    "source_note": "Source says hands-on, no cost; verify current access and price.",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_kaggle_intro_ml",
+    "title": "Intro to Machine Learning",
+    "provider": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+    "resource_type": "micro_course",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_kaggle_python",
+    "title": "Python",
+    "provider": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/python",
+    "resource_type": "micro_course",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_microsoft_ai_fundamentals",
+    "title": "AI Fundamentals",
+    "provider": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/paths/get-started-ai-fundamentals/",
+    "resource_type": "learning_path",
+    "source_note": "Source says free modules and optional certification.",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_freecodecamp_ml_crash_course",
+    "title": "ML Crash Course",
+    "provider": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI",
+    "resource_type": "video",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_google_ml_crash_course",
+    "title": "Machine Learning Crash Course",
+    "provider": "Google",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "resource_type": "interactive_course",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_azure_ai_engineer_path",
+    "title": "Azure AI Engineer Training Path",
+    "provider": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/paths/build-ai-solutions-with-azure-openai-service/",
+    "resource_type": "learning_path",
+    "source_note": "Source says free and on-demand; verify exact path title and current contents.",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_polimi_ml_mooc",
+    "title": "Machine Learning MOOC",
+    "provider": "Polimi / Edvance",
+    "url": "https://www.edvance.it/edvance/app/courseDetails/426",
+    "resource_type": "university_level_course",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_kaggle_forums",
+    "title": "Kaggle Forums",
+    "provider": "Kaggle",
+    "url": "https://kaggle.com/forums",
+    "resource_type": "community",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_zindi_africa",
+    "title": "Zindi Africa",
+    "provider": "Zindi Africa",
+    "url": "https://zindi.africa/",
+    "resource_type": "community",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_kaggle_competitions",
+    "title": "Kaggle Competitions",
+    "provider": "Kaggle",
+    "url": "https://kaggle.com/competitions",
+    "resource_type": "competition_platform",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_zindi_competitions",
+    "title": "Zindi Africa Competitions",
+    "provider": "Zindi Africa",
+    "url": "https://zindi.africa/competitions",
+    "resource_type": "competition_platform",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_github",
+    "title": "GitHub",
+    "provider": "GitHub",
+    "url": "https://github.com/",
+    "resource_type": "code_hosting",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_microsoft_student_ambassadors",
+    "title": "Microsoft Student Ambassador",
+    "provider": "Microsoft",
+    "url": "https://studentambassadors.microsoft.com/",
+    "resource_type": "student_program",
+    "source_note": "Check current program status and eligibility.",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_devpost_hackathons",
+    "title": "Hackathons",
+    "provider": "Devpost",
+    "url": "https://devpost.com/hackathons",
+    "resource_type": "hackathon_platform",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_fastai_practical_deep_learning",
+    "title": "Practical Deep Learning",
+    "provider": "fast.ai",
+    "url": "https://course.fast.ai/",
+    "resource_type": "course",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_deeplearning_ai_free_programs",
+    "title": "Free programs",
+    "provider": "DeepLearning.AI",
+    "url": "https://www.deeplearning.ai/",
+    "resource_type": "courses",
+    "source_note": "Specific programs and free availability may change.",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_harvard_cs50_ai",
+    "title": "CS50's AI",
+    "provider": "Harvard / CS50",
+    "url": "https://cs50.harvard.edu/ai/",
+    "resource_type": "course",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_wqu_applied_ai_lab",
+    "title": "Applied AI Lab",
+    "provider": "WorldQuant University",
+    "url": "https://www.wqu.edu/ai-lab-computer-vision-apply",
+    "resource_type": "applied_lab",
+    "source_note": "Verify current availability and application requirements.",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_scikit_learn_github",
+    "title": "scikit-learn repository",
+    "provider": "scikit-learn",
+    "url": "https://github.com/scikit-learn/scikit-learn",
+    "resource_type": "open_source_repository",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_huggingface_github",
+    "title": "Hugging Face repository",
+    "provider": "Hugging Face",
+    "url": "https://github.com/huggingface",
+    "resource_type": "open_source_repository",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_data_science_africa",
+    "title": "Data Science Africa",
+    "provider": "Data Science Africa",
+    "url": "https://www.datascienceafrica.org/",
+    "resource_type": "community_event",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_indabax",
+    "title": "IndabaX",
+    "provider": "Deep Learning Indaba",
+    "url": "https://deeplearningindaba.com/indaba-x/",
+    "resource_type": "community_event",
+    "source_note": "",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_medium",
+    "title": "Medium",
+    "provider": "Medium",
+    "url": "https://medium.com/",
+    "resource_type": "publishing_platform",
+    "source_note": "Mentioned as an option for project write-ups.",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_devto",
+    "title": "DEV Community",
+    "provider": "DEV Community",
+    "url": "https://dev.to/",
+    "resource_type": "publishing_platform",
+    "source_note": "Mentioned as an option for project write-ups.",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_linkedin",
+    "title": "LinkedIn",
+    "provider": "LinkedIn",
+    "url": "https://www.linkedin.com/",
+    "resource_type": "professional_network",
+    "source_note": "Mentioned for project write-ups and networking.",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_aims",
+    "title": "African Institute for Mathematical Sciences (AIMS)",
+    "provider": "AIMS",
+    "url": "https://aims.ac.za/",
+    "resource_type": "education_opportunity",
+    "source_note": "Listed under scholarships/fellowships; specific program and eligibility not specified.",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_indabax_events",
+    "title": "IndabaX scholarships and events",
+    "provider": "Deep Learning Indaba",
+    "url": "https://deeplearningindaba.com/indaba-x/",
+    "resource_type": "events_and_opportunities",
+    "source_note": "Specific scholarship availability and eligibility not specified.",
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_cisco_intro",
+    "title": "Introduction to Cybersecurity",
+    "provider": "Cisco Networking Academy",
+    "url": "https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity",
+    "resource_type": "course",
+    "source_note": "Source recommends as a quick-start course.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_cisco_video",
+    "title": "What is Cybersecurity?",
+    "provider": "Cisco",
+    "url": "https://www.youtube.com/watch?v=wbkM4rjYgA4",
+    "resource_type": "video",
+    "source_note": "Source recommends as an introductory video.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_google_cloud_path_419",
+    "title": "Google Cloud Cybersecurity Certificate (modules) / Cloud Skills Boost path",
+    "provider": "Google Cloud Skills Boost",
+    "url": "https://www.cloudskillsboost.google/paths/419",
+    "resource_type": "learning_path",
+    "source_note": "Source says modules; exact title, access, and price require verification.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_cyberpatriot_modules",
+    "title": "Cybersecurity Learning Modules",
+    "provider": "CyberPatriot",
+    "url": "https://www.uscyberpatriot.org/competition/competition-overview/new-coaches-and-competitors/cybersecurity-learning-modules",
+    "resource_type": "learning_modules",
+    "source_note": "Source recommends exploring modules; audience/eligibility may vary.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_cisco_essentials",
+    "title": "Cybersecurity Essentials",
+    "provider": "Cisco Networking Academy",
+    "url": "https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials",
+    "resource_type": "course",
+    "source_note": "Source recommends for foundations.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_google_learning_path_118",
+    "title": "Google Cybersecurity Learning Path",
+    "provider": "Google Cloud Skills Boost",
+    "url": "https://www.cloudskillsboost.google/paths/118",
+    "resource_type": "learning_path",
+    "source_note": "Source gives this as a Google Cybersecurity Learning Path; verify title because URL/path may have changed.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_ibm_skillsbuild_catalog",
+    "title": "IBM SkillsBuild Course Catalog",
+    "provider": "IBM SkillsBuild",
+    "url": "https://skillsbuild.org/college-students/course-catalog",
+    "resource_type": "course_catalog",
+    "source_note": "Source recommends exploring cybersecurity content; specific course should be selected after review.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_google_coursera_certificate",
+    "title": "Google Cybersecurity Professional Certificate",
+    "provider": "Google / Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+    "resource_type": "professional_certificate",
+    "source_note": "Source says audit if available; cost, audit availability, and financial aid require verification.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_tryhackme",
+    "title": "TryHackMe Beginner Path / platform",
+    "provider": "TryHackMe",
+    "url": "https://tryhackme.com/path/outline/beginner",
+    "resource_type": "hands_on_lab",
+    "source_note": "Source recommends beginner challenges; account requirements and free/paid boundaries require verification.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_vulnhub",
+    "title": "VulnHub",
+    "provider": "VulnHub",
+    "url": "https://www.vulnhub.com/",
+    "resource_type": "practice_lab",
+    "source_note": "Intentionally vulnerable machines; use only in an isolated lab and with authorization.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_metasploitable",
+    "title": "Metasploitable",
+    "provider": "SourceForge / Rapid7 project distribution",
+    "url": "https://sourceforge.net/projects/metasploitable/",
+    "resource_type": "practice_lab",
+    "source_note": "Intentionally vulnerable target; keep isolated and never expose it to public networks.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_cybertalents_competitions",
+    "title": "CyberTalents Competitions",
+    "provider": "CyberTalents",
+    "url": "https://cybertalents.com/competitions",
+    "resource_type": "competition_platform",
+    "source_note": "Competitions/CTFs; scholarships are not guaranteed by participation.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_github",
+    "title": "GitHub",
+    "provider": "GitHub",
+    "url": "https://github.com/",
+    "resource_type": "portfolio_platform",
+    "source_note": "Source recommends documenting writeups, screenshots, and lessons learned.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_cisco_cyberops",
+    "title": "Cisco CyberOps Associate / Cisco cybersecurity training",
+    "provider": "Cisco Networking Academy",
+    "url": "https://www.netacad.com/cybersecurity",
+    "resource_type": "training_and_certification_path",
+    "source_note": "Source recommends advancing through Cisco CyberOps Associate; confirm current course and exam pathway.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_google_cloud_security_cert",
+    "title": "Google Cloud Professional Cloud Security Engineer certification path",
+    "provider": "Google Cloud",
+    "url": "https://cloud.google.com/learn/certification/cloud-security-engineer",
+    "resource_type": "certification_path",
+    "source_note": "Source recommends studying this path; exam costs and prerequisites should be verified.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_comptia_security_plus",
+    "title": "CompTIA Security+",
+    "provider": "CompTIA",
+    "url": "https://www.comptia.org/certifications/security",
+    "resource_type": "certification",
+    "source_note": "Source recommends preparation; certification exam typically has a fee; verify current details.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_defcon",
+    "title": "DEF CON",
+    "provider": "DEF CON",
+    "url": "https://defcon.org/",
+    "resource_type": "conference",
+    "source_note": "Source suggests attending events; costs, dates, and accessibility vary.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_owasp",
+    "title": "OWASP",
+    "provider": "OWASP Foundation",
+    "url": "https://owasp.org/",
+    "resource_type": "community_and_events",
+    "source_note": "Source suggests OWASP meetups; find a current local chapter/event before recommending.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_cisco_talent_bridge",
+    "title": "Cisco Networking Academy Talent Bridge",
+    "provider": "Cisco",
+    "url": "https://www.netacad.com/careers/talent-bridge",
+    "resource_type": "career_program",
+    "source_note": "Listed under scholarships/competitions/fellowships by source, but actual eligibility and current status need verification.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_telegram_cybersecchats",
+    "title": "Cybersecurity group chats",
+    "provider": "Telegram",
+    "url": "https://t.me/cybersecchats",
+    "resource_type": "community",
+    "source_note": "Source-supplied group link; review moderation, safety, privacy, and current activity before recommending.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "cyber_res_cloud_skills_boost",
+    "title": "Cloud Skills Boost",
+    "provider": "Google Cloud",
+    "url": "https://www.cloudskillsboost.google/",
+    "resource_type": "learning_platform",
+    "source_note": "General platform link included in source.",
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "data_res_students",
+    "title": "DataCamp for Students",
+    "provider": "DataCamp",
+    "url": "https://www.datacamp.com/students",
+    "resource_type": "student_access",
+    "source_note": "Source claims eligible students may unlock three months free; verify current terms.",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "data_res_classrooms",
+    "title": "DataCamp for Classrooms",
+    "provider": "DataCamp",
+    "url": "https://www.datacamp.com/classrooms",
+    "resource_type": "student_access",
+    "source_note": "Source suggests checking classroom access; verify current eligibility.",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "data_res_tracks",
+    "title": "Career Track List",
+    "provider": "DataCamp",
+    "url": "https://www.datacamp.com/tracks/career",
+    "resource_type": "track_catalog",
+    "source_note": "Track names and availability may change.",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "data_res_projects",
+    "title": "DataCamp Projects",
+    "provider": "DataCamp",
+    "url": "https://www.datacamp.com/projects",
+    "resource_type": "guided_projects",
+    "source_note": "Source recommends guided portfolio practice.",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "data_res_practice",
+    "title": "DataCamp Practice",
+    "provider": "DataCamp",
+    "url": "https://www.datacamp.com/practice",
+    "resource_type": "practice_platform",
+    "source_note": "Source recommends reinforcement exercises.",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "data_res_blog",
+    "title": "DataCamp Blog",
+    "provider": "DataCamp",
+    "url": "https://www.datacamp.com/blog",
+    "resource_type": "learning_articles",
+    "source_note": "Source recommends extra guidance and ideas.",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "data_res_github_guide",
+    "title": "Sharing DataCamp Projects on GitHub",
+    "provider": "DataCamp Guides",
+    "url": "https://guides.datacamp.com/article/2243854-sharing-datacamp-projects-on-github-a-step-by-step-guide",
+    "resource_type": "publishing_guide",
+    "source_note": "Source recommends this guide for publishing work.",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "data_res_dsa",
+    "title": "Data Science Africa",
+    "provider": "Data Science Africa",
+    "url": "https://www.datascienceafrica.org/",
+    "resource_type": "community",
+    "source_note": "Source recommends joining the community; check current activities and opportunities.",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_educate",
+    "title": "AWS Educate",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/education/awseducate/",
+    "resource_type": "learning_platform",
+    "source_note": "Source recommends for guided learning and badges; verify current access and features.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_free_tier",
+    "title": "AWS Free Tier",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/free/",
+    "resource_type": "cloud_account_and_pricing",
+    "source_note": "Free Tier conditions, service limits, and charges vary; check current terms and set cost controls.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_skill_builder",
+    "title": "AWS Skill Builder",
+    "provider": "Amazon Web Services",
+    "url": "https://explore.skillbuilder.aws/learn",
+    "resource_type": "learning_platform",
+    "source_note": "Source recommends courses and labs; content and free/paid access may vary.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_cloud_practitioner_essentials",
+    "title": "AWS Cloud Practitioner Essentials",
+    "provider": "Amazon Web Services",
+    "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/13447/aws-cloud-practitioner-essentials",
+    "resource_type": "introductory_course",
+    "source_note": "Source recommends as an introductory course; verify current availability.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_cloud_video",
+    "title": "What is Cloud Computing?",
+    "provider": "AWS YouTube",
+    "url": "https://www.youtube.com/watch?v=00M5jY92KSA",
+    "resource_type": "video",
+    "source_note": "Introductory video listed by source; not independently reviewed.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_getting_started",
+    "title": "AWS Getting Started Resource Center",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/getting-started/",
+    "resource_type": "documentation_and_learning",
+    "source_note": "Source recommends as a reference path.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_restart",
+    "title": "AWS re/Start",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/training/restart/",
+    "resource_type": "training_program",
+    "source_note": "Availability and participating locations vary; verify local availability.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_academy",
+    "title": "AWS Academy",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/training/awsacademy/",
+    "resource_type": "academic_program",
+    "source_note": "Source says if your school offers it; requires current institutional access check.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_awsome_day",
+    "title": "AWSome Day Online",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/events/awsome-day/awsome-day-online/",
+    "resource_type": "event_and_training",
+    "source_note": "Event dates and availability may change.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_cloud_quest",
+    "title": "AWS Cloud Quest: Cloud Practitioner",
+    "provider": "Amazon Web Services",
+    "url": "https://explore.skillbuilder.aws/learn/course/13312/aws-cloud-quest-cloud-practitioner",
+    "resource_type": "gamified_learning",
+    "source_note": "Source recommends gamified labs; verify current access and requirements.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_aws_jam",
+    "title": "AWS Jam",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/jam/",
+    "resource_type": "challenge_event",
+    "source_note": "Events and access vary; source lists as practice/community event.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_community",
+    "title": "AWS Community",
+    "provider": "Amazon Web Services",
+    "url": "https://community.aws/",
+    "resource_type": "community",
+    "source_note": "Source recommends for networking.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_community_discord",
+    "title": "AWS Community Discord",
+    "provider": "AWS Community",
+    "url": "https://discord.gg/awscommunity",
+    "resource_type": "community_chat",
+    "source_note": "Invite validity and moderation should be checked before display.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_amalitech",
+    "title": "AmaliTech AWS re/Start Training Program",
+    "provider": "AmaliTech",
+    "url": "https://amalitech.org/aws-restart-training-program/",
+    "resource_type": "regional_training_program",
+    "source_note": "Check current cohort, eligibility, fees, location, and application window.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_azubi",
+    "title": "Azubi Africa Cloud Track",
+    "provider": "Azubi Africa",
+    "url": "https://azubiafrica.org/tracks/cloud-computing/",
+    "resource_type": "regional_training_program",
+    "source_note": "Check current program availability, eligibility, costs, and application windows.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_cloud_practitioner_cert",
+    "title": "AWS Certified Cloud Practitioner",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+    "resource_type": "certification",
+    "source_note": "Optional credential; exam fees and current exam details should be verified.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_community_builders",
+    "title": "AWS Community Builders Program",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/developer/community/community-builders/",
+    "resource_type": "community_program",
+    "source_note": "Selection, eligibility, and application timing require current verification.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_cloud_resume",
+    "title": "Cloud Resume Challenge",
+    "provider": "Cloud Resume Challenge",
+    "url": "https://cloudresumechallenge.dev/",
+    "resource_type": "project_challenge",
+    "source_note": "Source recommends as a project challenge; check current requirements.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_s3",
+    "title": "Amazon S3",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/s3/",
+    "resource_type": "cloud_service",
+    "source_note": "Service referenced in static website project; check pricing and configuration.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_cloudfront",
+    "title": "Amazon CloudFront",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/cloudfront/",
+    "resource_type": "cloud_service",
+    "source_note": "Service referenced in static website project; check pricing and configuration.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_lambda",
+    "title": "AWS Lambda",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/lambda/",
+    "resource_type": "cloud_service",
+    "source_note": "Service referenced in serverless API project; check pricing and limits.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_api_gateway",
+    "title": "Amazon API Gateway",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/api-gateway/",
+    "resource_type": "cloud_service",
+    "source_note": "Service referenced in serverless API project; check pricing and configuration.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_cloudwatch",
+    "title": "Amazon CloudWatch",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/cloudwatch/",
+    "resource_type": "cloud_service",
+    "source_note": "Service referenced in monitoring project; usage may incur costs.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "aws_res_iam",
+    "title": "AWS Identity and Access Management (IAM)",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/iam/",
+    "resource_type": "security_service",
+    "source_note": "Source emphasizes IAM and least privilege.",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_github_pack",
+    "title": "GitHub Student Developer Pack",
+    "provider": "GitHub Education",
+    "url": "https://education.github.com/pack",
+    "resource_type": "student_benefits",
+    "source_note": "Eligibility and current benefits may change.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_freecodecamp_rwd",
+    "title": "freeCodeCamp Responsive Web Design",
+    "provider": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+    "resource_type": "course",
+    "source_note": "Beginner HTML/CSS learning path from source.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_freecodecamp_js",
+    "title": "freeCodeCamp JavaScript Algorithms and Data Structures",
+    "provider": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+    "resource_type": "course",
+    "source_note": "JavaScript fundamentals and algorithms.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_odin",
+    "title": "The Odin Project — Full Stack JavaScript",
+    "provider": "The Odin Project",
+    "url": "https://www.theodinproject.com/paths/full-stack-javascript",
+    "resource_type": "curriculum",
+    "source_note": "Source recommends as a main beginner-friendly path.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_mdn",
+    "title": "MDN Web Docs",
+    "provider": "Mozilla",
+    "url": "https://developer.mozilla.org/",
+    "resource_type": "documentation",
+    "source_note": "Reference documentation.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_codecademy",
+    "title": "Codecademy Full Stack Engineer Career Path",
+    "provider": "Codecademy",
+    "url": "https://www.codecademy.com/learn/paths/full-stack-engineer-career-path",
+    "resource_type": "course_path",
+    "source_note": "Pricing and current access may vary.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_netninja",
+    "title": "Net Ninja — Node.js + Express playlist",
+    "provider": "The Net Ninja",
+    "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9ixpuT4wldzx7rrg6XKm5p7",
+    "resource_type": "video_playlist",
+    "source_note": "Source recommends as optional back-end introduction.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_nextjs_video",
+    "title": "freeCodeCamp — Next.js Full Course",
+    "provider": "freeCodeCamp",
+    "url": "https://www.youtube.com/watch?v=0m3k_hOz_nU",
+    "resource_type": "video_course",
+    "source_note": "Source-listed video; verify current relevance.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_nextjs_learn",
+    "title": "Next.js Learn",
+    "provider": "Vercel / Next.js",
+    "url": "https://nextjs.org/learn/basics/create-nextjs-app",
+    "resource_type": "interactive_tutorial",
+    "source_note": "URL may redirect; verify current learning route.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_nextjs_docs",
+    "title": "Next.js Documentation",
+    "provider": "Vercel / Next.js",
+    "url": "https://nextjs.org/docs",
+    "resource_type": "documentation",
+    "source_note": "Framework documentation.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_javascript_info",
+    "title": "JavaScript.info",
+    "provider": "JavaScript.info",
+    "url": "http://javascript.info",
+    "resource_type": "tutorial",
+    "source_note": "Source recommends for deeper JavaScript learning; prefer HTTPS if available.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_frontendmasters",
+    "title": "Frontend Masters",
+    "provider": "Frontend Masters",
+    "url": "https://frontendmasters.com/",
+    "resource_type": "course_platform",
+    "source_note": "Source notes possible access through Student Developer Pack; verify current benefits.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_odin_discord",
+    "title": "The Odin Project Discord",
+    "provider": "The Odin Project",
+    "url": "https://discord.gg/fbFCkYabZB",
+    "resource_type": "community",
+    "source_note": "Invite validity and community rules should be checked.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_hashnode_discord",
+    "title": "Hashnode Discord",
+    "provider": "Hashnode",
+    "url": "https://discord.com/invite/hashnode",
+    "resource_type": "community",
+    "source_note": "Invite validity and community rules should be checked.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_vercel",
+    "title": "Vercel",
+    "provider": "Vercel",
+    "url": "https://vercel.com/",
+    "resource_type": "deployment_platform",
+    "source_note": "Source recommends for deploying Next.js projects; review current plan limits.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_replit",
+    "title": "Replit",
+    "provider": "Replit",
+    "url": "https://replit.com/",
+    "resource_type": "development_platform",
+    "source_note": "Plans and resource limits may change.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_github",
+    "title": "GitHub",
+    "provider": "GitHub",
+    "url": "https://github.com/",
+    "resource_type": "code_hosting",
+    "source_note": "Use repositories, READMEs, screenshots, and demo links.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_devpost",
+    "title": "Devpost",
+    "provider": "Devpost",
+    "url": "https://devpost.com/",
+    "resource_type": "hackathon_platform",
+    "source_note": "Event availability varies.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_mlh",
+    "title": "Major League Hacking events",
+    "provider": "Major League Hacking",
+    "url": "https://mlh.io/seasons/2024/events",
+    "resource_type": "hackathon_platform",
+    "source_note": "Source URL is for 2024 and may be stale; replace with current events page before recommending.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_hashnode_hackathon",
+    "title": "Hashnode hackathons",
+    "provider": "Hashnode",
+    "url": "https://hashnode.com/hackathon",
+    "resource_type": "hackathon_platform",
+    "source_note": "Check whether current hackathons are active.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_mongodb",
+    "title": "MongoDB Atlas",
+    "provider": "MongoDB",
+    "url": "https://www.mongodb.com/atlas",
+    "resource_type": "database_platform",
+    "source_note": "Pricing and free tier details require current verification.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_supabase",
+    "title": "Supabase",
+    "provider": "Supabase",
+    "url": "https://supabase.com/",
+    "resource_type": "database_and_backend_platform",
+    "source_note": "Pricing and free tier details require current verification.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_refactoring",
+    "title": "JavaScript Design Patterns",
+    "provider": "Refactoring.Guru",
+    "url": "https://refactoring.guru/design-patterns/javascript",
+    "resource_type": "learning_resource",
+    "source_note": "Source recommends for deeper design patterns.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_outreachy",
+    "title": "Outreachy",
+    "provider": "Outreachy",
+    "url": "https://www.outreachy.org/",
+    "resource_type": "internship_program",
+    "source_note": "Eligibility, internship dates, and application windows change.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "fs_res_gsoc",
+    "title": "Google Summer of Code",
+    "provider": "Google",
+    "url": "https://summerofcode.withgoogle.com/",
+    "resource_type": "open_source_program",
+    "source_note": "Eligibility, timelines, and participation rules change.",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "coding_res_freecodecamp_js",
+    "title": "JavaScript Algorithms and Data Structures / Basic JavaScript lessons",
+    "provider": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/",
+    "resource_type": "interactive_course",
+    "best_for": "Structured practice and beginner JavaScript exercises",
+    "source_id": "source_tap_paths_coding",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "coding_res_codecademy_js",
+    "title": "Learn JavaScript / Introduction to JavaScript",
+    "provider": "Codecademy",
+    "url": "https://www.codecademy.com/learn/introduction-to-javascript",
+    "resource_type": "interactive_course",
+    "best_for": "Interactive beginner lessons",
+    "source_id": "source_tap_paths_coding",
+    "verification_status": "not_independently_verified",
+    "access_note": "The source describes a free introductory module; verify current course access and account requirements."
+  },
+  {
+    "resource_id": "coding_res_replit",
+    "title": "Replit Online IDE",
+    "provider": "Replit",
+    "url": "https://replit.com/",
+    "resource_type": "browser_coding_tool",
+    "best_for": "Writing and running code in the browser",
+    "source_id": "source_tap_paths_coding",
+    "verification_status": "not_independently_verified",
+    "access_note": "Platform features and free usage limits may change."
+  },
+  {
+    "resource_id": "coding_res_sololearn_js",
+    "title": "Introduction to JavaScript",
+    "provider": "SoloLearn",
+    "url": "https://www.sololearn.com/en/learn/courses/javascript-introduction",
+    "resource_type": "interactive_course",
+    "best_for": "Short chapters and repetition",
+    "source_id": "source_tap_paths_coding",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "coding_res_w3schools_js",
+    "title": "JavaScript Tutorial and Functions Reference",
+    "provider": "W3Schools",
+    "url": "https://www.w3schools.com/js/",
+    "resource_type": "reference",
+    "best_for": "Quick lookups and examples, including functions",
+    "source_id": "source_tap_paths_coding",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "coding_res_scrimba_js",
+    "title": "Introduction to JavaScript",
+    "provider": "Scrimba",
+    "url": "https://scrimba.com/learn/introtojavascript",
+    "resource_type": "interactive_video_course",
+    "best_for": "Follow-along coding practice and optional extra credit",
+    "source_id": "source_tap_paths_coding",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "coding_res_github",
+    "title": "GitHub",
+    "provider": "GitHub",
+    "url": "https://github.com/",
+    "resource_type": "code_hosting_platform",
+    "best_for": "Publishing source code and documenting small projects",
+    "source_id": "source_tap_paths_coding",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "coding_res_stackoverflow",
+    "title": "Stack Overflow",
+    "provider": "Stack Overflow",
+    "url": "https://stackoverflow.com/",
+    "resource_type": "programming_community",
+    "best_for": "Searching for explanations and asking well-scoped programming questions",
+    "source_id": "source_tap_paths_coding",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "coding_res_freecodecamp_forum",
+    "title": "freeCodeCamp Forum",
+    "provider": "freeCodeCamp",
+    "url": "https://forum.freecodecamp.org/",
+    "resource_type": "learning_community",
+    "best_for": "Getting help and learning with other beginners",
+    "source_id": "source_tap_paths_coding",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "coding_res_crash_course",
+    "title": "Programming Foundations (Crash Course)",
+    "provider": "Not specified in source",
+    "url": null,
+    "resource_type": "video",
+    "best_for": "An introductory overview of programming foundations",
+    "source_id": "source_tap_paths_coding",
+    "verification_status": "source_named_resource_exact_url_not_provided",
+    "source_note": "Resolve and verify the exact video before displaying a clickable link."
+  },
+  {
+    "resource_id": "res_quantum_computing_quantum_computing_for_the_very_curious",
+    "title": "Quantum Computing for the Very Curious",
+    "provider": "Quantum Country",
+    "url": "https://quantum.country/qcvc",
+    "resource_type": "interactive_text",
+    "source_note": "Introductory learning resource; verify current availability.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_quantum_computing_introduction_to_quantum_computing",
+    "title": "Introduction to Quantum Computing",
+    "provider": "Qiskit / YouTube",
+    "url": "https://www.youtube.com/watch?v=JhHMJCUmq28",
+    "resource_type": "video",
+    "source_note": "Introductory video listed in the user-provided roadmap.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_quantum_computing_quantum_odyssey",
+    "title": "Quantum Odyssey",
+    "provider": "Samsung",
+    "url": "https://quantumlab.samsung.com/quantum-odyssey/",
+    "resource_type": "interactive_experience",
+    "source_note": "Check browser/device availability.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_quantum_computing_microsoft_quantum_katas",
+    "title": "Microsoft Quantum Katas",
+    "provider": "Microsoft",
+    "url": "https://github.com/microsoft/QuantumKatas",
+    "resource_type": "coding_exercises",
+    "source_note": "Hands-on exercises; check current tooling requirements.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_quantum_computing_qiskit_documentation",
+    "title": "Qiskit documentation",
+    "provider": "IBM / Qiskit",
+    "url": "https://docs.quantum.ibm.com/",
+    "resource_type": "documentation",
+    "source_note": "Use current documentation; older Qiskit Textbook and IBM Quantum Lab links may be legacy.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_quantum_computing_qiskit_youtube_channel",
+    "title": "Qiskit YouTube channel",
+    "provider": "Qiskit",
+    "url": "https://www.youtube.com/@qiskit",
+    "resource_type": "video_channel",
+    "source_note": "Browse current beginner tutorials.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_quantum_computing_ibm_quantum_platform",
+    "title": "IBM Quantum platform",
+    "provider": "IBM Quantum",
+    "url": "https://quantum.ibm.com/",
+    "resource_type": "platform",
+    "source_note": "Account, access, and platform features may change.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_quantum_computing_qiskit_global_summer_school",
+    "title": "Qiskit Global Summer School",
+    "provider": "Qiskit / IBM",
+    "url": "https://qiskit.org/learn/",
+    "resource_type": "program",
+    "source_note": "Program availability and dates are time-sensitive; verify current season.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_quantum_computing_quantum_computing_resources",
+    "title": "Quantum Computing resources",
+    "provider": "Qiskit textbook (legacy candidate)",
+    "url": "https://qiskit.org/learn/",
+    "resource_type": "learning_hub",
+    "source_note": "Older textbook URLs may have moved; prefer current Qiskit documentation if unavailable.",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_agi_careers",
+    "title": "AGI Careers",
+    "provider": "80,000 Hours",
+    "url": "https://80000hours.org/career-reviews/artificial-general-intelligence/",
+    "resource_type": "career_guide",
+    "source_note": "Career guide; assess its assumptions and update date.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_future_of_ai_course",
+    "title": "Future of AI course",
+    "provider": "BlueDot Impact",
+    "url": "https://bluedot.org/courses",
+    "resource_type": "course",
+    "source_note": "Check current cohorts and availability.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_rob_miles_ai_safety_videos",
+    "title": "Rob Miles AI safety videos",
+    "provider": "Rob Miles",
+    "url": "https://www.youtube.com/@RobMiles",
+    "resource_type": "video_channel",
+    "source_note": "Introductory explainers; distinguish explanation from consensus.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_ai_fluency",
+    "title": "AI Fluency",
+    "provider": "Anthropic",
+    "url": "https://www.anthropic.com/learn",
+    "resource_type": "learning_resource",
+    "source_note": "Check current learning-resource catalogue.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_ethics_of_ai",
+    "title": "Ethics of AI",
+    "provider": "Politecnico di Milano / course listing",
+    "url": "https://www.coursera.org/",
+    "resource_type": "course_catalog",
+    "source_note": "Exact course URL was not supplied; search provider catalogue and verify current listing.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_encode_ai_safety___community",
+    "title": "Encode AI Safety / community",
+    "provider": "Encode",
+    "url": "https://encode.club/",
+    "resource_type": "community",
+    "source_note": "Verify current events, chapters, and application windows.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_eleutherai_community",
+    "title": "EleutherAI community",
+    "provider": "EleutherAI",
+    "url": "https://www.eleuther.ai/",
+    "resource_type": "community",
+    "source_note": "Community and server details may change.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_effective_altruism_forum",
+    "title": "Effective Altruism Forum",
+    "provider": "Effective Altruism Forum",
+    "url": "https://forum.effectivealtruism.org/",
+    "resource_type": "community",
+    "source_note": "Use critical judgment and compare viewpoints.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_apart_research",
+    "title": "Apart Research",
+    "provider": "Apart Research",
+    "url": "https://apartresearch.com/",
+    "resource_type": "research_community",
+    "source_note": "Check current sprints, hackathons, eligibility, and any funding.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_ai_incident_database",
+    "title": "AI Incident Database",
+    "provider": "AI Incident Database",
+    "url": "https://incidentdatabase.ai/",
+    "resource_type": "dataset",
+    "source_note": "Useful for incident analysis; review taxonomy and context.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_ml4good",
+    "title": "ML4Good",
+    "provider": "ML4Good",
+    "url": "https://ml4good.org/",
+    "resource_type": "training_program",
+    "source_note": "Check current cohort, location, eligibility, costs, and sponsorship.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_80_000_hours_job_board",
+    "title": "80,000 Hours job board",
+    "provider": "80,000 Hours",
+    "url": "https://80000hours.org/job-board/",
+    "resource_type": "job_board",
+    "source_note": "Roles and eligibility change frequently.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_fast_ai_practical_deep_learning",
+    "title": "fast.ai practical deep learning",
+    "provider": "fast.ai",
+    "url": "https://course.fast.ai/",
+    "resource_type": "course",
+    "source_note": "Useful technical foundation; not itself a safety specialization.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_cs50_ai_with_python",
+    "title": "CS50 AI with Python",
+    "provider": "Harvard CS50",
+    "url": "https://cs50.harvard.edu/ai/",
+    "resource_type": "course",
+    "source_note": "Technical prerequisite option; check course requirements.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_alignment_newsletter_archive",
+    "title": "Alignment Newsletter archive",
+    "provider": "Alignment Newsletter",
+    "url": "https://alignment.anthropic.com/",
+    "resource_type": "newsletter",
+    "source_note": "URL and publishing status may change; verify current archive.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_stanford_cs120__trustworthy_machine_learning",
+    "title": "Stanford CS120: Trustworthy Machine Learning",
+    "provider": "Stanford University",
+    "url": "https://trustworthyml.org/",
+    "resource_type": "course_or_resource",
+    "source_note": "Exact course URL/status not confirmed; treat as a lead to verify.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_ai_strategy_course",
+    "title": "AI Strategy course",
+    "provider": "BlueDot Impact",
+    "url": "https://bluedot.org/courses",
+    "resource_type": "course",
+    "source_note": "Check current course name, cohort dates, and access terms.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_mats_research_fellowship",
+    "title": "MATS research fellowship",
+    "provider": "MATS",
+    "url": "https://www.matsprogram.org/",
+    "resource_type": "fellowship",
+    "source_note": "Stipends, selection, eligibility, and dates must be checked for the current cycle.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_ai_safety_ai_safety_research_sprints",
+    "title": "AI Safety research sprints",
+    "provider": "Apart Research",
+    "url": "https://apartresearch.com/",
+    "resource_type": "project_opportunity",
+    "source_note": "Time-sensitive; check active events and terms.",
+    "source_id": "source_user_roadmap_ai_safety",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_trello_fundamentals",
+    "title": "Trello Fundamentals",
+    "provider": "Trello",
+    "url": "https://trello.com/guide",
+    "resource_type": "tutorial",
+    "source_note": "Check current product interface and free-tier limits.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_airtable_academy",
+    "title": "Airtable Academy",
+    "provider": "Airtable",
+    "url": "https://academy.airtable.com/",
+    "resource_type": "learning_platform",
+    "source_note": "Check course availability and free-tier limits.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_zapier_learn___academy",
+    "title": "Zapier Learn / Academy",
+    "provider": "Zapier",
+    "url": "https://zapier.com/learn",
+    "resource_type": "learning_resource",
+    "source_note": "Check current course names and plan limits.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_google_project_management_certificate",
+    "title": "Google Project Management Certificate",
+    "provider": "Google / Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-project-management",
+    "resource_type": "professional_certificate",
+    "source_note": "May require payment or subscription; financial aid and availability vary.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_clickup_university",
+    "title": "ClickUp University",
+    "provider": "ClickUp",
+    "url": "https://university.clickup.com/",
+    "resource_type": "learning_platform",
+    "source_note": "Check current course catalogue and account requirements.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_asana_academy",
+    "title": "Asana Academy",
+    "provider": "Asana",
+    "url": "https://academy.asana.com/",
+    "resource_type": "learning_platform",
+    "source_note": "Check current course catalogue and account requirements.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_scrumstudy",
+    "title": "ScrumStudy",
+    "provider": "SCRUMstudy",
+    "url": "https://www.scrumstudy.com/",
+    "resource_type": "certification_provider",
+    "source_note": "Certification and exam costs may apply; compare credential recognition.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_atlassian_agile_coach",
+    "title": "Atlassian Agile Coach",
+    "provider": "Atlassian",
+    "url": "https://www.atlassian.com/agile",
+    "resource_type": "learning_resource",
+    "source_note": "Agile learning resource; verify current content.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_monday_com_learning_center",
+    "title": "monday.com learning center",
+    "provider": "monday.com",
+    "url": "https://monday.com/learn",
+    "resource_type": "learning_resource",
+    "source_note": "Check current content and free-tier limits.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_project_management_institute",
+    "title": "Project Management Institute",
+    "provider": "PMI",
+    "url": "https://www.pmi.org/chapters",
+    "resource_type": "professional_community",
+    "source_note": "Look for local chapters and current student activities.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_capm_certification",
+    "title": "CAPM certification",
+    "provider": "PMI",
+    "url": "https://www.pmi.org/certifications/certified-associate-capm",
+    "resource_type": "certification",
+    "source_note": "Check eligibility, exam costs, and current requirements.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_scrum_org_learning_and_certification",
+    "title": "Scrum.org learning and certification",
+    "provider": "Scrum.org",
+    "url": "https://www.scrum.org/",
+    "resource_type": "certification_provider",
+    "source_note": "Check certification fees and requirements.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  },
+  {
+    "resource_id": "res_project_management_zapier_automation_learning",
+    "title": "Zapier automation learning",
+    "provider": "Zapier",
+    "url": "https://zapier.com/learn",
+    "resource_type": "automation_learning",
+    "source_note": "Exact “Expert course” availability not verified; do not assume a free certification.",
+    "source_id": "source_user_roadmap_project_management",
+    "verification_status": "not_independently_verified"
+  }
+]

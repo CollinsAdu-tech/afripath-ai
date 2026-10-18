@@ -1,0 +1,1236 @@
+[
+  {
+    "stage_id": "ai_ml_level_1",
+    "career_id": "career_ai_ml_engineering",
+    "level": 1,
+    "name": "Exploration",
+    "duration_text": "No prerequisites",
+    "duration_min_months": 0,
+    "duration_max_months": 0,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "a1_google_genai_intro",
+        "title": "Introduction to Generative AI",
+        "provider": "Google Cloud Skills Boost",
+        "resource_id": "res_google_cloud_intro_gen_ai",
+        "activity_type": "hands_on_course",
+        "source_note": "Described by source as hands-on and no cost"
+      },
+      {
+        "activity_id": "a1_kaggle_ml_intro",
+        "title": "Intro to Machine Learning",
+        "provider": "Kaggle Learn",
+        "resource_id": "res_kaggle_intro_ml",
+        "activity_type": "micro_course"
+      },
+      {
+        "activity_id": "a1_kaggle_python",
+        "title": "Python",
+        "provider": "Kaggle Learn",
+        "resource_id": "res_kaggle_python",
+        "activity_type": "micro_course"
+      },
+      {
+        "activity_id": "a1_microsoft_ai_fundamentals",
+        "title": "AI Fundamentals",
+        "provider": "Microsoft Learn",
+        "resource_id": "res_microsoft_ai_fundamentals",
+        "activity_type": "learning_path",
+        "source_note": "Source says free modules; optional certification"
+      },
+      {
+        "activity_id": "a1_freecodecamp_ml_crash_course",
+        "title": "ML Crash Course",
+        "provider": "freeCodeCamp",
+        "resource_id": "res_freecodecamp_ml_crash_course",
+        "activity_type": "video",
+        "source_note": "Described by source as beginner-friendly"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "stage_id": "ai_ml_level_2",
+    "career_id": "career_ai_ml_engineering",
+    "level": 2,
+    "name": "Foundations",
+    "duration_text": "1–3 months",
+    "duration_min_months": 1,
+    "duration_max_months": 3,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "a2_google_mlcc",
+        "title": "Machine Learning Crash Course",
+        "provider": "Google",
+        "resource_id": "res_google_ml_crash_course",
+        "activity_type": "interactive_course"
+      },
+      {
+        "activity_id": "a2_azure_ai_engineer",
+        "title": "Azure AI Engineer Training Path",
+        "provider": "Microsoft Learn",
+        "resource_id": "res_azure_ai_engineer_path",
+        "activity_type": "learning_path",
+        "source_note": "Source describes it as free and on-demand"
+      },
+      {
+        "activity_id": "a2_polimi_ml_mooc",
+        "title": "Machine Learning MOOC",
+        "provider": "Polimi / Edvance",
+        "resource_id": "res_polimi_ml_mooc",
+        "activity_type": "university_level_course"
+      },
+      {
+        "activity_id": "a2_kaggle_forums",
+        "title": "Kaggle Forums",
+        "provider": "Kaggle",
+        "resource_id": "res_kaggle_forums",
+        "activity_type": "community"
+      },
+      {
+        "activity_id": "a2_zindi",
+        "title": "Zindi Africa",
+        "provider": "Zindi Africa",
+        "resource_id": "res_zindi_africa",
+        "activity_type": "community"
+      }
+    ],
+    "community_ids": [
+      "community_kaggle_forums",
+      "community_zindi_africa"
+    ],
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "stage_id": "ai_ml_level_3",
+    "career_id": "career_ai_ml_engineering",
+    "level": 3,
+    "name": "Participation",
+    "duration_text": "3–6 months",
+    "duration_min_months": 3,
+    "duration_max_months": 6,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "a3_kaggle_competitions",
+        "title": "Kaggle Competitions",
+        "provider": "Kaggle",
+        "resource_id": "res_kaggle_competitions",
+        "activity_type": "competition"
+      },
+      {
+        "activity_id": "a3_zindi_competitions",
+        "title": "Zindi Africa Competitions",
+        "provider": "Zindi Africa",
+        "resource_id": "res_zindi_competitions",
+        "activity_type": "competition"
+      },
+      {
+        "activity_id": "a3_build_projects",
+        "title": "Build and share projects",
+        "provider": null,
+        "resource_id": null,
+        "activity_type": "project_milestone",
+        "source_note": "Examples in source: data report, image classifier, chatbot; publish code on GitHub"
+      },
+      {
+        "activity_id": "a3_microsoft_student_ambassador",
+        "title": "Microsoft Student Ambassador",
+        "provider": "Microsoft",
+        "resource_id": "res_microsoft_student_ambassadors",
+        "activity_type": "student_program"
+      },
+      {
+        "activity_id": "a3_devpost_hackathons",
+        "title": "Hackathons",
+        "provider": "Devpost",
+        "resource_id": "res_devpost_hackathons",
+        "activity_type": "hackathon"
+      },
+      {
+        "activity_id": "a3_network",
+        "title": "Network in AI/ML communities",
+        "provider": null,
+        "resource_id": null,
+        "activity_type": "networking",
+        "source_note": "Source mentions Discord, Slack and LinkedIn groups"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "stage_id": "ai_ml_level_4",
+    "career_id": "career_ai_ml_engineering",
+    "level": 4,
+    "name": "Going deeper",
+    "duration_text": "6–18 months",
+    "duration_min_months": 6,
+    "duration_max_months": 18,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "a4_fastai",
+        "title": "Practical Deep Learning",
+        "provider": "fast.ai",
+        "resource_id": "res_fastai_practical_deep_learning",
+        "activity_type": "course"
+      },
+      {
+        "activity_id": "a4_deeplearning_ai",
+        "title": "Free programs",
+        "provider": "DeepLearning.AI",
+        "resource_id": "res_deeplearning_ai_free_programs",
+        "activity_type": "courses"
+      },
+      {
+        "activity_id": "a4_cs50_ai",
+        "title": "CS50's Introduction to Artificial Intelligence with Python",
+        "provider": "Harvard / CS50",
+        "resource_id": "res_harvard_cs50_ai",
+        "activity_type": "course"
+      },
+      {
+        "activity_id": "a4_wqu_ai_lab",
+        "title": "Applied AI Lab",
+        "provider": "WorldQuant University",
+        "resource_id": "res_wqu_applied_ai_lab",
+        "activity_type": "applied_lab"
+      },
+      {
+        "activity_id": "a4_scikit_learn",
+        "title": "Contribute to scikit-learn",
+        "provider": "scikit-learn",
+        "resource_id": "res_scikit_learn_github",
+        "activity_type": "open_source_contribution"
+      },
+      {
+        "activity_id": "a4_huggingface",
+        "title": "Contribute to Hugging Face",
+        "provider": "Hugging Face",
+        "resource_id": "res_huggingface_github",
+        "activity_type": "open_source_contribution"
+      },
+      {
+        "activity_id": "a4_dsa",
+        "title": "Data Science Africa",
+        "provider": "Data Science Africa",
+        "resource_id": "res_data_science_africa",
+        "activity_type": "community_event"
+      },
+      {
+        "activity_id": "a4_indabax",
+        "title": "IndabaX",
+        "provider": "Deep Learning Indaba",
+        "resource_id": "res_indabax",
+        "activity_type": "community_event"
+      },
+      {
+        "activity_id": "a4_local_meetups",
+        "title": "Local tech meetups",
+        "provider": null,
+        "resource_id": null,
+        "activity_type": "community_event"
+      }
+    ],
+    "community_ids": [
+      "community_data_science_africa",
+      "community_indabax"
+    ],
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "stage_id": "cybersecurity_level_1_exploration",
+    "career_id": "career_cybersecurity",
+    "level": 1,
+    "title": "Exploration",
+    "source_duration": "no prerequisites",
+    "focus": "Learn what cybersecurity is, common threats, and the main career tracks.",
+    "recommended_resource_ids": [
+      "cyber_res_cisco_intro",
+      "cyber_res_google_cloud_path_419",
+      "cyber_res_cisco_video",
+      "cyber_res_cyberpatriot_modules"
+    ],
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "stage_id": "cybersecurity_level_2_foundations",
+    "career_id": "career_cybersecurity",
+    "level": 2,
+    "title": "Foundations",
+    "source_duration": "1–3 months",
+    "focus": "Build fundamentals in networking, operating systems, and security basics.",
+    "recommended_resource_ids": [
+      "cyber_res_cisco_essentials",
+      "cyber_res_google_learning_path_118",
+      "cyber_res_ibm_skillsbuild_catalog",
+      "cyber_res_google_coursera_certificate"
+    ],
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "stage_id": "cybersecurity_level_3_participation",
+    "career_id": "career_cybersecurity",
+    "level": 3,
+    "title": "Participation",
+    "source_duration": "3–6 months",
+    "focus": "Do hands-on practice and start documenting work.",
+    "recommended_resource_ids": [
+      "cyber_res_tryhackme",
+      "cyber_res_vulnhub",
+      "cyber_res_metasploitable",
+      "cyber_res_cybertalents_competitions",
+      "cyber_res_github"
+    ],
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "stage_id": "cybersecurity_level_4_going_deeper",
+    "career_id": "career_cybersecurity",
+    "level": 4,
+    "title": "Going Deeper",
+    "source_duration": "6–18 months",
+    "focus": "Specialize and prepare for stronger certifications and real-world work.",
+    "recommended_resource_ids": [
+      "cyber_res_cisco_cyberops",
+      "cyber_res_google_cloud_security_cert",
+      "cyber_res_comptia_security_plus",
+      "cyber_res_defcon",
+      "cyber_res_owasp"
+    ],
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "stage_id": "data_careers_stage_access_setup",
+    "career_id": "career_data_careers",
+    "stage_order": 1,
+    "title": "Unlock student access",
+    "source_duration": "setup week",
+    "goal": "Get access if eligible and choose a direction.",
+    "actions": [
+      "Visit DataCamp for Classrooms or DataCamp for Students.",
+      "Sign up with an eligible academic email and verify eligibility.",
+      "Explore the career track catalogue."
+    ],
+    "recommended_resource_ids": [
+      "data_res_students",
+      "data_res_classrooms",
+      "data_res_tracks"
+    ],
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "stage_id": "data_careers_stage_choose_track",
+    "career_id": "career_data_careers",
+    "stage_order": 2,
+    "title": "Choose one career track",
+    "source_duration": "early phase",
+    "goal": "Commit to one track for the three-month plan.",
+    "actions": [
+      "Read the syllabus of potential tracks.",
+      "Choose one track and record the decision in Notion or share it with a peer or mentor."
+    ],
+    "recommended_resource_ids": [
+      "data_res_tracks"
+    ],
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "stage_id": "data_careers_stage_12_week_plan",
+    "career_id": "career_data_careers",
+    "stage_order": 3,
+    "title": "Follow the 12-week plan",
+    "source_duration": "12 weeks",
+    "goal": "Progress steadily, document learning, and complete at least one project.",
+    "weekly_plan": [
+      {
+        "weeks": "1",
+        "goal": "Onboard and finish the first module",
+        "actions": [
+          "Start with an introductory Python or Python-for-data-science module."
+        ]
+      },
+      {
+        "weeks": "2",
+        "goal": "Finish module 2 and build a vocabulary list",
+        "actions": [
+          "Record terms, formulas, and common mistakes."
+        ]
+      },
+      {
+        "weeks": "3",
+        "goal": "Finish module 3 and complete practice",
+        "actions": [
+          "Use practice challenges to identify weak spots."
+        ]
+      },
+      {
+        "weeks": "4",
+        "goal": "Finish module 4",
+        "actions": [
+          "Try a data-wrangling or visualization exercise if included."
+        ]
+      },
+      {
+        "weeks": "5",
+        "goal": "Continue and start a mini-project folder",
+        "actions": [
+          "Summarize learning in five bullet points."
+        ]
+      },
+      {
+        "weeks": "6",
+        "goal": "Finish module 6 and repeat practice",
+        "actions": [
+          "Redo one or two previously missed exercises."
+        ]
+      },
+      {
+        "weeks": "7",
+        "goal": "Track progress",
+        "actions": [
+          "Update a checklist of completed modules and badges."
+        ]
+      },
+      {
+        "weeks": "8",
+        "goal": "Finish core modules and preview advanced content",
+        "actions": [
+          "Choose one optional topic to explore next month."
+        ]
+      },
+      {
+        "weeks": "9–10",
+        "goal": "Complete a guided or self-made project",
+        "actions": [
+          "Share progress with a peer or mentor."
+        ]
+      },
+      {
+        "weeks": "11–12",
+        "goal": "Finish the track and polish proof of work",
+        "actions": [
+          "Update GitHub or LinkedIn and write a short reflection."
+        ]
+      }
+    ],
+    "recommended_resource_ids": [
+      "data_res_projects",
+      "data_res_practice",
+      "data_res_github_guide"
+    ],
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "stage_id": "data_careers_stage_show_progress",
+    "career_id": "career_data_careers",
+    "stage_order": 4,
+    "title": "Show progress weekly",
+    "source_duration": "weekly habit",
+    "goal": "Make learning visible through notes, project evidence, and peer support.",
+    "actions": [
+      "Save evidence of completed modules, badges, or certificates.",
+      "Share project notebooks on GitHub.",
+      "Document skills and learning challenges in Notion, a blog, or LinkedIn.",
+      "Connect with communities such as Data Science Africa and find an accountability partner."
+    ],
+    "recommended_resource_ids": [
+      "data_res_github_guide",
+      "data_res_dsa",
+      "data_res_blog"
+    ],
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "stage_id": "aws_stage_exploration",
+    "career_id": "career_cloud_computing_aws",
+    "level": 1,
+    "title": "Exploration",
+    "source_duration": "Weeks 0–4",
+    "focus": "Learn what cloud computing is and build a first mental model of AWS.",
+    "resource_ids": [
+      "aws_res_educate",
+      "aws_res_skill_builder",
+      "aws_res_cloud_practitioner_essentials",
+      "aws_res_cloud_video"
+    ],
+    "checkpoints": [
+      "Explain IaaS vs PaaS vs SaaS.",
+      "List five common AWS services and what they do.",
+      "Set up MFA on the AWS account."
+    ],
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "stage_id": "aws_stage_foundations",
+    "career_id": "career_cloud_computing_aws",
+    "level": 2,
+    "title": "Foundations",
+    "source_duration": "Months 1–3",
+    "focus": "Get hands-on with core services and basic architecture.",
+    "resource_ids": [
+      "aws_res_skill_builder",
+      "aws_res_getting_started",
+      "aws_res_restart",
+      "aws_res_academy",
+      "aws_res_awsome_day"
+    ],
+    "checkpoints": [
+      "Deploy a static website using S3 and permissions.",
+      "Understand IAM users, roles, and least privilege.",
+      "Draw a simple web-app diagram: client → API → database."
+    ],
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "stage_id": "aws_stage_participation",
+    "career_id": "career_cloud_computing_aws",
+    "level": 3,
+    "title": "Participation",
+    "source_duration": "Months 3–6",
+    "focus": "Build projects and join the community.",
+    "resource_ids": [
+      "aws_res_free_tier",
+      "aws_res_cloud_quest",
+      "aws_res_aws_jam",
+      "aws_res_community",
+      "aws_res_community_discord",
+      "aws_res_amalitech",
+      "aws_res_azubi"
+    ],
+    "checkpoints": [
+      "Publish one project repository with a clear README and architecture diagram.",
+      "Write a short 'what I built' post on LinkedIn or a blog."
+    ],
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "stage_id": "aws_stage_going_deeper",
+    "career_id": "career_cloud_computing_aws",
+    "level": 4,
+    "title": "Going Deeper",
+    "source_duration": "Months 6–18",
+    "focus": "Become more job-ready and optionally certify or specialize.",
+    "resource_ids": [
+      "aws_res_cloud_practitioner_cert",
+      "aws_res_skill_builder",
+      "aws_res_community_builders"
+    ],
+    "checkpoints": [
+      "Complete a project that includes authentication, a database, and basic monitoring.",
+      "Begin applying for internships, junior roles, or freelance projects."
+    ],
+    "specialization_areas": [
+      "serverless",
+      "solutions architecture",
+      "AI/ML"
+    ],
+    "source_id": "source_tap_paths_cloud_computing_aws"
+  },
+  {
+    "stage_id": "fs_stage_exploration",
+    "career_id": "career_full_stack_web_development",
+    "level": 1,
+    "title": "Exploration",
+    "source_duration": "Weeks 0–4",
+    "focus": "Learn web basics and choose a learning path.",
+    "resource_ids": [
+      "fs_res_odin",
+      "fs_res_freecodecamp_rwd",
+      "fs_res_freecodecamp_js",
+      "fs_res_mdn",
+      "fs_res_codecademy",
+      "fs_res_netninja",
+      "fs_res_nextjs_video"
+    ],
+    "checkpoints": [
+      "Build a simple page with HTML and CSS.",
+      "Add JavaScript to handle a click and update the UI.",
+      "Publish a repository to GitHub."
+    ],
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "stage_id": "fs_stage_foundations",
+    "career_id": "career_full_stack_web_development",
+    "level": 2,
+    "title": "Foundations",
+    "source_duration": "Months 1–3",
+    "focus": "Learn React/Next.js, APIs, and full-stack application structure.",
+    "resource_ids": [
+      "fs_res_nextjs_learn",
+      "fs_res_nextjs_docs",
+      "fs_res_javascript_info",
+      "fs_res_frontendmasters",
+      "fs_res_odin_discord",
+      "fs_res_hashnode_discord"
+    ],
+    "checkpoints": [
+      "Build a small app with pages, components, and forms.",
+      "Create a simple API route or Express API.",
+      "Deploy a project, for example with Vercel."
+    ],
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "stage_id": "fs_stage_participation",
+    "career_id": "career_full_stack_web_development",
+    "level": 3,
+    "title": "Participation",
+    "source_duration": "Months 3–6",
+    "focus": "Build public projects and learn collaboration.",
+    "resource_ids": [
+      "fs_res_vercel",
+      "fs_res_replit",
+      "fs_res_github",
+      "fs_res_devpost",
+      "fs_res_mlh",
+      "fs_res_hashnode_hackathon"
+    ],
+    "checkpoints": [
+      "Deploy one app with authentication or a simple login flow.",
+      "Complete one team project, hackathon, or open-source contribution.",
+      "Write two strong GitHub READMEs."
+    ],
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "stage_id": "fs_stage_going_deeper",
+    "career_id": "career_full_stack_web_development",
+    "level": 4,
+    "title": "Going Deeper",
+    "source_duration": "Months 6–18",
+    "focus": "Build production-oriented skills in databases, authentication, deployment, and CI/CD.",
+    "resource_ids": [
+      "fs_res_mongodb",
+      "fs_res_supabase",
+      "fs_res_refactoring",
+      "fs_res_outreachy",
+      "fs_res_gsoc"
+    ],
+    "checkpoints": [
+      "Deploy a full-stack app with a database and authentication.",
+      "Contribute to at least one open-source repository; documentation contributions count."
+    ],
+    "source_id": "source_tap_paths_full_stack_web_development"
+  },
+  {
+    "stage_id": "coding_week_1_foundations",
+    "career_id": "career_intro_to_coding",
+    "level": 1,
+    "name": "Foundations — thinking like a programmer",
+    "duration_text": "Week 1",
+    "duration_min_weeks": 1,
+    "duration_max_weeks": 1,
+    "focus": "Understand what code is and practise variables, basic logic, syntax, and simple expressions.",
+    "learning_activities": [
+      {
+        "activity_id": "coding_w1_day1",
+        "day": "Day 1",
+        "title": "Complete the first 10 freeCodeCamp Basic JavaScript lessons",
+        "resource_id": "coding_res_freecodecamp_js"
+      },
+      {
+        "activity_id": "coding_w1_day2",
+        "day": "Day 2",
+        "title": "Try the free introductory JavaScript module",
+        "resource_id": "coding_res_codecademy_js"
+      },
+      {
+        "activity_id": "coding_w1_day3",
+        "day": "Day 3",
+        "title": "Run Hello, World! and simple math operations in Replit",
+        "resource_id": "coding_res_replit"
+      },
+      {
+        "activity_id": "coding_w1_day4",
+        "day": "Day 4",
+        "title": "Watch Programming Foundations (Crash Course)",
+        "resource_id": "coding_res_crash_course"
+      }
+    ],
+    "checkpoint": "Write a simple script, explain a variable, and perform basic arithmetic.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "stage_id": "coding_week_2_functions_io",
+    "career_id": "career_intro_to_coding",
+    "level": 2,
+    "name": "Input, output, and functions",
+    "duration_text": "Week 2",
+    "duration_min_weeks": 1,
+    "duration_max_weeks": 1,
+    "focus": "Write reusable functions and work with basic inputs and outputs.",
+    "learning_activities": [
+      {
+        "activity_id": "coding_w2_day1",
+        "day": "Day 1",
+        "title": "Continue freeCodeCamp, focusing on functions and basic input/output",
+        "resource_id": "coding_res_freecodecamp_js"
+      },
+      {
+        "activity_id": "coding_w2_day2",
+        "day": "Day 2",
+        "title": "Complete the first 4–5 chapters of SoloLearn JavaScript",
+        "resource_id": "coding_res_sololearn_js"
+      },
+      {
+        "activity_id": "coding_w2_day3",
+        "day": "Day 3",
+        "title": "Build a calculator or short quiz",
+        "resource_id": "coding_res_replit"
+      },
+      {
+        "activity_id": "coding_w2_day4",
+        "day": "Day 4",
+        "title": "Use the JavaScript functions reference",
+        "resource_id": "coding_res_w3schools_js"
+      }
+    ],
+    "checkpoint": "Build a small program that uses at least one function and accepts or processes a simple input.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "stage_id": "coding_week_3_loops_arrays",
+    "career_id": "career_intro_to_coding",
+    "level": 3,
+    "name": "Loops, arrays, and real projects",
+    "duration_text": "Week 3",
+    "duration_min_weeks": 1,
+    "duration_max_weeks": 1,
+    "focus": "Use repetition and lists of data in small interactive programs.",
+    "learning_activities": [
+      {
+        "activity_id": "coding_w3_day1",
+        "day": "Day 1",
+        "title": "Practise loops and arrays in freeCodeCamp",
+        "resource_id": "coding_res_freecodecamp_js"
+      },
+      {
+        "activity_id": "coding_w3_day2",
+        "day": "Day 2",
+        "title": "Practise arrays and loops using Codecademy or SoloLearn",
+        "resource_ids": [
+          "coding_res_codecademy_js",
+          "coding_res_sololearn_js"
+        ]
+      },
+      {
+        "activity_id": "coding_w3_day3",
+        "day": "Day 3",
+        "title": "Build a number-guessing game or simple to-do list",
+        "resource_id": "coding_res_replit"
+      },
+      {
+        "activity_id": "coding_w3_day4",
+        "day": "Day 4",
+        "title": "Join a programming community and learn how to ask questions",
+        "resource_ids": [
+          "coding_res_stackoverflow",
+          "coding_res_freecodecamp_forum"
+        ]
+      }
+    ],
+    "checkpoint": "Complete a small program that uses a loop or an array.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "stage_id": "coding_week_4_final_project",
+    "career_id": "career_intro_to_coding",
+    "level": 4,
+    "name": "Final mini-project",
+    "duration_text": "Week 4",
+    "duration_min_weeks": 1,
+    "duration_max_weeks": 1,
+    "focus": "Plan, build, test, and publish a small project that combines the concepts learned.",
+    "learning_activities": [
+      {
+        "activity_id": "coding_w4_day1",
+        "day": "Day 1",
+        "title": "Plan a quiz, calculator, or interactive story",
+        "resource_id": "coding_res_replit"
+      },
+      {
+        "activity_id": "coding_w4_day2_3",
+        "day": "Days 2–3",
+        "title": "Build the project in small steps and use references when stuck",
+        "resource_ids": [
+          "coding_res_replit",
+          "coding_res_w3schools_js"
+        ]
+      },
+      {
+        "activity_id": "coding_w4_day4",
+        "day": "Day 4",
+        "title": "Try the Scrimba JavaScript course for extra practice",
+        "resource_id": "coding_res_scrimba_js"
+      },
+      {
+        "activity_id": "coding_w4_day5",
+        "day": "Day 5",
+        "title": "Publish code on GitHub or share a public Replit link",
+        "resource_id": "coding_res_github"
+      }
+    ],
+    "checkpoint": "Share a working project and write a short reflection on what was hard, what was surprising, and what to build next.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "stage_id": "quantum_computing_level_1",
+    "career_id": "career_quantum_computing",
+    "level": 1,
+    "name": "Exploration",
+    "duration_text": "Days 0–7",
+    "duration_min_months": 0,
+    "duration_max_months": 0,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "quantum_computing_activity_1",
+        "title": "Quantum Computing for the Very Curious",
+        "provider": "Quantum Country",
+        "resource_id": "res_quantum_computing_quantum_computing_for_the_very_curious",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "quantum_computing_activity_2",
+        "title": "Introduction to Quantum Computing",
+        "provider": "Qiskit / YouTube",
+        "resource_id": "res_quantum_computing_introduction_to_quantum_computing",
+        "activity_type": "guided_learning"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "stage_id": "quantum_computing_level_2",
+    "career_id": "career_quantum_computing",
+    "level": 2,
+    "name": "Foundations",
+    "duration_text": "Weeks 1–3",
+    "duration_min_months": 0,
+    "duration_max_months": 1,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "quantum_computing_activity_1",
+        "title": "Quantum Computing for the Very Curious",
+        "provider": "Quantum Country",
+        "resource_id": "res_quantum_computing_quantum_computing_for_the_very_curious",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "quantum_computing_activity_2",
+        "title": "Microsoft Quantum Katas",
+        "provider": "Microsoft",
+        "resource_id": "res_quantum_computing_microsoft_quantum_katas",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "quantum_computing_activity_3",
+        "title": "Qiskit documentation",
+        "provider": "IBM / Qiskit",
+        "resource_id": "res_quantum_computing_qiskit_documentation",
+        "activity_type": "guided_learning"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "stage_id": "quantum_computing_level_3",
+    "career_id": "career_quantum_computing",
+    "level": 3,
+    "name": "Participation",
+    "duration_text": "Weeks 3–6",
+    "duration_min_months": 0,
+    "duration_max_months": 2,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "quantum_computing_activity_1",
+        "title": "Qiskit YouTube channel",
+        "provider": "Qiskit",
+        "resource_id": "res_quantum_computing_qiskit_youtube_channel",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "quantum_computing_activity_2",
+        "title": "IBM Quantum platform",
+        "provider": "IBM Quantum",
+        "resource_id": "res_quantum_computing_ibm_quantum_platform",
+        "activity_type": "guided_learning"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "stage_id": "quantum_computing_level_4",
+    "career_id": "career_quantum_computing",
+    "level": 4,
+    "name": "Deeper practice",
+    "duration_text": "6+ weeks",
+    "duration_min_months": 1,
+    "duration_max_months": 6,
+    "prerequisites": [
+      "Understand basic quantum states and gates"
+    ],
+    "learning_activities": [
+      {
+        "activity_id": "quantum_computing_activity_1",
+        "title": "Microsoft Quantum Katas",
+        "provider": "Microsoft",
+        "resource_id": "res_quantum_computing_microsoft_quantum_katas",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "quantum_computing_activity_2",
+        "title": "Qiskit documentation",
+        "provider": "IBM / Qiskit",
+        "resource_id": "res_quantum_computing_qiskit_documentation",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "quantum_computing_activity_3",
+        "title": "Qiskit Global Summer School",
+        "provider": "Qiskit / IBM",
+        "resource_id": "res_quantum_computing_qiskit_global_summer_school",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "quantum_computing_activity_4",
+        "title": "Quantum Computing resources",
+        "provider": "Qiskit textbook (legacy candidate)",
+        "resource_id": "res_quantum_computing_quantum_computing_resources",
+        "activity_type": "guided_learning"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_user_roadmap_quantum_computing"
+  },
+  {
+    "stage_id": "ai_safety_level_1",
+    "career_id": "career_ai_safety",
+    "level": 1,
+    "name": "Exploration",
+    "duration_text": "No prerequisites",
+    "duration_min_months": 0,
+    "duration_max_months": 0,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "ai_safety_activity_1",
+        "title": "AGI Careers",
+        "provider": "80,000 Hours",
+        "resource_id": "res_ai_safety_agi_careers",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "ai_safety_activity_2",
+        "title": "Future of AI course",
+        "provider": "BlueDot Impact",
+        "resource_id": "res_ai_safety_future_of_ai_course",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "ai_safety_activity_3",
+        "title": "Rob Miles AI safety videos",
+        "provider": "Rob Miles",
+        "resource_id": "res_ai_safety_rob_miles_ai_safety_videos",
+        "activity_type": "guided_learning"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "stage_id": "ai_safety_level_2",
+    "career_id": "career_ai_safety",
+    "level": 2,
+    "name": "Foundations",
+    "duration_text": "1–3 months",
+    "duration_min_months": 1,
+    "duration_max_months": 3,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "ai_safety_activity_1",
+        "title": "fast.ai practical deep learning",
+        "provider": "fast.ai",
+        "resource_id": "res_ai_safety_fast_ai_practical_deep_learning",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "ai_safety_activity_2",
+        "title": "CS50 AI with Python",
+        "provider": "Harvard CS50",
+        "resource_id": "res_ai_safety_cs50_ai_with_python",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "ai_safety_activity_3",
+        "title": "AI Fluency",
+        "provider": "Anthropic",
+        "resource_id": "res_ai_safety_ai_fluency",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "ai_safety_activity_4",
+        "title": "Ethics of AI",
+        "provider": "Politecnico di Milano / course listing",
+        "resource_id": "res_ai_safety_ethics_of_ai",
+        "activity_type": "guided_learning"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "stage_id": "ai_safety_level_3",
+    "career_id": "career_ai_safety",
+    "level": 3,
+    "name": "Participation",
+    "duration_text": "3–6 months",
+    "duration_min_months": 3,
+    "duration_max_months": 6,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "ai_safety_activity_1",
+        "title": "Apart Research",
+        "provider": "Apart Research",
+        "resource_id": "res_ai_safety_apart_research",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "ai_safety_activity_2",
+        "title": "AI Incident Database",
+        "provider": "AI Incident Database",
+        "resource_id": "res_ai_safety_ai_incident_database",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "ai_safety_activity_3",
+        "title": "ML4Good",
+        "provider": "ML4Good",
+        "resource_id": "res_ai_safety_ml4good",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "ai_safety_activity_4",
+        "title": "Effective Altruism Forum",
+        "provider": "Effective Altruism Forum",
+        "resource_id": "res_ai_safety_effective_altruism_forum",
+        "activity_type": "guided_learning"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "stage_id": "ai_safety_level_4",
+    "career_id": "career_ai_safety",
+    "level": 4,
+    "name": "Deeper research or practice",
+    "duration_text": "6–18 months",
+    "duration_min_months": 6,
+    "duration_max_months": 18,
+    "prerequisites": [
+      "Choose a focus: technical alignment, evaluation, governance, or responsible AI"
+    ],
+    "learning_activities": [
+      {
+        "activity_id": "ai_safety_activity_1",
+        "title": "Alignment Newsletter archive",
+        "provider": "Alignment Newsletter",
+        "resource_id": "res_ai_safety_alignment_newsletter_archive",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "ai_safety_activity_2",
+        "title": "Stanford CS120: Trustworthy Machine Learning",
+        "provider": "Stanford University",
+        "resource_id": "res_ai_safety_stanford_cs120__trustworthy_machine_learning",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "ai_safety_activity_3",
+        "title": "AI Strategy course",
+        "provider": "BlueDot Impact",
+        "resource_id": "res_ai_safety_ai_strategy_course",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "ai_safety_activity_4",
+        "title": "MATS research fellowship",
+        "provider": "MATS",
+        "resource_id": "res_ai_safety_mats_research_fellowship",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "ai_safety_activity_5",
+        "title": "AI Safety research sprints",
+        "provider": "Apart Research",
+        "resource_id": "res_ai_safety_ai_safety_research_sprints",
+        "activity_type": "guided_learning"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_user_roadmap_ai_safety"
+  },
+  {
+    "stage_id": "project_management_level_1",
+    "career_id": "career_project_management",
+    "level": 1,
+    "name": "Exploration",
+    "duration_text": "Weeks 0–4",
+    "duration_min_months": 0,
+    "duration_max_months": 1,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "project_management_activity_1",
+        "title": "Trello Fundamentals",
+        "provider": "Trello",
+        "resource_id": "res_project_management_trello_fundamentals",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "project_management_activity_2",
+        "title": "Atlassian Agile Coach",
+        "provider": "Atlassian",
+        "resource_id": "res_project_management_atlassian_agile_coach",
+        "activity_type": "guided_learning"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "stage_id": "project_management_level_2",
+    "career_id": "career_project_management",
+    "level": 2,
+    "name": "Foundations",
+    "duration_text": "Months 1–3",
+    "duration_min_months": 1,
+    "duration_max_months": 3,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "project_management_activity_1",
+        "title": "Google Project Management Certificate",
+        "provider": "Google / Coursera",
+        "resource_id": "res_project_management_google_project_management_certificate",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "project_management_activity_2",
+        "title": "ClickUp University",
+        "provider": "ClickUp",
+        "resource_id": "res_project_management_clickup_university",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "project_management_activity_3",
+        "title": "Asana Academy",
+        "provider": "Asana",
+        "resource_id": "res_project_management_asana_academy",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "project_management_activity_4",
+        "title": "ScrumStudy",
+        "provider": "SCRUMstudy",
+        "resource_id": "res_project_management_scrumstudy",
+        "activity_type": "guided_learning"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "stage_id": "project_management_level_3",
+    "career_id": "career_project_management",
+    "level": 3,
+    "name": "Participation",
+    "duration_text": "Months 3–6",
+    "duration_min_months": 3,
+    "duration_max_months": 6,
+    "prerequisites": [],
+    "learning_activities": [
+      {
+        "activity_id": "project_management_activity_1",
+        "title": "Airtable Academy",
+        "provider": "Airtable",
+        "resource_id": "res_project_management_airtable_academy",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "project_management_activity_2",
+        "title": "Zapier Learn / Academy",
+        "provider": "Zapier",
+        "resource_id": "res_project_management_zapier_learn___academy",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "project_management_activity_3",
+        "title": "monday.com learning center",
+        "provider": "monday.com",
+        "resource_id": "res_project_management_monday_com_learning_center",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "project_management_activity_4",
+        "title": "Project Management Institute",
+        "provider": "PMI",
+        "resource_id": "res_project_management_project_management_institute",
+        "activity_type": "guided_learning"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_user_roadmap_project_management"
+  },
+  {
+    "stage_id": "project_management_level_4",
+    "career_id": "career_project_management",
+    "level": 4,
+    "name": "Going deeper",
+    "duration_text": "Months 6–18",
+    "duration_min_months": 6,
+    "duration_max_months": 18,
+    "prerequisites": [
+      "Document at least one completed project and its outcomes"
+    ],
+    "learning_activities": [
+      {
+        "activity_id": "project_management_activity_1",
+        "title": "CAPM certification",
+        "provider": "PMI",
+        "resource_id": "res_project_management_capm_certification",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "project_management_activity_2",
+        "title": "Scrum.org learning and certification",
+        "provider": "Scrum.org",
+        "resource_id": "res_project_management_scrum_org_learning_and_certification",
+        "activity_type": "guided_learning"
+      },
+      {
+        "activity_id": "project_management_activity_3",
+        "title": "Zapier automation learning",
+        "provider": "Zapier",
+        "resource_id": "res_project_management_zapier_automation_learning",
+        "activity_type": "guided_learning"
+      }
+    ],
+    "community_ids": [],
+    "source_id": "source_user_roadmap_project_management"
+  }
+]

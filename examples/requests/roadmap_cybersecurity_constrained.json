@@ -1,0 +1,13 @@
+{
+  "careerId": "career_cybersecurity",
+  "profile": {
+    "budget": "none",
+    "internet": "limited",
+    "device": "low_spec_computer",
+    "weeklyHours": 4,
+    "learningFormats": [
+      "text",
+      "hands_on"
+    ]
+  }
+}

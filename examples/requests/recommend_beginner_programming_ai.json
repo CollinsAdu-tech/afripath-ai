@@ -1,0 +1,28 @@
+{
+  "profile": {
+    "interests": [
+      "web_building",
+      "intelligent_systems"
+    ],
+    "currentSkills": [
+      "logical_reasoning",
+      "problem_solving"
+    ],
+    "skillsToDevelop": [
+      "programming"
+    ],
+    "workStyles": [
+      "building"
+    ],
+    "goals": [
+      "technical_career"
+    ],
+    "subjects": [
+      "mathematics",
+      "ict_computing"
+    ],
+    "mathConfidence": 3,
+    "programmingExperience": "none",
+    "educationLevel": "senior_secondary"
+  }
+}

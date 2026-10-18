@@ -1,0 +1,41 @@
+{
+  "counts": {
+    "careers": {
+      "count": 9,
+      "unique_ids": 9,
+      "duplicate_ids": 0
+    },
+    "roadmap_stages": {
+      "count": 36,
+      "unique_ids": 36,
+      "duplicate_ids": 0
+    },
+    "resources": {
+      "count": 157,
+      "unique_ids": 157,
+      "duplicate_ids": 0
+    },
+    "skills": {
+      "count": 102,
+      "unique_ids": 102,
+      "duplicate_ids": 0
+    },
+    "projects": {
+      "count": 46,
+      "unique_ids": 46,
+      "duplicate_ids": 0
+    },
+    "communities": {
+      "count": 35,
+      "unique_ids": 35,
+      "duplicate_ids": 0
+    },
+    "opportunities": {
+      "count": 33,
+      "unique_ids": 33,
+      "duplicate_ids": 0
+    }
+  },
+  "missing_stage_resource_refs": [],
+  "missing_career_refs": []
+}

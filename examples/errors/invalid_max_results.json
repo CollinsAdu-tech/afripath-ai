@@ -1,0 +1,17 @@
+{
+  "method": "POST",
+  "path": "/v1/recommendations",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "profile": {
+      "interests": [
+        "web_building"
+      ]
+    },
+    "options": {
+      "maxResults": 9
+    }
+  }
+}

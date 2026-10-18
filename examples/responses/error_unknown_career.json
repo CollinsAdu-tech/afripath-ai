@@ -1,0 +1,10 @@
+{
+  "httpStatus": 404,
+  "body": {
+    "error": {
+      "code": "CAREER_NOT_FOUND",
+      "message": "No career with id \"career_does_not_exist\" exists in the knowledge base.",
+      "requestId": "<request-id>"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "httpStatus": 200,
+  "body": {
+    "careerId": "career_cybersecurity",
+    "title": "Cybersecurity",
+    "category": "Cybersecurity",
+    "summary": "Protect computer systems, networks, people, and personal data from digital threats.",
+    "audiences": [
+      "high school graduates",
+      "university undergraduates (any major)",
+      "early-career professionals",
+      "people interested in ethical hacking"
+    ],
+    "quickStart": [],
+    "setupRequirements": null,
+    "stages": [
+      {
+        "stageId": "cybersecurity_level_1_exploration",
+        "order": 1,
+        "name": "Exploration",
+        "durationPerSource": "no prerequisites"
+      },
+      {
+        "stageId": "cybersecurity_level_2_foundations",
+        "order": 2,
+        "name": "Foundations",
+        "durationPerSource": "1–3 months"
+      },
+      {
+        "stageId": "cybersecurity_level_3_participation",
+        "order": 3,
+        "name": "Participation",
+        "durationPerSource": "3–6 months"
+      },
+      {
+        "stageId": "cybersecurity_level_4_going_deeper",
+        "order": 4,
+        "name": "Going Deeper",
+        "durationPerSource": "6–18 months"
+      }
+    ],
+    "projectCount": 5,
+    "skillCount": 9,
+    "opportunityLeadCount": 3,
+    "basis": [
+      "KB skills: security fundamentals, networking, threat awareness, incident response, ethical testing",
+      "KB projects: home lab, incident checklist, CTF write-ups (investigation and defence focus)",
+      "KB lists no programming or maths skill for this path; audiences include undergraduates of any major"
+    ],
+    "verificationStatus": "transcribed_not_independently_verified",
+    "meta": {
+      "engineVersion": "0.1.0",
+      "knowledgeBaseVersion": "0.7",
+      "taxonomyVersion": "0.1.0-editorial",
+      "scoringModel": "weighted-affinity-v1"
+    }
+  }
+}

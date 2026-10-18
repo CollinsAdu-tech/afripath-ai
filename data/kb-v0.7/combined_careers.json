@@ -1,0 +1,291 @@
+[
+  {
+    "career_id": "career_ai_ml_engineering",
+    "title": "AI/ML Engineering",
+    "category": "Artificial Intelligence and Machine Learning",
+    "summary": "AI/ML Engineering helps build systems that learn from data and make useful predictions or decisions.",
+    "source_description": "AI/ML Engineering is about using data and algorithms to create intelligent systems. With consistency and practice, anyone can start using free online resources, even without a formal technical background.",
+    "intended_audiences": [
+      "High school graduates",
+      "University undergraduates (any major)",
+      "Early-career professionals",
+      "Anyone who wants practical AI/ML skills"
+    ],
+    "source_quick_start": [
+      "Kaggle Python",
+      "Kaggle Intro to Machine Learning",
+      "Google Machine Learning Crash Course",
+      "Start a small project and publish it on GitHub"
+    ],
+    "roadmap_usage_advice": [
+      "Focus on one level at a time",
+      "Aim for small weekly progress",
+      "Always pair learning with a mini project"
+    ],
+    "portfolio_target": {
+      "minimum_projects": 3,
+      "maximum_projects": 5
+    },
+    "source_id": "source_tap_paths_ai_ml_engineering",
+    "source_url": "https://tap-paths.notion.site/",
+    "source_name": "TAP Paths — AI/ML Engineering",
+    "extracted_date": "2026-10-12",
+    "verification_status": "transcribed_from_user_provided_source; individual links not independently verified"
+  },
+  {
+    "career_id": "career_cybersecurity",
+    "career_title": "Cybersecurity",
+    "category": "Cybersecurity",
+    "summary": "Protect computer systems, networks, people, and personal data from digital threats.",
+    "audience": [
+      "high school graduates",
+      "university undergraduates (any major)",
+      "early-career professionals",
+      "people interested in ethical hacking"
+    ],
+    "core_skill_ids": [
+      "cyber_skill_security_fundamentals",
+      "cyber_skill_networking",
+      "cyber_skill_operating_systems",
+      "cyber_skill_threat_awareness",
+      "cyber_skill_lab_practice",
+      "cyber_skill_documentation",
+      "cyber_skill_incident_response",
+      "cyber_skill_ethical_testing",
+      "cyber_skill_digital_hygiene"
+    ],
+    "roadmap_stage_ids": [
+      "cybersecurity_level_1_exploration",
+      "cybersecurity_level_2_foundations",
+      "cybersecurity_level_3_participation",
+      "cybersecurity_level_4_going_deeper"
+    ],
+    "source_id": "source_tap_paths_cybersecurity",
+    "verification_status": "transcribed_not_independently_verified"
+  },
+  {
+    "career_id": "career_data_careers",
+    "career_title": "Data Careers",
+    "category": "Data",
+    "summary": "Build practical data skills through one focused learning track, consistent practice, and one or two portfolio projects.",
+    "audience": [
+      "university students",
+      "advanced high school students",
+      "career-switchers",
+      "early-career professionals",
+      "people interested in data"
+    ],
+    "source_id": "source_tap_paths_data_careers",
+    "roadmap_stage_ids": [
+      "data_careers_stage_access_setup",
+      "data_careers_stage_choose_track",
+      "data_careers_stage_12_week_plan",
+      "data_careers_stage_show_progress"
+    ],
+    "learning_track_ids": [
+      "data_track_analyst_python",
+      "data_track_scientist_python",
+      "data_track_analyst_r",
+      "data_track_engineer",
+      "data_track_ml_scientist"
+    ],
+    "verification_status": "transcribed_not_independently_verified"
+  },
+  {
+    "career_id": "career_cloud_computing_aws",
+    "career_title": "Cloud Computing (AWS)",
+    "category": "Cloud Computing",
+    "summary": "Learn cloud concepts and AWS services, deploy real projects, document architecture and security decisions, and optionally pursue entry-level certification.",
+    "audience": [
+      "university students and recent graduates",
+      "career-switchers and early-career professionals",
+      "technical and non-technical learners aiming for cloud roles",
+      "builders who want to deploy websites, apps, or data projects"
+    ],
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "roadmap_stage_ids": [
+      "aws_stage_exploration",
+      "aws_stage_foundations",
+      "aws_stage_participation",
+      "aws_stage_going_deeper"
+    ],
+    "project_ids": [
+      "aws_project_static_site",
+      "aws_project_serverless_api",
+      "aws_project_cloud_resume",
+      "aws_project_monitoring_dashboard",
+      "aws_project_deploy_app"
+    ],
+    "verification_status": "transcribed_not_independently_verified"
+  },
+  {
+    "career_id": "career_full_stack_web_development",
+    "career_title": "Full Stack Web Development",
+    "category": "Software Development",
+    "summary": "Build complete web applications end-to-end by learning front-end interfaces, back-end APIs, databases, version control, and deployment.",
+    "audience": [
+      "high school students",
+      "university students",
+      "early-career professionals",
+      "career switchers and hobbyists who want to ship real applications"
+    ],
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "source_duration": "6+ months to build and deploy full-stack apps and a portfolio",
+    "roadmap_stage_ids": [
+      "fs_stage_exploration",
+      "fs_stage_foundations",
+      "fs_stage_participation",
+      "fs_stage_going_deeper"
+    ],
+    "project_ids": [
+      "fs_project_portfolio",
+      "fs_project_ecommerce",
+      "fs_project_social_dashboard",
+      "fs_project_cms",
+      "fs_project_collaboration"
+    ],
+    "source_note": "Suggested weekly rhythm: two lessons, two coding sessions, and one longer project push.",
+    "verification_status": "transcribed_not_independently_verified"
+  },
+  {
+    "career_id": "career_intro_to_coding",
+    "title": "Intro to Coding",
+    "category": "Programming Fundamentals",
+    "summary": "A four-week beginner track for learning programming fundamentals with JavaScript and browser-based tools, then sharing a small portfolio of projects.",
+    "intended_audiences": [
+      "Total beginners",
+      "Students",
+      "Career-switchers",
+      "Anyone curious about how code works"
+    ],
+    "source_quick_start": [
+      "Complete the first 10 freeCodeCamp Basic JavaScript lessons",
+      "Open Replit and run Hello, World!",
+      "Watch Programming Foundations (Crash Course); exact video URL was not supplied"
+    ],
+    "source_duration": "4 weeks",
+    "weekly_time_commitment": "3–5 sessions per week, 30–90 minutes per session",
+    "setup_requirements": "Browser-based tools; no local development setup required for the starter activities",
+    "outcomes": [
+      "Read and write simple JavaScript",
+      "Use variables, conditionals, functions, loops, and arrays",
+      "Complete several mini-projects",
+      "Share code through GitHub or a public Replit link"
+    ],
+    "roadmap_stage_ids": [
+      "coding_week_1_foundations",
+      "coding_week_2_functions_io",
+      "coding_week_3_loops_arrays",
+      "coding_week_4_final_project"
+    ],
+    "project_ids": [
+      "coding_project_calculator_quiz",
+      "coding_project_number_guessing",
+      "coding_project_todo_list",
+      "coding_project_final_miniproject"
+    ],
+    "source_id": "source_tap_paths_coding",
+    "source_url": "https://tap-paths.notion.site/",
+    "source_name": "TAP Paths — Coding: Intro to Coding (4 weeks)",
+    "verification_status": "transcribed_from_user_provided_source; links and current availability not independently verified"
+  },
+  {
+    "career_id": "career_quantum_computing",
+    "title": "Quantum Computing",
+    "category": "Quantum Technologies",
+    "summary": "Explore quantum information and computation by learning core concepts, building circuits, and testing small simulations with tools such as Qiskit.",
+    "source_description": "A beginner-friendly exploration path toward quantum computing concepts, circuit programming, simulation, and community participation.",
+    "intended_audiences": [
+      "High school graduates",
+      "University students in computing, mathematics, physics, or engineering",
+      "Developers curious about quantum technologies",
+      "Beginners who want to explore quantum information"
+    ],
+    "source_quick_start": [
+      "Watch a short introduction to quantum computing",
+      "Study an interactive introduction to quantum concepts",
+      "Run a first circuit in a simulator",
+      "Publish a small, clearly documented project"
+    ],
+    "roadmap_usage_advice": [
+      "Treat projects as educational simulations, not production cryptography",
+      "Build conceptual understanding before increasing circuit complexity",
+      "Check current status of platform links and event dates"
+    ],
+    "portfolio_target": {
+      "minimum_projects": 1,
+      "maximum_projects": 3
+    },
+    "source_id": "source_user_roadmap_quantum_computing",
+    "source_url": "https://tap-paths.notion.site/",
+    "source_name": "User-provided roadmap — Quantum Computing",
+    "extracted_date": "2026-10-14",
+    "verification_status": "transcribed_from_user_provided_roadmap; individual links and event status not independently verified"
+  },
+  {
+    "career_id": "career_ai_safety",
+    "title": "AI Safety, Alignment and Governance",
+    "category": "AI Safety and Responsible AI",
+    "summary": "Study how to make AI systems more reliable, controllable, accountable, and beneficial, spanning technical alignment, evaluations, governance, and responsible deployment.",
+    "source_description": "A multidisciplinary pathway covering technical AI safety, AI alignment, governance, and responsible-AI practice. These are related but distinct areas and should not be treated as interchangeable.",
+    "intended_audiences": [
+      "Students curious about AI impacts and responsibility",
+      "Computer science and machine learning learners",
+      "Policy, law, social science, and governance learners",
+      "Researchers exploring technical or institutional approaches to AI risk"
+    ],
+    "source_quick_start": [
+      "Explore an introductory overview of AI safety careers",
+      "Compare technical alignment with governance and responsible-AI practice",
+      "Read an introductory technical or policy resource",
+      "Complete a small, well-scoped safety or governance project"
+    ],
+    "roadmap_usage_advice": [
+      "State whether a project concerns technical alignment, evaluation, governance, or broader responsible AI",
+      "Treat forecasts and claims about AI risk as contested where appropriate",
+      "Verify fellowship funding, eligibility, deadlines, and active application windows"
+    ],
+    "portfolio_target": {
+      "minimum_projects": 1,
+      "maximum_projects": 3
+    },
+    "source_id": "source_user_roadmap_ai_safety",
+    "source_url": "https://tap-paths.notion.site/",
+    "source_name": "User-provided roadmap — AI Safety",
+    "extracted_date": "2026-10-14",
+    "verification_status": "transcribed_from_user_provided_roadmap; individual links, programs, and funding not independently verified"
+  },
+  {
+    "career_id": "career_project_management",
+    "title": "Project Management, Agile and Workflow Automation",
+    "category": "Project and Operations Management",
+    "summary": "Learn to define project scope, coordinate stakeholders, manage time and risks, run iterative delivery, and automate repeatable workflows using project-management tools.",
+    "source_description": "A practical pathway that combines project planning and delivery habits with Agile concepts and workflow automation tools.",
+    "intended_audiences": [
+      "Students leading clubs, events, or group projects",
+      "Early-career professionals",
+      "Aspiring project coordinators and project managers",
+      "People interested in operations and no-code workflow automation"
+    ],
+    "source_quick_start": [
+      "Learn basic project scope, milestones, risks, and stakeholders",
+      "Set up a simple board in a project-management tool",
+      "Automate one repeatable workflow",
+      "Document a completed project as a portfolio case study"
+    ],
+    "roadmap_usage_advice": [
+      "Practice with real projects before paying for certifications",
+      "Check current free-tier limits and course availability",
+      "Describe your own role, deliverables, risks, and outcomes in portfolio case studies"
+    ],
+    "portfolio_target": {
+      "minimum_projects": 2,
+      "maximum_projects": 4
+    },
+    "source_id": "source_user_roadmap_project_management",
+    "source_url": "https://tap-paths.notion.site/",
+    "source_name": "User-provided roadmap — Project Management",
+    "extracted_date": "2026-10-14",
+    "verification_status": "transcribed_from_user_provided_roadmap; individual links, course terms, and funding not independently verified"
+  }
+]

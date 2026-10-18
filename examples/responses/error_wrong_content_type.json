@@ -1,0 +1,10 @@
+{
+  "httpStatus": 415,
+  "body": {
+    "error": {
+      "code": "UNSUPPORTED_MEDIA_TYPE",
+      "message": "Send the request with Content-Type: application/json.",
+      "requestId": "<request-id>"
+    }
+  }
+}

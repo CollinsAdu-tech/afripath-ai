@@ -1,0 +1,17 @@
+{
+  "httpStatus": 422,
+  "body": {
+    "error": {
+      "code": "VALIDATION_ERROR",
+      "message": "The request is missing \"profile\".",
+      "details": [
+        {
+          "field": "profile",
+          "code": "REQUIRED",
+          "message": "\"profile\" is required (it may be an empty object)."
+        }
+      ],
+      "requestId": "<request-id>"
+    }
+  }
+}

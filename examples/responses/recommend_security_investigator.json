@@ -1,0 +1,1144 @@
+{
+  "httpStatus": 200,
+  "body": {
+    "status": "ok",
+    "message": "Here are paths that line up with your answers. They are starting points for exploring, not a verdict.",
+    "recommendations": [
+      {
+        "rank": 1,
+        "careerId": "career_cybersecurity",
+        "title": "Cybersecurity",
+        "category": "Cybersecurity",
+        "summary": "Protect computer systems, networks, people, and personal data from digital threats.",
+        "fit": {
+          "kind": "heuristic_fit_score",
+          "scale": "0-100",
+          "score": 99.3,
+          "label": "Strong alignment with your answers",
+          "labelId": "strong_alignment",
+          "basis": "broad_answers",
+          "disclaimer": "Heuristic fit score based only on your answers. Not a prediction of success."
+        },
+        "explanation": {
+          "headline": "Cybersecurity lines up with several of your answers",
+          "summary": "You said you are interested in protecting systems and investigating security problems, which is central to Cybersecurity. Your strengths in analytical thinking and problem-solving are used a lot in this path.",
+          "reasons": [
+            {
+              "factor": "interests",
+              "text": "You said you are interested in protecting systems and investigating security problems, which is central to Cybersecurity.",
+              "matched": [
+                {
+                  "id": "security_investigation",
+                  "label": "Protecting systems and investigating security problems"
+                }
+              ]
+            },
+            {
+              "factor": "strengths",
+              "text": "Your strengths in analytical thinking and problem-solving are used a lot in this path.",
+              "matched": [
+                {
+                  "id": "analytical_thinking",
+                  "label": "Analytical thinking"
+                },
+                {
+                  "id": "problem_solving",
+                  "label": "Problem-solving"
+                }
+              ]
+            },
+            {
+              "factor": "workStyle",
+              "text": "You like investigating and troubleshooting, which is how much of the work in this path is done.",
+              "matched": [
+                {
+                  "id": "investigating",
+                  "label": "Investigating and troubleshooting"
+                }
+              ]
+            },
+            {
+              "factor": "goals",
+              "text": "This path supports your goals: protect people and organizations.",
+              "matched": [
+                {
+                  "id": "protect_people_orgs",
+                  "label": "Protect people and organizations"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "A short questionnaire cannot tell you what you can or cannot do. Treat this as a starting point for exploring."
+          ]
+        },
+        "matched": {
+          "interests": [
+            {
+              "id": "security_investigation",
+              "label": "Protecting systems and investigating security problems"
+            }
+          ],
+          "strengths": [
+            {
+              "id": "analytical_thinking",
+              "label": "Analytical thinking"
+            },
+            {
+              "id": "problem_solving",
+              "label": "Problem-solving"
+            }
+          ],
+          "skillsToDevelop": [],
+          "workStyles": [
+            {
+              "id": "investigating",
+              "label": "Investigating and troubleshooting"
+            }
+          ],
+          "goals": [
+            {
+              "id": "protect_people_orgs",
+              "label": "Protect people and organizations"
+            }
+          ],
+          "subjects": []
+        },
+        "factorBreakdown": [
+          {
+            "factor": "interests",
+            "label": "Interests",
+            "status": "evaluated",
+            "weightPercent": 41.2,
+            "score": 100,
+            "contributionPoints": 41.2
+          },
+          {
+            "factor": "strengths",
+            "label": "Strengths and skills",
+            "status": "evaluated",
+            "weightPercent": 29.4,
+            "score": 97.5,
+            "contributionPoints": 28.7
+          },
+          {
+            "factor": "workStyle",
+            "label": "Preferred way of working",
+            "status": "evaluated",
+            "weightPercent": 17.6,
+            "score": 100,
+            "contributionPoints": 17.6
+          },
+          {
+            "factor": "academic",
+            "label": "Academic preparation",
+            "status": "not_evaluated",
+            "weightPercent": 0,
+            "score": null,
+            "contributionPoints": 0
+          },
+          {
+            "factor": "goals",
+            "label": "Goals",
+            "status": "evaluated",
+            "weightPercent": 11.8,
+            "score": 100,
+            "contributionPoints": 11.8
+          }
+        ],
+        "careerBasis": [
+          "KB skills: security fundamentals, networking, threat awareness, incident response, ethical testing",
+          "KB projects: home lab, incident checklist, CTF write-ups (investigation and defence focus)",
+          "KB lists no programming or maths skill for this path; audiences include undergraduates of any major"
+        ],
+        "skillGaps": {
+          "skillsToBuild": [
+            {
+              "skillId": "cyber_skill_security_fundamentals",
+              "name": "Cybersecurity fundamentals",
+              "level": null,
+              "evidence": null
+            },
+            {
+              "skillId": "cyber_skill_networking",
+              "name": "Networking fundamentals",
+              "level": null,
+              "evidence": null
+            },
+            {
+              "skillId": "cyber_skill_operating_systems",
+              "name": "Operating systems",
+              "level": null,
+              "evidence": null
+            },
+            {
+              "skillId": "cyber_skill_threat_awareness",
+              "name": "Threat awareness",
+              "level": null,
+              "evidence": null
+            }
+          ],
+          "strengthsToBuild": [
+            {
+              "id": "logical_reasoning",
+              "label": "Logical reasoning"
+            }
+          ],
+          "prerequisites": [],
+          "bridgePath": null
+        },
+        "roadmap": {
+          "startingPoint": {
+            "stageId": "cybersecurity_level_1_exploration",
+            "order": 1,
+            "name": "Exploration",
+            "reason": "Everyone starts at the first stage unless they tell us they have already covered it. Move on whenever you feel ready."
+          },
+          "stages": [
+            {
+              "stageId": "cybersecurity_level_1_exploration",
+              "order": 1,
+              "name": "Exploration",
+              "status": "start_here",
+              "durationPerSource": "no prerequisites"
+            },
+            {
+              "stageId": "cybersecurity_level_2_foundations",
+              "order": 2,
+              "name": "Foundations",
+              "status": "upcoming",
+              "durationPerSource": "1–3 months"
+            },
+            {
+              "stageId": "cybersecurity_level_3_participation",
+              "order": 3,
+              "name": "Participation",
+              "status": "upcoming",
+              "durationPerSource": "3–6 months"
+            },
+            {
+              "stageId": "cybersecurity_level_4_going_deeper",
+              "order": 4,
+              "name": "Going Deeper",
+              "status": "upcoming",
+              "durationPerSource": "6–18 months"
+            }
+          ]
+        },
+        "firstStep": {
+          "text": "Start with “Introduction to Cybersecurity”.",
+          "stageId": "cybersecurity_level_1_exploration",
+          "activityId": null,
+          "resource": {
+            "resourceId": "cyber_res_cisco_intro",
+            "title": "Introduction to Cybersecurity",
+            "url": "https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity"
+          },
+          "flags": [],
+          "why": "It is the first item for the stage you are starting at, after taking your access needs into account."
+        },
+        "startingResources": [
+          {
+            "resourceId": "cyber_res_cisco_intro",
+            "title": "Introduction to Cybersecurity",
+            "provider": "Cisco Networking Academy",
+            "type": "course",
+            "url": "https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends as a quick-start course."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "cyber_res_google_cloud_path_419",
+            "title": "Google Cloud Cybersecurity Certificate (modules) / Cloud Skills Boost path",
+            "provider": "Google Cloud Skills Boost",
+            "type": "learning_path",
+            "url": "https://www.cloudskillsboost.google/paths/419",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source says modules; exact title, access, and price require verification."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "cyber_res_cisco_video",
+            "title": "What is Cybersecurity?",
+            "provider": "Cisco",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=wbkM4rjYgA4",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "video_heavy",
+              "needsAccountSetup": false,
+              "formats": [
+                "video"
+              ]
+            },
+            "notes": [
+              "Source recommends as an introductory video."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "cyber_res_cyberpatriot_modules",
+            "title": "Cybersecurity Learning Modules",
+            "provider": "CyberPatriot",
+            "type": "learning_modules",
+            "url": "https://www.uscyberpatriot.org/competition/competition-overview/new-coaches-and-competitors/cybersecurity-learning-modules",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends exploring modules; audience/eligibility may vary."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          }
+        ],
+        "projects": [
+          {
+            "projectId": "cyber_project_home_lab",
+            "title": "Build a simple home lab",
+            "description": "Set up virtual machines and an intentionally vulnerable target in an isolated lab.",
+            "type": "hands_on_lab",
+            "difficulty": "not_specified",
+            "deliverable": null,
+            "safetyNote": "Keep vulnerable targets isolated; do not expose them to the public internet or test systems without authorization.",
+            "notes": [],
+            "skills": []
+          },
+          {
+            "projectId": "cyber_project_github_portfolio",
+            "title": "Security lab notes and CTF portfolio",
+            "description": "Publish lab notes, CTF writeups, screenshots, and lessons learned on GitHub.",
+            "type": "portfolio",
+            "difficulty": "not_specified",
+            "deliverable": null,
+            "safetyNote": "Do not publish secrets, credentials, personal data, or exploit details for live third-party targets.",
+            "notes": [],
+            "skills": []
+          },
+          {
+            "projectId": "cyber_project_incident_checklist",
+            "title": "Basic incident-response checklist",
+            "description": "Create a checklist for a common security incident scenario.",
+            "type": "documentation",
+            "difficulty": "not_specified",
+            "deliverable": null,
+            "safetyNote": null,
+            "notes": [],
+            "skills": []
+          }
+        ],
+        "accessConsiderations": [],
+        "knowledgeGaps": [
+          "The knowledge base links projects to the whole path, not to individual stages, so projects are not matched to a stage."
+        ],
+        "roadmapRequest": {
+          "method": "POST",
+          "path": "/v1/roadmaps",
+          "body": {
+            "careerId": "career_cybersecurity"
+          }
+        }
+      },
+      {
+        "rank": 2,
+        "careerId": "career_ai_safety",
+        "title": "AI Safety, Alignment and Governance",
+        "category": "AI Safety and Responsible AI",
+        "summary": "Study how to make AI systems more reliable, controllable, accountable, and beneficial, spanning technical alignment, evaluations, governance, and responsible deployment.",
+        "fit": {
+          "kind": "heuristic_fit_score",
+          "scale": "0-100",
+          "score": 55.7,
+          "label": "Some alignment, worth exploring",
+          "labelId": "some_alignment",
+          "basis": "broad_answers",
+          "disclaimer": "Heuristic fit score based only on your answers. Not a prediction of success."
+        },
+        "explanation": {
+          "headline": "AI Safety, Alignment and Governance lines up with several of your answers",
+          "summary": "Some of your interests connect with parts of AI Safety, Alignment and Governance, though it is not a central match. Your strengths in analytical thinking and problem-solving are used a lot in this path.",
+          "reasons": [
+            {
+              "factor": "interests",
+              "text": "Some of your interests connect with parts of AI Safety, Alignment and Governance, though it is not a central match.",
+              "matched": []
+            },
+            {
+              "factor": "strengths",
+              "text": "Your strengths in analytical thinking and problem-solving are used a lot in this path.",
+              "matched": [
+                {
+                  "id": "analytical_thinking",
+                  "label": "Analytical thinking"
+                },
+                {
+                  "id": "problem_solving",
+                  "label": "Problem-solving"
+                }
+              ]
+            },
+            {
+              "factor": "goals",
+              "text": "This path supports your goals: protect people and organizations.",
+              "matched": [
+                {
+                  "id": "protect_people_orgs",
+                  "label": "Protect people and organizations"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "A short questionnaire cannot tell you what you can or cannot do. Treat this as a starting point for exploring."
+          ]
+        },
+        "matched": {
+          "interests": [],
+          "strengths": [
+            {
+              "id": "analytical_thinking",
+              "label": "Analytical thinking"
+            },
+            {
+              "id": "problem_solving",
+              "label": "Problem-solving"
+            }
+          ],
+          "skillsToDevelop": [],
+          "workStyles": [],
+          "goals": [
+            {
+              "id": "protect_people_orgs",
+              "label": "Protect people and organizations"
+            }
+          ],
+          "subjects": []
+        },
+        "factorBreakdown": [
+          {
+            "factor": "interests",
+            "label": "Interests",
+            "status": "evaluated",
+            "weightPercent": 41.2,
+            "score": 35,
+            "contributionPoints": 14.4
+          },
+          {
+            "factor": "strengths",
+            "label": "Strengths and skills",
+            "status": "evaluated",
+            "weightPercent": 29.4,
+            "score": 82.5,
+            "contributionPoints": 24.3
+          },
+          {
+            "factor": "workStyle",
+            "label": "Preferred way of working",
+            "status": "evaluated",
+            "weightPercent": 17.6,
+            "score": 50,
+            "contributionPoints": 8.8
+          },
+          {
+            "factor": "academic",
+            "label": "Academic preparation",
+            "status": "not_evaluated",
+            "weightPercent": 0,
+            "score": null,
+            "contributionPoints": 0
+          },
+          {
+            "factor": "goals",
+            "label": "Goals",
+            "status": "evaluated",
+            "weightPercent": 11.8,
+            "score": 70,
+            "contributionPoints": 8.2
+          }
+        ],
+        "careerBasis": [
+          "KB: multidisciplinary path spanning technical alignment, evaluation, governance and responsible-AI practice",
+          "KB audiences include policy, law and social-science learners as well as computer-science learners",
+          "KB Level 4 asks the student to choose a focus: technical alignment, evaluation, governance, or responsible AI"
+        ],
+        "skillGaps": {
+          "skillsToBuild": [
+            {
+              "skillId": "skill_ai_safety_ai_risk_literacy",
+              "name": "AI risk literacy",
+              "level": "beginner",
+              "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice."
+            },
+            {
+              "skillId": "skill_ai_safety_responsible_ai_principles",
+              "name": "Responsible AI principles",
+              "level": "beginner",
+              "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice."
+            },
+            {
+              "skillId": "skill_ai_safety_research_reading_and_synthesis",
+              "name": "Research reading and synthesis",
+              "level": "beginner",
+              "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice."
+            },
+            {
+              "skillId": "skill_ai_safety_technical_alignment_concepts",
+              "name": "Technical alignment concepts",
+              "level": "intermediate",
+              "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice."
+            }
+          ],
+          "strengthsToBuild": [
+            {
+              "id": "research",
+              "label": "Research"
+            },
+            {
+              "id": "communication",
+              "label": "Communication"
+            }
+          ],
+          "prerequisites": [],
+          "bridgePath": null
+        },
+        "roadmap": {
+          "startingPoint": {
+            "stageId": "ai_safety_level_1",
+            "order": 1,
+            "name": "Exploration",
+            "reason": "Everyone starts at the first stage unless they tell us they have already covered it. Move on whenever you feel ready."
+          },
+          "stages": [
+            {
+              "stageId": "ai_safety_level_1",
+              "order": 1,
+              "name": "Exploration",
+              "status": "start_here",
+              "durationPerSource": "No prerequisites"
+            },
+            {
+              "stageId": "ai_safety_level_2",
+              "order": 2,
+              "name": "Foundations",
+              "status": "upcoming",
+              "durationPerSource": "1–3 months"
+            },
+            {
+              "stageId": "ai_safety_level_3",
+              "order": 3,
+              "name": "Participation",
+              "status": "upcoming",
+              "durationPerSource": "3–6 months"
+            },
+            {
+              "stageId": "ai_safety_level_4",
+              "order": 4,
+              "name": "Deeper research or practice",
+              "status": "upcoming",
+              "durationPerSource": "6–18 months"
+            }
+          ]
+        },
+        "firstStep": {
+          "text": "Start with “AGI Careers”.",
+          "stageId": "ai_safety_level_1",
+          "activityId": "ai_safety_activity_1",
+          "resource": {
+            "resourceId": "res_ai_safety_agi_careers",
+            "title": "AGI Careers",
+            "url": "https://80000hours.org/career-reviews/artificial-general-intelligence/"
+          },
+          "flags": [],
+          "why": "It is the first item for the stage you are starting at, after taking your access needs into account."
+        },
+        "startingResources": [
+          {
+            "resourceId": "res_ai_safety_agi_careers",
+            "title": "AGI Careers",
+            "provider": "80,000 Hours",
+            "type": "career_guide",
+            "url": "https://80000hours.org/career-reviews/artificial-general-intelligence/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "text"
+              ]
+            },
+            "notes": [
+              "Career guide; assess its assumptions and update date."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "res_ai_safety_future_of_ai_course",
+            "title": "Future of AI course",
+            "provider": "BlueDot Impact",
+            "type": "course",
+            "url": "https://bluedot.org/courses",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Check current cohorts and availability."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "res_ai_safety_rob_miles_ai_safety_videos",
+            "title": "Rob Miles AI safety videos",
+            "provider": "Rob Miles",
+            "type": "video_channel",
+            "url": "https://www.youtube.com/@RobMiles",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "video_heavy",
+              "needsAccountSetup": false,
+              "formats": [
+                "video"
+              ]
+            },
+            "notes": [
+              "Introductory explainers; distinguish explanation from consensus."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          }
+        ],
+        "projects": [
+          {
+            "projectId": "proj_ai_safety_ai_incident_case_study",
+            "title": "AI incident case study",
+            "description": null,
+            "type": "case_study",
+            "difficulty": "beginner",
+            "deliverable": "Short report documenting incident, stakeholders, harms, and mitigations",
+            "safetyNote": null,
+            "notes": [
+              "Separate observed facts from inference and cite original sources."
+            ],
+            "skills": [
+              "Incident analysis",
+              "Research reading and synthesis"
+            ]
+          },
+          {
+            "projectId": "proj_ai_safety_model_evaluation_card",
+            "title": "Model evaluation card",
+            "description": null,
+            "type": "evaluation",
+            "difficulty": "beginner",
+            "deliverable": "Evaluation plan with target behavior, test cases, metrics, and limitations",
+            "safetyNote": null,
+            "notes": [
+              "Do not claim evaluation proves a model is safe in all contexts."
+            ],
+            "skills": [
+              "AI evaluation design",
+              "Experimental design"
+            ]
+          },
+          {
+            "projectId": "proj_ai_safety_ai_policy_comparison_brief",
+            "title": "AI policy comparison brief",
+            "description": null,
+            "type": "governance_analysis",
+            "difficulty": "beginner",
+            "deliverable": "Comparison of two policy approaches with stakeholder trade-offs",
+            "safetyNote": null,
+            "notes": [
+              "Distinguish legal requirements, voluntary standards, and personal recommendations."
+            ],
+            "skills": [
+              "Governance and policy analysis",
+              "Ethics and stakeholder analysis"
+            ]
+          }
+        ],
+        "accessConsiderations": [],
+        "knowledgeGaps": [
+          "The knowledge base links projects to the whole path, not to individual stages, so projects are not matched to a stage."
+        ],
+        "roadmapRequest": {
+          "method": "POST",
+          "path": "/v1/roadmaps",
+          "body": {
+            "careerId": "career_ai_safety"
+          }
+        }
+      },
+      {
+        "rank": 3,
+        "careerId": "career_cloud_computing_aws",
+        "title": "Cloud Computing (AWS)",
+        "category": "Cloud Computing",
+        "summary": "Learn cloud concepts and AWS services, deploy real projects, document architecture and security decisions, and optionally pursue entry-level certification.",
+        "fit": {
+          "kind": "heuristic_fit_score",
+          "scale": "0-100",
+          "score": 54,
+          "label": "Some alignment, worth exploring",
+          "labelId": "some_alignment",
+          "basis": "broad_answers",
+          "disclaimer": "Heuristic fit score based only on your answers. Not a prediction of success."
+        },
+        "explanation": {
+          "headline": "Cloud Computing (AWS) lines up with several of your answers",
+          "summary": "Some of your interests connect with parts of Cloud Computing (AWS), though it is not a central match. Your strengths in analytical thinking and problem-solving are used a lot in this path.",
+          "reasons": [
+            {
+              "factor": "interests",
+              "text": "Some of your interests connect with parts of Cloud Computing (AWS), though it is not a central match.",
+              "matched": []
+            },
+            {
+              "factor": "strengths",
+              "text": "Your strengths in analytical thinking and problem-solving are used a lot in this path.",
+              "matched": [
+                {
+                  "id": "analytical_thinking",
+                  "label": "Analytical thinking"
+                },
+                {
+                  "id": "problem_solving",
+                  "label": "Problem-solving"
+                }
+              ]
+            },
+            {
+              "factor": "workStyle",
+              "text": "You like investigating and troubleshooting, which is how much of the work in this path is done.",
+              "matched": [
+                {
+                  "id": "investigating",
+                  "label": "Investigating and troubleshooting"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "A short questionnaire cannot tell you what you can or cannot do. Treat this as a starting point for exploring."
+          ]
+        },
+        "matched": {
+          "interests": [],
+          "strengths": [
+            {
+              "id": "analytical_thinking",
+              "label": "Analytical thinking"
+            },
+            {
+              "id": "problem_solving",
+              "label": "Problem-solving"
+            }
+          ],
+          "skillsToDevelop": [],
+          "workStyles": [
+            {
+              "id": "investigating",
+              "label": "Investigating and troubleshooting"
+            }
+          ],
+          "goals": [],
+          "subjects": []
+        },
+        "factorBreakdown": [
+          {
+            "factor": "interests",
+            "label": "Interests",
+            "status": "evaluated",
+            "weightPercent": 41.2,
+            "score": 35,
+            "contributionPoints": 14.4
+          },
+          {
+            "factor": "strengths",
+            "label": "Strengths and skills",
+            "status": "evaluated",
+            "weightPercent": 29.4,
+            "score": 82.5,
+            "contributionPoints": 24.3
+          },
+          {
+            "factor": "workStyle",
+            "label": "Preferred way of working",
+            "status": "evaluated",
+            "weightPercent": 17.6,
+            "score": 60,
+            "contributionPoints": 10.6
+          },
+          {
+            "factor": "academic",
+            "label": "Academic preparation",
+            "status": "not_evaluated",
+            "weightPercent": 0,
+            "score": null,
+            "contributionPoints": 0
+          },
+          {
+            "factor": "goals",
+            "label": "Goals",
+            "status": "evaluated",
+            "weightPercent": 11.8,
+            "score": 40,
+            "contributionPoints": 4.7
+          }
+        ],
+        "careerBasis": [
+          "KB category: Cloud Computing; AWS-focused roadmap and projects (static site, serverless API, monitoring)",
+          "KB audience includes technical and non-technical learners aiming for cloud roles",
+          "KB README: AWS Free Tier can incur charges; use budgets/alerts, MFA, least privilege"
+        ],
+        "skillGaps": {
+          "skillsToBuild": [
+            {
+              "skillId": "aws_skill_cloud_concepts",
+              "name": "Cloud computing concepts",
+              "level": null,
+              "evidence": null
+            },
+            {
+              "skillId": "aws_skill_iam",
+              "name": "Identity and access management",
+              "level": null,
+              "evidence": null
+            },
+            {
+              "skillId": "aws_skill_networking",
+              "name": "Cloud networking",
+              "level": null,
+              "evidence": null
+            },
+            {
+              "skillId": "aws_skill_storage",
+              "name": "Cloud storage",
+              "level": null,
+              "evidence": null
+            }
+          ],
+          "strengthsToBuild": [],
+          "prerequisites": [],
+          "bridgePath": null
+        },
+        "roadmap": {
+          "startingPoint": {
+            "stageId": "aws_stage_exploration",
+            "order": 1,
+            "name": "Exploration",
+            "reason": "Everyone starts at the first stage unless they tell us they have already covered it. Move on whenever you feel ready."
+          },
+          "stages": [
+            {
+              "stageId": "aws_stage_exploration",
+              "order": 1,
+              "name": "Exploration",
+              "status": "start_here",
+              "durationPerSource": "Weeks 0–4"
+            },
+            {
+              "stageId": "aws_stage_foundations",
+              "order": 2,
+              "name": "Foundations",
+              "status": "upcoming",
+              "durationPerSource": "Months 1–3"
+            },
+            {
+              "stageId": "aws_stage_participation",
+              "order": 3,
+              "name": "Participation",
+              "status": "upcoming",
+              "durationPerSource": "Months 3–6"
+            },
+            {
+              "stageId": "aws_stage_going_deeper",
+              "order": 4,
+              "name": "Going Deeper",
+              "status": "upcoming",
+              "durationPerSource": "Months 6–18"
+            }
+          ]
+        },
+        "firstStep": {
+          "text": "Start with “AWS Educate”.",
+          "stageId": "aws_stage_exploration",
+          "activityId": null,
+          "resource": {
+            "resourceId": "aws_res_educate",
+            "title": "AWS Educate",
+            "url": "https://aws.amazon.com/education/awseducate/"
+          },
+          "flags": [],
+          "why": "It is the first item for the stage you are starting at, after taking your access needs into account."
+        },
+        "startingResources": [
+          {
+            "resourceId": "aws_res_educate",
+            "title": "AWS Educate",
+            "provider": "Amazon Web Services",
+            "type": "learning_platform",
+            "url": "https://aws.amazon.com/education/awseducate/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends for guided learning and badges; verify current access and features."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "aws_res_skill_builder",
+            "title": "AWS Skill Builder",
+            "provider": "Amazon Web Services",
+            "type": "learning_platform",
+            "url": "https://explore.skillbuilder.aws/learn",
+            "bestFor": null,
+            "access": {
+              "cost": "may_involve_cost",
+              "costNote": "The knowledge base notes this may involve costs or fees. Check current pricing before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends courses and labs; content and free/paid access may vary."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "aws_res_cloud_practitioner_essentials",
+            "title": "AWS Cloud Practitioner Essentials",
+            "provider": "Amazon Web Services",
+            "type": "introductory_course",
+            "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/13447/aws-cloud-practitioner-essentials",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends as an introductory course; verify current availability."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "aws_res_cloud_video",
+            "title": "What is Cloud Computing?",
+            "provider": "AWS YouTube",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=00M5jY92KSA",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "video_heavy",
+              "needsAccountSetup": false,
+              "formats": [
+                "video"
+              ]
+            },
+            "notes": [
+              "Introductory video listed by source; not independently reviewed."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          }
+        ],
+        "projects": [
+          {
+            "projectId": "aws_project_static_site",
+            "title": "Static personal website",
+            "description": "Deploy a static personal website using S3 and CloudFront.",
+            "type": "web_deployment",
+            "difficulty": "not_specified",
+            "deliverable": null,
+            "safetyNote": "Verify current service pricing, access settings, and cleanup steps before deploying.",
+            "notes": [],
+            "skills": []
+          },
+          {
+            "projectId": "aws_project_serverless_api",
+            "title": "Serverless API",
+            "description": "Build an API using Lambda and API Gateway with a simple database.",
+            "type": "serverless_application",
+            "difficulty": "not_specified",
+            "deliverable": null,
+            "safetyNote": "Restrict permissions and set cost controls; review current pricing.",
+            "notes": [],
+            "skills": []
+          },
+          {
+            "projectId": "aws_project_cloud_resume",
+            "title": "Cloud resume",
+            "description": "Build a cloud-hosted resume project using the Cloud Resume Challenge as a guide.",
+            "type": "portfolio_challenge",
+            "difficulty": "not_specified",
+            "deliverable": null,
+            "safetyNote": "Follow current challenge guidance and verify costs for all selected services.",
+            "notes": [],
+            "skills": []
+          }
+        ],
+        "accessConsiderations": [],
+        "knowledgeGaps": [
+          "The knowledge base links projects to the whole path, not to individual stages, so projects are not matched to a stage."
+        ],
+        "roadmapRequest": {
+          "method": "POST",
+          "path": "/v1/roadmaps",
+          "body": {
+            "careerId": "career_cloud_computing_aws"
+          }
+        }
+      }
+    ],
+    "explore": {
+      "otherCareers": [
+        {
+          "careerId": "career_quantum_computing",
+          "title": "Quantum Computing",
+          "category": "Quantum Technologies",
+          "summary": "Explore quantum information and computation by learning core concepts, building circuits, and testing small simulations with tools such as Qiskit.",
+          "fitScore": 49.3
+        },
+        {
+          "careerId": "career_intro_to_coding",
+          "title": "Intro to Coding",
+          "category": "Programming Fundamentals",
+          "summary": "A four-week beginner track for learning programming fundamentals with JavaScript and browser-based tools, then sharing a small portfolio of projects.",
+          "fitScore": 47.8
+        },
+        {
+          "careerId": "career_data_careers",
+          "title": "Data Careers",
+          "category": "Data",
+          "summary": "Build practical data skills through one focused learning track, consistent practice, and one or two portfolio projects.",
+          "fitScore": 46.2
+        },
+        {
+          "careerId": "career_ai_ml_engineering",
+          "title": "AI/ML Engineering",
+          "category": "Artificial Intelligence and Machine Learning",
+          "summary": "AI/ML Engineering helps build systems that learn from data and make useful predictions or decisions.",
+          "fitScore": 44.1
+        },
+        {
+          "careerId": "career_full_stack_web_development",
+          "title": "Full Stack Web Development",
+          "category": "Software Development",
+          "summary": "Build complete web applications end-to-end by learning front-end interfaces, back-end APIs, databases, version control, and deployment.",
+          "fitScore": 41.2
+        },
+        {
+          "careerId": "career_project_management",
+          "title": "Project Management, Agile and Workflow Automation",
+          "category": "Project and Operations Management",
+          "summary": "Learn to define project scope, coordinate stakeholders, manage time and risks, run iterative delivery, and automate repeatable workflows using project-management tools.",
+          "fitScore": 32.8
+        }
+      ],
+      "hint": "Want to see other options? Browse these paths, or change your answers and ask again."
+    },
+    "notes": [],
+    "scoreNote": "This is a heuristic fit score (0 to 100) based only on the answers you gave. It is not a prediction of success and not a judgement of your potential. Use it to explore.",
+    "evidence": {
+      "level": "sufficient",
+      "answeredFactors": [
+        "interests",
+        "strengths",
+        "workStyle",
+        "goals"
+      ],
+      "share": 85
+    },
+    "missingInformation": [
+      {
+        "factor": "academic",
+        "label": "Academic preparation",
+        "fields": [
+          "subjects",
+          "mathConfidence",
+          "programmingExperience",
+          "scienceBackground"
+        ],
+        "question": "What have you studied, and how confident are you in maths and programming?"
+      }
+    ],
+    "warnings": [],
+    "meta": {
+      "engineVersion": "0.1.0",
+      "knowledgeBaseVersion": "0.7",
+      "taxonomyVersion": "0.1.0-editorial",
+      "scoringModel": "weighted-affinity-v1",
+      "weights": {
+        "interests": 0.35,
+        "strengths": 0.25,
+        "workStyle": 0.15,
+        "academic": 0.15,
+        "goals": 0.1
+      }
+    }
+  }
+}

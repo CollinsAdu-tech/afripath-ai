@@ -1,0 +1,22 @@
+{
+  "httpStatus": 422,
+  "body": {
+    "error": {
+      "code": "VALIDATION_ERROR",
+      "message": "The request contains invalid answers.",
+      "details": [
+        {
+          "field": "interests",
+          "code": "INVALID_TYPE",
+          "message": "\"interests\" must be a list of option ids."
+        },
+        {
+          "field": "weeklyHours",
+          "code": "INVALID_TYPE",
+          "message": "\"weeklyHours\" must be a number from 0 to 80."
+        }
+      ],
+      "requestId": "<request-id>"
+    }
+  }
+}

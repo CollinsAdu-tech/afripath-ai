@@ -1,0 +1,23 @@
+{
+  "httpStatus": 200,
+  "body": {
+    "status": "ok",
+    "service": "kareer-pathfinder-engine",
+    "engineVersion": "0.1.0",
+    "knowledgeBase": {
+      "loaded": true,
+      "version": "0.7",
+      "counts": {
+        "careers": 9,
+        "stages": 36,
+        "resources": 157,
+        "skills": 102,
+        "projects": 46,
+        "communities": 35,
+        "opportunities": 33,
+        "learningTracks": 5
+      }
+    },
+    "uptimeSeconds": 0
+  }
+}

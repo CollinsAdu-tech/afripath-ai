@@ -1,0 +1,209 @@
+{
+  "ai_ml_engineering": {
+    "guidance": [
+      "Start with small projects and publish often, even if imperfect.",
+      "Collaboration and questions are valued. Ask early and often.",
+      "Adapt global materials to local needs and datasets.",
+      "Seek and offer peer-to-peer mentorship."
+    ],
+    "vacation_summer_plan": [
+      "Complete one micro-course (Kaggle or Google Cloud).",
+      "Enter a hackathon or a short project sprint.",
+      "Volunteer for data annotation or open-source documentation."
+    ],
+    "progress_sharing": [
+      "Build a portfolio on GitHub.",
+      "Write Medium or DEV Community posts, or publish LinkedIn write-ups.",
+      "Post certificates, project demos, and short learning updates.",
+      "Join communities and ask questions early."
+    ],
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  "cybersecurity": [
+    {
+      "advice_id": "cyber_advice_consistency",
+      "text": "Consistency wins: 30 minutes daily beats 8 hours once a month.",
+      "advice_type": "practitioner_advice",
+      "source_id": "source_tap_paths_cybersecurity"
+    },
+    {
+      "advice_id": "cyber_advice_share_progress",
+      "text": "Share progress, even small wins such as labs, writeups, and mini projects.",
+      "advice_type": "portfolio_advice",
+      "source_id": "source_tap_paths_cybersecurity"
+    },
+    {
+      "advice_id": "cyber_advice_lab_safety",
+      "text": "Break and fix things in a lab environment to learn faster.",
+      "advice_type": "practice_advice",
+      "source_id": "source_tap_paths_cybersecurity",
+      "safety_note": "Practice only in owned, isolated, or explicitly authorized environments."
+    },
+    {
+      "advice_id": "cyber_advice_ask_mentorship",
+      "text": "Ask for help and mentorship in learning communities and local groups.",
+      "advice_type": "mentorship_advice",
+      "source_id": "source_tap_paths_cybersecurity"
+    },
+    {
+      "advice_id": "cyber_advice_summer_plan",
+      "text": "Complete an introductory course and a cloud security learning path, join a CTF or authorized hacking event, and teach basic digital safety to a school or community group.",
+      "advice_type": "summer_plan",
+      "source_id": "source_tap_paths_cybersecurity"
+    }
+  ],
+  "data_careers": [
+    {
+      "advice_id": "data_advice_focus_one_track",
+      "text": "Do not sample everything; focus on one track for the planned three months.",
+      "source_id": "source_tap_paths_data_careers"
+    },
+    {
+      "advice_id": "data_advice_vacation_internship",
+      "text": "Treat the vacation like a mini internship with consistent time blocks and a weekly review.",
+      "source_id": "source_tap_paths_data_careers"
+    },
+    {
+      "advice_id": "data_advice_ask_early",
+      "text": "Ask for help early through forums, peers, and community channels.",
+      "source_id": "source_tap_paths_data_careers"
+    },
+    {
+      "advice_id": "data_advice_finish_project",
+      "text": "Finish with a project, even a small one.",
+      "source_id": "source_tap_paths_data_careers"
+    },
+    {
+      "advice_id": "data_advice_mentor_next_cycle",
+      "text": "After completing the track and a project, add the work to your resume or LinkedIn and consider mentoring someone in the next cycle.",
+      "source_id": "source_tap_paths_data_careers"
+    }
+  ],
+  "cloud_computing_aws": [
+    {
+      "advice_id": "aws_advice_build_small",
+      "text": "Build small and deploy often.",
+      "source_id": "source_tap_paths_cloud_computing_aws"
+    },
+    {
+      "advice_id": "aws_advice_costs",
+      "text": "Keep costs visible from day one.",
+      "source_id": "source_tap_paths_cloud_computing_aws",
+      "safety_note": "Review pricing, configure budget alerts where available, and remove unused resources."
+    },
+    {
+      "advice_id": "aws_advice_documentation",
+      "text": "Publish lab walkthroughs and deployments on GitHub, and share two or three short case studies.",
+      "source_id": "source_tap_paths_cloud_computing_aws"
+    },
+    {
+      "advice_id": "aws_advice_portfolio_artifacts",
+      "text": "Include an architecture diagram, cost notes, security notes, deployment steps, and screenshots in each project.",
+      "source_id": "source_tap_paths_cloud_computing_aws"
+    },
+    {
+      "advice_id": "aws_advice_weekly_rhythm",
+      "text": "Use a weekly rhythm of two lessons, one lab, and one build session, adjusting it to your schedule.",
+      "source_id": "source_tap_paths_cloud_computing_aws"
+    }
+  ],
+  "full_stack_web_development": [
+    {
+      "advice_id": "fs_advice_ship_small",
+      "text": "Ship small, then ship again; momentum beats perfection.",
+      "source_id": "source_tap_paths_full_stack_web_development"
+    },
+    {
+      "advice_id": "fs_advice_weekly",
+      "text": "Push code weekly and write short build logs.",
+      "source_id": "source_tap_paths_full_stack_web_development"
+    },
+    {
+      "advice_id": "fs_advice_review",
+      "text": "Ask for code review and feedback in developer communities.",
+      "source_id": "source_tap_paths_full_stack_web_development"
+    },
+    {
+      "advice_id": "fs_advice_portfolio",
+      "text": "For each project, include a live demo, screenshots, a clear README, lessons learned, and next improvements.",
+      "source_id": "source_tap_paths_full_stack_web_development"
+    }
+  ],
+  "intro_to_coding": [
+    {
+      "advice_id": "coding_advice_start_small",
+      "text": "Start with small exercises and finish a few projects rather than trying to learn every language at once.",
+      "source_id": "source_tap_paths_coding"
+    },
+    {
+      "advice_id": "coding_advice_share_progress",
+      "text": "Share even small projects through GitHub or a public Replit link, and include a short reflection on what you learned.",
+      "source_id": "source_tap_paths_coding"
+    },
+    {
+      "advice_id": "coding_advice_continue_path",
+      "text": "After the four-week introduction, continue with a longer path such as freeCodeCamp, The Odin Project, or a full-stack course if it matches your goals.",
+      "source_id": "source_tap_paths_coding"
+    }
+  ],
+  "quantum_computing": [
+    {
+      "advice_id": "quantum_advice_concepts",
+      "text": "Build intuition for states, gates, and measurement before trying to understand complex algorithms.",
+      "advice_type": "learning_strategy",
+      "source_id": "source_user_roadmap_quantum_computing"
+    },
+    {
+      "advice_id": "quantum_advice_simulation",
+      "text": "Use small simulator experiments and explain what the outputs mean; screenshots alone are not a strong portfolio.",
+      "advice_type": "portfolio_advice",
+      "source_id": "source_user_roadmap_quantum_computing"
+    },
+    {
+      "advice_id": "quantum_advice_security",
+      "text": "Clearly label QRNG and BB84-style work as educational simulations, not production security implementations.",
+      "advice_type": "safety_note",
+      "source_id": "source_user_roadmap_quantum_computing"
+    }
+  ],
+  "ai_safety": [
+    {
+      "advice_id": "ai_safety_advice_scope",
+      "text": "Name your focus precisely: technical alignment, model evaluations, governance, or responsible-AI practice.",
+      "advice_type": "scope_advice",
+      "source_id": "source_user_roadmap_ai_safety"
+    },
+    {
+      "advice_id": "ai_safety_advice_evidence",
+      "text": "Separate observed evidence, assumptions, uncertainty, and your own recommendations in research writing.",
+      "advice_type": "research_advice",
+      "source_id": "source_user_roadmap_ai_safety"
+    },
+    {
+      "advice_id": "ai_safety_advice_funding",
+      "text": "Verify cohort dates, eligibility, stipend, and travel support on the official program page before planning around them.",
+      "advice_type": "opportunity_advice",
+      "source_id": "source_user_roadmap_ai_safety"
+    }
+  ],
+  "project_management": [
+    {
+      "advice_id": "pm_advice_practice",
+      "text": "Practice on a real club, class, community, or personal project before paying for a certification.",
+      "advice_type": "learning_strategy",
+      "source_id": "source_user_roadmap_project_management"
+    },
+    {
+      "advice_id": "pm_advice_outcomes",
+      "text": "A strong portfolio case study explains the goal, constraints, plan, risks, delivery, and lessons learned.",
+      "advice_type": "portfolio_advice",
+      "source_id": "source_user_roadmap_project_management"
+    },
+    {
+      "advice_id": "pm_advice_automation",
+      "text": "Automate one repeatable workflow at a time, then test errors, permissions, privacy, and maintenance needs.",
+      "advice_type": "workflow_advice",
+      "source_id": "source_user_roadmap_project_management"
+    }
+  ]
+}

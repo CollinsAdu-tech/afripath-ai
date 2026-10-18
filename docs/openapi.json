@@ -1,0 +1,2452 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Kareer Pathfinder AI Recommendation Engine API",
+    "version": "0.1.0",
+    "description": "Stateless, deterministic career-recommendation API. Frontend-agnostic: plain JSON over HTTP. No authentication, no database, no personal data stored. Scores are heuristic fit scores, not predictions of success. See docs/API.md for integration notes."
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080",
+      "description": "Local default (PORT env var)"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Engine",
+      "description": "Recommendation and roadmap computation."
+    },
+    {
+      "name": "Catalogue",
+      "description": "Questionnaire options and career listings."
+    },
+    {
+      "name": "Operations",
+      "description": "Health and version information."
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "Operations"
+        ],
+        "operationId": "getHealth",
+        "summary": "Liveness and knowledge-base status",
+        "description": "Use as the deployment health check. 200 when the knowledge base is loaded; 503 when it failed to load.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "const": "ok"
+                    },
+                    "service": {
+                      "type": "string"
+                    },
+                    "engineVersion": {
+                      "type": "string"
+                    },
+                    "knowledgeBase": {
+                      "type": "object",
+                      "properties": {
+                        "loaded": {
+                          "const": true
+                        },
+                        "version": {
+                          "type": "string"
+                        },
+                        "counts": {
+                          "type": "object",
+                          "additionalProperties": {
+                            "type": "integer"
+                          }
+                        }
+                      },
+                      "required": []
+                    },
+                    "uptimeSeconds": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "status"
+                  ]
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Knowledge base failed to load.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "const": "unavailable"
+                    },
+                    "service": {
+                      "type": "string"
+                    },
+                    "knowledgeBase": {
+                      "type": "object",
+                      "properties": {
+                        "loaded": {
+                          "const": false
+                        },
+                        "error": {
+                          "type": "string"
+                        }
+                      },
+                      "required": []
+                    }
+                  },
+                  "required": [
+                    "status"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/meta": {
+      "get": {
+        "tags": [
+          "Operations"
+        ],
+        "operationId": "getMeta",
+        "summary": "Engine, knowledge-base and taxonomy versions, factor weights",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "KNOWLEDGE_BASE_UNAVAILABLE: the knowledge base failed to load.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/options": {
+      "get": {
+        "tags": [
+          "Catalogue"
+        ],
+        "operationId": "getOptions",
+        "summary": "Questionnaire option ids and labels",
+        "description": "Everything a frontend needs to build the questionnaire. Send the `id` values back in the profile.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "options": {
+                      "type": "object"
+                    },
+                    "factorWeights": {
+                      "type": "object"
+                    },
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": []
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "KNOWLEDGE_BASE_UNAVAILABLE: the knowledge base failed to load.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/careers": {
+      "get": {
+        "tags": [
+          "Catalogue"
+        ],
+        "operationId": "listCareers",
+        "summary": "List every career path",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "careers": {
+                      "type": "array",
+                      "items": {
+                        "allOf": [
+                          {
+                            "$ref": "#/components/schemas/CareerSummary"
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "stageCount": {
+                                "type": "integer"
+                              },
+                              "projectCount": {
+                                "type": "integer"
+                              },
+                              "scored": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": []
+                          }
+                        ]
+                      }
+                    },
+                    "meta": {
+                      "$ref": "#/components/schemas/Meta"
+                    }
+                  },
+                  "required": []
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "KNOWLEDGE_BASE_UNAVAILABLE: the knowledge base failed to load.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/careers/{careerId}": {
+      "get": {
+        "tags": [
+          "Catalogue"
+        ],
+        "operationId": "getCareer",
+        "summary": "One career path",
+        "parameters": [
+          {
+            "name": "careerId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NOT_FOUND or CAREER_NOT_FOUND.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "KNOWLEDGE_BASE_UNAVAILABLE: the knowledge base failed to load.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/recommendations": {
+      "post": {
+        "tags": [
+          "Engine"
+        ],
+        "operationId": "recommend",
+        "summary": "Top career paths for a student profile",
+        "description": "Deterministic: identical input and knowledge base give identical output. An empty profile is valid and returns status `insufficient_information` with HTTP 200.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RecommendationRequest"
+              },
+              "example": {
+                "profile": {
+                  "interests": [
+                    "security_investigation"
+                  ],
+                  "currentSkills": [
+                    "analytical_thinking"
+                  ],
+                  "workStyles": [
+                    "investigating"
+                  ],
+                  "goals": [
+                    "protect_people_orgs"
+                  ],
+                  "budget": "none",
+                  "weeklyHours": 3
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecommendationResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "INVALID_JSON: the body is not valid JSON.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "METHOD_NOT_ALLOWED. The Allow header lists valid methods.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "PAYLOAD_TOO_LARGE (default limit 32 KB).",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "UNSUPPORTED_MEDIA_TYPE: send Content-Type: application/json.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "VALIDATION_ERROR: wrong types or out-of-range values. See error.details[].field.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "KNOWLEDGE_BASE_UNAVAILABLE: the knowledge base failed to load.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/roadmaps": {
+      "post": {
+        "tags": [
+          "Engine"
+        ],
+        "operationId": "roadmap",
+        "summary": "Personalised learning plan for one career",
+        "description": "Built from the real roadmap records. The profile is optional; without it the plan starts at stage 1 with no access adjustments.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RoadmapRequest"
+              },
+              "example": {
+                "careerId": "career_cybersecurity",
+                "profile": {
+                  "budget": "none",
+                  "internet": "limited",
+                  "weeklyHours": 4
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RoadmapResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "INVALID_JSON: the body is not valid JSON.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "NOT_FOUND or CAREER_NOT_FOUND.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "405": {
+            "description": "METHOD_NOT_ALLOWED. The Allow header lists valid methods.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "PAYLOAD_TOO_LARGE (default limit 32 KB).",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "UNSUPPORTED_MEDIA_TYPE: send Content-Type: application/json.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "VALIDATION_ERROR: wrong types or out-of-range values. See error.details[].field.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "KNOWLEDGE_BASE_UNAVAILABLE: the knowledge base failed to load.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "StudentProfile": {
+        "type": "object",
+        "properties": {
+          "interests": {
+            "type": "array",
+            "maxItems": 20,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "intelligent_systems",
+                "web_building",
+                "data_patterns",
+                "security_investigation",
+                "cloud_infrastructure",
+                "science_quantum",
+                "ai_ethics_governance",
+                "organizing_projects",
+                "helping_solving"
+              ]
+            },
+            "description": "Topics the student is interested in (multi-select)."
+          },
+          "currentSkills": {
+            "type": "array",
+            "maxItems": 20,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "logical_reasoning",
+                "mathematics",
+                "communication",
+                "creativity",
+                "research",
+                "problem_solving",
+                "teamwork",
+                "organization",
+                "programming",
+                "analytical_thinking"
+              ]
+            },
+            "description": "Strengths/skills the student already has."
+          },
+          "skillsToDevelop": {
+            "type": "array",
+            "maxItems": 20,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "logical_reasoning",
+                "mathematics",
+                "communication",
+                "creativity",
+                "research",
+                "problem_solving",
+                "teamwork",
+                "organization",
+                "programming",
+                "analytical_thinking"
+              ]
+            },
+            "description": "Skills the student would like to develop. Kept separate from currentSkills."
+          },
+          "workStyles": {
+            "type": "array",
+            "maxItems": 20,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "building",
+                "investigating",
+                "analyzing",
+                "researching",
+                "helping_people",
+                "planning_coordinating"
+              ]
+            },
+            "description": "Preferred ways of working."
+          },
+          "goals": {
+            "type": "array",
+            "maxItems": 20,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "build_products",
+                "research",
+                "protect_people_orgs",
+                "improve_education",
+                "solve_community_problems",
+                "start_business",
+                "technical_career"
+              ]
+            },
+            "description": "What the student hopes to achieve."
+          },
+          "subjects": {
+            "type": "array",
+            "maxItems": 20,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "mathematics",
+                "physics",
+                "ict_computing",
+                "biology_chemistry",
+                "social_science_humanities",
+                "business_economics",
+                "languages_communication"
+              ]
+            },
+            "description": "Subjects studied."
+          },
+          "mathConfidence": {
+            "type": [
+              "integer",
+              "string",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 5,
+            "description": "Confidence in maths, 1 (low) to 5 (high). Numeric strings are accepted."
+          },
+          "programmingExperience": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "none",
+              "some",
+              "comfortable",
+              "strong",
+              null
+            ],
+            "description": "Prior programming experience."
+          },
+          "scienceBackground": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "none",
+              "some",
+              "comfortable",
+              "strong",
+              null
+            ],
+            "description": "Science background."
+          },
+          "educationLevel": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "junior_secondary",
+              "senior_secondary",
+              "tertiary",
+              "graduate",
+              "other",
+              null
+            ],
+            "description": "Accepted and echoed for the UI; not used in scoring."
+          },
+          "budget": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "none",
+              "low",
+              "flexible",
+              null
+            ],
+            "description": "Learning budget. NEVER affects the fit score; shapes resource ordering and cost warnings only."
+          },
+          "internet": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "unreliable",
+              "limited",
+              "reliable",
+              null
+            ],
+            "description": "Internet reliability. NEVER affects the fit score."
+          },
+          "device": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "phone_only",
+              "low_spec_computer",
+              "standard_computer",
+              null
+            ],
+            "description": "Device limits. NEVER affects the fit score."
+          },
+          "weeklyHours": {
+            "type": [
+              "number",
+              "string",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 80,
+            "description": "Study hours per week. NEVER affects the fit score; drives the pacing suggestion."
+          },
+          "learningFormats": {
+            "type": "array",
+            "maxItems": 20,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "video",
+                "text",
+                "interactive",
+                "hands_on",
+                "community"
+              ]
+            },
+            "description": "Preferred learning formats. Reorders resources; never removes any."
+          },
+          "experienceByCareer": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "enum": [
+                "none",
+                "some",
+                "solid"
+              ]
+            },
+            "description": "Optional: prior experience per career id, so a returning student can start further along."
+          }
+        },
+        "required": [],
+        "description": "Every field is optional. A skipped question is treated as \"not answered\", never as lack of ability or interest. Unknown option ids and unknown fields are ignored with a warning; wrong types are rejected (422). Do not send personal information."
+      },
+      "RecommendationRequest": {
+        "type": "object",
+        "properties": {
+          "profile": {
+            "$ref": "#/components/schemas/StudentProfile"
+          },
+          "options": {
+            "type": "object",
+            "properties": {
+              "maxResults": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 3,
+                "default": 3
+              }
+            },
+            "required": []
+          }
+        },
+        "required": [
+          "profile"
+        ]
+      },
+      "RoadmapRequest": {
+        "type": "object",
+        "properties": {
+          "careerId": {
+            "type": "string",
+            "description": "A careerId from GET /v1/careers."
+          },
+          "profile": {
+            "$ref": "#/components/schemas/StudentProfile"
+          }
+        },
+        "required": [
+          "careerId"
+        ]
+      },
+      "Warning": {
+        "type": "object",
+        "properties": {
+          "field": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "field",
+          "code",
+          "message"
+        ]
+      },
+      "Fit": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "const": "heuristic_fit_score"
+          },
+          "scale": {
+            "const": "0-100"
+          },
+          "score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "label": {
+            "type": "string"
+          },
+          "labelId": {
+            "type": "string",
+            "enum": [
+              "strong_alignment",
+              "good_alignment",
+              "some_alignment",
+              "early_signal"
+            ]
+          },
+          "basis": {
+            "type": "string",
+            "enum": [
+              "broad_answers",
+              "limited_answers"
+            ]
+          },
+          "disclaimer": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "scale",
+          "score",
+          "label",
+          "labelId",
+          "basis",
+          "disclaimer"
+        ],
+        "description": "A heuristic fit between the answers and the career, NOT a probability of success. Show the label and disclaimer with the number."
+      },
+      "FactorBreakdown": {
+        "type": "object",
+        "properties": {
+          "factor": {
+            "type": "string",
+            "enum": [
+              "interests",
+              "strengths",
+              "workStyle",
+              "academic",
+              "goals"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "evaluated",
+              "not_evaluated"
+            ]
+          },
+          "weightPercent": {
+            "type": "number",
+            "description": "Effective weight after renormalising over answered factors. Sums to 100 across evaluated factors."
+          },
+          "score": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100
+          },
+          "contributionPoints": {
+            "type": "number",
+            "description": "Points this factor adds. Contributions sum to fit.score (within rounding)."
+          }
+        },
+        "required": [
+          "factor",
+          "label",
+          "status",
+          "weightPercent",
+          "score",
+          "contributionPoints"
+        ]
+      },
+      "ResourceRef": {
+        "type": "object",
+        "properties": {
+          "resourceId": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Copied from the knowledge base; null when none was supplied. Never constructed."
+          }
+        },
+        "required": [
+          "resourceId",
+          "title",
+          "url"
+        ]
+      },
+      "Resource": {
+        "type": "object",
+        "properties": {
+          "resourceId": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "provider": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "bestFor": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "access": {
+            "type": "object",
+            "properties": {
+              "cost": {
+                "type": "string",
+                "enum": [
+                  "may_involve_cost",
+                  "source_mentions_free",
+                  "unknown"
+                ]
+              },
+              "costNote": {
+                "type": "string",
+                "description": "Always includes a verification caveat. Display it next to any cost hint."
+              },
+              "dataUse": {
+                "type": "string",
+                "enum": [
+                  "video_heavy",
+                  "not_stated"
+                ]
+              },
+              "needsAccountSetup": {
+                "type": "boolean"
+              },
+              "formats": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": []
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Source notes verbatim."
+          },
+          "verificationStatus": {
+            "type": "string",
+            "description": "From the knowledge base. Every v0.7 resource is not independently verified."
+          },
+          "linkStatus": {
+            "type": "string",
+            "enum": [
+              "unverified_link",
+              "no_link_provided"
+            ]
+          },
+          "flags": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string",
+                  "enum": [
+                    "check_cost",
+                    "data_heavy",
+                    "needs_account_setup",
+                    "matches_preferred_format"
+                  ]
+                },
+                "message": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "message"
+              ]
+            }
+          }
+        },
+        "required": [
+          "resourceId",
+          "title",
+          "url",
+          "access",
+          "verificationStatus",
+          "linkStatus",
+          "flags"
+        ]
+      },
+      "Project": {
+        "type": "object",
+        "properties": {
+          "projectId": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "difficulty": {
+            "type": "string",
+            "enum": [
+              "beginner",
+              "intermediate",
+              "not_specified"
+            ]
+          },
+          "deliverable": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "safetyNote": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Show it. Present on security projects (authorised testing only)."
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "skills": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "projectId",
+          "title",
+          "difficulty"
+        ]
+      },
+      "FirstAction": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "stageId": {
+            "type": "string"
+          },
+          "activityId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "resource": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/ResourceRef"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "flags": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "string",
+                  "enum": [
+                    "check_cost",
+                    "data_heavy",
+                    "needs_account_setup",
+                    "matches_preferred_format"
+                  ]
+                },
+                "message": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "message"
+              ]
+            }
+          },
+          "why": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "text",
+          "stageId",
+          "resource",
+          "flags",
+          "why"
+        ]
+      },
+      "AccessConsideration": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "enum": [
+              "cost_may_apply",
+              "data_use",
+              "account_setup",
+              "device"
+            ]
+          },
+          "message": {
+            "type": "string"
+          },
+          "resourceIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "code",
+          "message"
+        ]
+      },
+      "StartingPoint": {
+        "type": "object",
+        "properties": {
+          "stageId": {
+            "type": "string"
+          },
+          "order": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "name": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "stageId",
+          "name",
+          "reason"
+        ]
+      },
+      "PrerequisiteGuidance": {
+        "type": "object",
+        "properties": {
+          "dimension": {
+            "type": "string",
+            "enum": [
+              "math",
+              "programming",
+              "science"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "yourLevel": {
+            "type": "string"
+          },
+          "helpfulLevel": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "dimension",
+          "label",
+          "message"
+        ]
+      },
+      "BridgePath": {
+        "type": "object",
+        "properties": {
+          "careerId": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "summary": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "setupRequirements": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "why": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "careerId",
+          "title",
+          "why"
+        ]
+      },
+      "Recommendation": {
+        "type": "object",
+        "properties": {
+          "rank": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 3
+          },
+          "careerId": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "category": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "summary": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "fit": {
+            "$ref": "#/components/schemas/Fit"
+          },
+          "explanation": {
+            "type": "object",
+            "properties": {
+              "headline": {
+                "type": "string"
+              },
+              "summary": {
+                "type": "string"
+              },
+              "reasons": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "factor": {
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "matched": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "label": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "id",
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "required": [
+                    "factor",
+                    "text",
+                    "matched"
+                  ]
+                }
+              },
+              "notes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "headline",
+              "summary",
+              "reasons",
+              "notes"
+            ]
+          },
+          "matched": {
+            "type": "object",
+            "properties": {
+              "interests": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "label": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "label"
+                  ]
+                }
+              },
+              "strengths": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "label": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "label"
+                  ]
+                }
+              },
+              "skillsToDevelop": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "label": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "label"
+                  ]
+                }
+              },
+              "workStyles": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "label": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "label"
+                  ]
+                }
+              },
+              "goals": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "label": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "label"
+                  ]
+                }
+              },
+              "subjects": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "label": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "label"
+                  ]
+                }
+              }
+            },
+            "required": []
+          },
+          "factorBreakdown": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FactorBreakdown"
+            }
+          },
+          "careerBasis": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Knowledge-base evidence behind the career mapping."
+          },
+          "skillGaps": {
+            "type": "object",
+            "properties": {
+              "skillsToBuild": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "skillId": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "level": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "evidence": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": []
+                }
+              },
+              "strengthsToBuild": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "label": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "label"
+                  ]
+                }
+              },
+              "prerequisites": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/PrerequisiteGuidance"
+                }
+              },
+              "bridgePath": {
+                "oneOf": [
+                  {
+                    "$ref": "#/components/schemas/BridgePath"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": []
+          },
+          "roadmap": {
+            "type": "object",
+            "properties": {
+              "startingPoint": {
+                "$ref": "#/components/schemas/StartingPoint"
+              },
+              "stages": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "stageId": {
+                      "type": "string"
+                    },
+                    "order": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ]
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "start_here",
+                        "upcoming",
+                        "covered_by_your_answers"
+                      ]
+                    },
+                    "durationPerSource": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": []
+                }
+              }
+            },
+            "required": []
+          },
+          "firstStep": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/FirstAction"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "startingResources": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Resource"
+            }
+          },
+          "projects": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Project"
+            }
+          },
+          "accessConsiderations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AccessConsideration"
+            }
+          },
+          "knowledgeGaps": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "roadmapRequest": {
+            "type": "object",
+            "properties": {
+              "method": {
+                "const": "POST"
+              },
+              "path": {
+                "const": "/v1/roadmaps"
+              },
+              "body": {
+                "type": "object",
+                "properties": {
+                  "careerId": {
+                    "type": "string"
+                  }
+                },
+                "required": []
+              }
+            },
+            "required": []
+          }
+        },
+        "required": [
+          "rank",
+          "careerId",
+          "title",
+          "fit",
+          "explanation",
+          "matched",
+          "factorBreakdown",
+          "skillGaps",
+          "roadmap",
+          "firstStep",
+          "startingResources",
+          "projects",
+          "accessConsiderations",
+          "knowledgeGaps",
+          "roadmapRequest"
+        ]
+      },
+      "CareerSummary": {
+        "type": "object",
+        "properties": {
+          "careerId": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "category": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "summary": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "careerId",
+          "title"
+        ]
+      },
+      "Meta": {
+        "type": "object",
+        "properties": {
+          "engineVersion": {
+            "type": "string"
+          },
+          "knowledgeBaseVersion": {
+            "type": "string"
+          },
+          "taxonomyVersion": {
+            "type": "string"
+          },
+          "scoringModel": {
+            "type": "string"
+          },
+          "weights": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "number"
+            }
+          }
+        },
+        "required": [
+          "engineVersion",
+          "knowledgeBaseVersion",
+          "taxonomyVersion",
+          "scoringModel"
+        ]
+      },
+      "RecommendationResponse": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "ok",
+              "exploratory",
+              "insufficient_information"
+            ],
+            "description": "ok: firm enough to show. exploratory: show as an early signal. insufficient_information: no ranking; ask the questions in missingInformation."
+          },
+          "message": {
+            "type": "string"
+          },
+          "scoreNote": {
+            "type": "string"
+          },
+          "recommendations": {
+            "type": "array",
+            "maxItems": 3,
+            "items": {
+              "$ref": "#/components/schemas/Recommendation"
+            }
+          },
+          "explore": {
+            "type": "object",
+            "properties": {
+              "otherCareers": {
+                "type": "array",
+                "items": {
+                  "allOf": [
+                    {
+                      "$ref": "#/components/schemas/CareerSummary"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "fitScore": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        }
+                      },
+                      "required": []
+                    }
+                  ]
+                }
+              },
+              "hint": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "otherCareers",
+              "hint"
+            ]
+          },
+          "evidence": {
+            "type": "object",
+            "properties": {
+              "level": {
+                "type": "string",
+                "enum": [
+                  "insufficient",
+                  "exploratory",
+                  "sufficient"
+                ]
+              },
+              "answeredFactors": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "share": {
+                "type": "number",
+                "description": "Percent of total factor weight the answers could support."
+              }
+            },
+            "required": []
+          },
+          "missingInformation": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "factor": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "fields": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "question": {
+                  "type": "string"
+                }
+              },
+              "required": []
+            },
+            "description": "Unanswered factors, most influential first."
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "warnings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "field",
+                "code",
+                "message"
+              ]
+            }
+          },
+          "meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        },
+        "required": [
+          "status",
+          "message",
+          "scoreNote",
+          "recommendations",
+          "explore",
+          "evidence",
+          "missingInformation",
+          "notes",
+          "warnings",
+          "meta"
+        ]
+      },
+      "Stage": {
+        "type": "object",
+        "properties": {
+          "stageId": {
+            "type": "string"
+          },
+          "order": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "start_here",
+              "upcoming",
+              "covered_by_your_answers"
+            ]
+          },
+          "durationPerSource": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Exactly as written by the source. Not a deadline or estimate."
+          },
+          "prerequisitesPerSource": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Free text from the source; not machine-checked."
+          },
+          "focus": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "actions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "weeklyPlanPerSource": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "weeks": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "goal": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "actions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": []
+            }
+          },
+          "checkpoints": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "activities": {
+            "type": "array",
+            "description": "The stage's activities in source order. Their resources may have been introduced in an earlier stage (each resource is listed once per plan).",
+            "items": {
+              "type": "object",
+              "properties": {
+                "activityId": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "title": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "type": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "day": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "note": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "resources": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ResourceRef"
+                  }
+                }
+              },
+              "required": []
+            }
+          },
+          "resources": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Resource"
+            },
+            "description": "Resources introduced in this stage, ordered for the student's access needs. Unique across the whole plan."
+          },
+          "communities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "communityId": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "url": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "type": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "verificationStatus": {
+                  "type": "string"
+                }
+              },
+              "required": []
+            }
+          },
+          "gaps": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "stageId",
+          "name",
+          "status",
+          "activities",
+          "resources",
+          "communities",
+          "gaps"
+        ]
+      },
+      "RoadmapResponse": {
+        "type": "object",
+        "properties": {
+          "career": {
+            "$ref": "#/components/schemas/CareerSummary"
+          },
+          "startingPoint": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/StartingPoint"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "firstAction": {
+            "oneOf": [
+              {
+                "$ref": "#/components/schemas/FirstAction"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "pacing": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "weeklyHours": {
+                    "type": "number"
+                  },
+                  "suggestedItemsPerWeek": {
+                    "type": "integer"
+                  },
+                  "firstWeek": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "resource": {
+                          "$ref": "#/components/schemas/ResourceRef"
+                        }
+                      },
+                      "required": []
+                    }
+                  },
+                  "note": {
+                    "type": "string"
+                  }
+                },
+                "required": []
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Null unless weeklyHours was supplied."
+          },
+          "stages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Stage"
+            }
+          },
+          "prerequisiteGuidance": {
+            "type": "object",
+            "properties": {
+              "prerequisites": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/PrerequisiteGuidance"
+                }
+              },
+              "bridgePath": {
+                "oneOf": [
+                  {
+                    "$ref": "#/components/schemas/BridgePath"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": []
+          },
+          "projects": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Project"
+            }
+          },
+          "learningTracks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "trackId": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "area": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "summary": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "provider": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "catalog": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/ResourceRef"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "note": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "verificationStatus": {
+                  "type": "string"
+                }
+              },
+              "required": []
+            }
+          },
+          "opportunityLeads": {
+            "type": "array",
+            "description": "Leads only. status is always unverified_lead: never present one as open or funded.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "opportunityId": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "url": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "eligibility": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "notes": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "status": {
+                  "const": "unverified_lead"
+                },
+                "statusNote": {
+                  "type": "string"
+                },
+                "verificationStatus": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "opportunityId",
+                "title",
+                "status",
+                "statusNote"
+              ]
+            }
+          },
+          "guidance": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": []
+            }
+          },
+          "accessConsiderations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AccessConsideration"
+            }
+          },
+          "knowledgeGaps": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "caveats": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "warnings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "field",
+                "code",
+                "message"
+              ]
+            }
+          },
+          "meta": {
+            "$ref": "#/components/schemas/Meta"
+          }
+        },
+        "required": [
+          "career",
+          "startingPoint",
+          "firstAction",
+          "pacing",
+          "stages",
+          "prerequisiteGuidance",
+          "projects",
+          "learningTracks",
+          "opportunityLeads",
+          "guidance",
+          "accessConsiderations",
+          "knowledgeGaps",
+          "caveats",
+          "warnings",
+          "meta"
+        ]
+      },
+      "ErrorResponse": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "object",
+            "properties": {
+              "code": {
+                "type": "string",
+                "enum": [
+                  "INVALID_JSON",
+                  "VALIDATION_ERROR",
+                  "CAREER_NOT_FOUND",
+                  "NOT_FOUND",
+                  "METHOD_NOT_ALLOWED",
+                  "PAYLOAD_TOO_LARGE",
+                  "UNSUPPORTED_MEDIA_TYPE",
+                  "KNOWLEDGE_BASE_UNAVAILABLE",
+                  "INTERNAL_ERROR"
+                ]
+              },
+              "message": {
+                "type": "string"
+              },
+              "details": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "field": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "field",
+                    "code",
+                    "message"
+                  ]
+                }
+              },
+              "requestId": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "code",
+              "message",
+              "requestId"
+            ]
+          }
+        },
+        "required": [
+          "error"
+        ]
+      }
+    }
+  }
+}

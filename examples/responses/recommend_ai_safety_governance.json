@@ -1,0 +1,1143 @@
+{
+  "httpStatus": 200,
+  "body": {
+    "status": "ok",
+    "message": "Here are paths that line up with your answers. They are starting points for exploring, not a verdict.",
+    "recommendations": [
+      {
+        "rank": 1,
+        "careerId": "career_ai_safety",
+        "title": "AI Safety, Alignment and Governance",
+        "category": "AI Safety and Responsible AI",
+        "summary": "Study how to make AI systems more reliable, controllable, accountable, and beneficial, spanning technical alignment, evaluations, governance, and responsible deployment.",
+        "fit": {
+          "kind": "heuristic_fit_score",
+          "scale": "0-100",
+          "score": 98.4,
+          "label": "Strong alignment with your answers",
+          "labelId": "strong_alignment",
+          "basis": "broad_answers",
+          "disclaimer": "Heuristic fit score based only on your answers. Not a prediction of success."
+        },
+        "explanation": {
+          "headline": "AI Safety, Alignment and Governance lines up with several of your answers",
+          "summary": "You said you are interested in studying AI safety, ethics, alignment, or governance, which is central to AI Safety, Alignment and Governance. Your strengths in research and communication are used a lot in this path.",
+          "reasons": [
+            {
+              "factor": "interests",
+              "text": "You said you are interested in studying AI safety, ethics, alignment, or governance, which is central to AI Safety, Alignment and Governance.",
+              "matched": [
+                {
+                  "id": "ai_ethics_governance",
+                  "label": "Studying AI safety, ethics, alignment, or governance"
+                }
+              ]
+            },
+            {
+              "factor": "strengths",
+              "text": "Your strengths in research and communication are used a lot in this path.",
+              "matched": [
+                {
+                  "id": "research",
+                  "label": "Research"
+                },
+                {
+                  "id": "communication",
+                  "label": "Communication"
+                }
+              ]
+            },
+            {
+              "factor": "workStyle",
+              "text": "You like researching scientific questions, which is how much of the work in this path is done.",
+              "matched": [
+                {
+                  "id": "researching",
+                  "label": "Researching scientific questions"
+                }
+              ]
+            },
+            {
+              "factor": "goals",
+              "text": "This path supports your goals: conduct research.",
+              "matched": [
+                {
+                  "id": "research",
+                  "label": "Conduct research"
+                }
+              ]
+            },
+            {
+              "factor": "academic",
+              "text": "Your background in social science / Humanities is helpful here.",
+              "matched": [
+                {
+                  "id": "social_science_humanities",
+                  "label": "Social science / Humanities"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "A short questionnaire cannot tell you what you can or cannot do. Treat this as a starting point for exploring."
+          ]
+        },
+        "matched": {
+          "interests": [
+            {
+              "id": "ai_ethics_governance",
+              "label": "Studying AI safety, ethics, alignment, or governance"
+            }
+          ],
+          "strengths": [
+            {
+              "id": "research",
+              "label": "Research"
+            },
+            {
+              "id": "communication",
+              "label": "Communication"
+            }
+          ],
+          "skillsToDevelop": [],
+          "workStyles": [
+            {
+              "id": "researching",
+              "label": "Researching scientific questions"
+            }
+          ],
+          "goals": [
+            {
+              "id": "research",
+              "label": "Conduct research"
+            }
+          ],
+          "subjects": [
+            {
+              "id": "social_science_humanities",
+              "label": "Social science / Humanities"
+            }
+          ]
+        },
+        "factorBreakdown": [
+          {
+            "factor": "interests",
+            "label": "Interests",
+            "status": "evaluated",
+            "weightPercent": 35,
+            "score": 100,
+            "contributionPoints": 35
+          },
+          {
+            "factor": "strengths",
+            "label": "Strengths and skills",
+            "status": "evaluated",
+            "weightPercent": 25,
+            "score": 97.5,
+            "contributionPoints": 24.4
+          },
+          {
+            "factor": "workStyle",
+            "label": "Preferred way of working",
+            "status": "evaluated",
+            "weightPercent": 15,
+            "score": 100,
+            "contributionPoints": 15
+          },
+          {
+            "factor": "academic",
+            "label": "Academic preparation",
+            "status": "evaluated",
+            "weightPercent": 15,
+            "score": 100,
+            "contributionPoints": 15
+          },
+          {
+            "factor": "goals",
+            "label": "Goals",
+            "status": "evaluated",
+            "weightPercent": 10,
+            "score": 90,
+            "contributionPoints": 9
+          }
+        ],
+        "careerBasis": [
+          "KB: multidisciplinary path spanning technical alignment, evaluation, governance and responsible-AI practice",
+          "KB audiences include policy, law and social-science learners as well as computer-science learners",
+          "KB Level 4 asks the student to choose a focus: technical alignment, evaluation, governance, or responsible AI"
+        ],
+        "skillGaps": {
+          "skillsToBuild": [
+            {
+              "skillId": "skill_ai_safety_ai_risk_literacy",
+              "name": "AI risk literacy",
+              "level": "beginner",
+              "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice."
+            },
+            {
+              "skillId": "skill_ai_safety_responsible_ai_principles",
+              "name": "Responsible AI principles",
+              "level": "beginner",
+              "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice."
+            },
+            {
+              "skillId": "skill_ai_safety_research_reading_and_synthesis",
+              "name": "Research reading and synthesis",
+              "level": "beginner",
+              "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice."
+            },
+            {
+              "skillId": "skill_ai_safety_technical_alignment_concepts",
+              "name": "Technical alignment concepts",
+              "level": "intermediate",
+              "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice."
+            }
+          ],
+          "strengthsToBuild": [
+            {
+              "id": "analytical_thinking",
+              "label": "Analytical thinking"
+            }
+          ],
+          "prerequisites": [],
+          "bridgePath": null
+        },
+        "roadmap": {
+          "startingPoint": {
+            "stageId": "ai_safety_level_1",
+            "order": 1,
+            "name": "Exploration",
+            "reason": "Everyone starts at the first stage unless they tell us they have already covered it. Move on whenever you feel ready."
+          },
+          "stages": [
+            {
+              "stageId": "ai_safety_level_1",
+              "order": 1,
+              "name": "Exploration",
+              "status": "start_here",
+              "durationPerSource": "No prerequisites"
+            },
+            {
+              "stageId": "ai_safety_level_2",
+              "order": 2,
+              "name": "Foundations",
+              "status": "upcoming",
+              "durationPerSource": "1–3 months"
+            },
+            {
+              "stageId": "ai_safety_level_3",
+              "order": 3,
+              "name": "Participation",
+              "status": "upcoming",
+              "durationPerSource": "3–6 months"
+            },
+            {
+              "stageId": "ai_safety_level_4",
+              "order": 4,
+              "name": "Deeper research or practice",
+              "status": "upcoming",
+              "durationPerSource": "6–18 months"
+            }
+          ]
+        },
+        "firstStep": {
+          "text": "Start with “AGI Careers”.",
+          "stageId": "ai_safety_level_1",
+          "activityId": "ai_safety_activity_1",
+          "resource": {
+            "resourceId": "res_ai_safety_agi_careers",
+            "title": "AGI Careers",
+            "url": "https://80000hours.org/career-reviews/artificial-general-intelligence/"
+          },
+          "flags": [],
+          "why": "It is the first item for the stage you are starting at, after taking your access needs into account."
+        },
+        "startingResources": [
+          {
+            "resourceId": "res_ai_safety_agi_careers",
+            "title": "AGI Careers",
+            "provider": "80,000 Hours",
+            "type": "career_guide",
+            "url": "https://80000hours.org/career-reviews/artificial-general-intelligence/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "text"
+              ]
+            },
+            "notes": [
+              "Career guide; assess its assumptions and update date."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "res_ai_safety_future_of_ai_course",
+            "title": "Future of AI course",
+            "provider": "BlueDot Impact",
+            "type": "course",
+            "url": "https://bluedot.org/courses",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Check current cohorts and availability."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "res_ai_safety_rob_miles_ai_safety_videos",
+            "title": "Rob Miles AI safety videos",
+            "provider": "Rob Miles",
+            "type": "video_channel",
+            "url": "https://www.youtube.com/@RobMiles",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "video_heavy",
+              "needsAccountSetup": false,
+              "formats": [
+                "video"
+              ]
+            },
+            "notes": [
+              "Introductory explainers; distinguish explanation from consensus."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          }
+        ],
+        "projects": [
+          {
+            "projectId": "proj_ai_safety_ai_incident_case_study",
+            "title": "AI incident case study",
+            "description": null,
+            "type": "case_study",
+            "difficulty": "beginner",
+            "deliverable": "Short report documenting incident, stakeholders, harms, and mitigations",
+            "safetyNote": null,
+            "notes": [
+              "Separate observed facts from inference and cite original sources."
+            ],
+            "skills": [
+              "Incident analysis",
+              "Research reading and synthesis"
+            ]
+          },
+          {
+            "projectId": "proj_ai_safety_model_evaluation_card",
+            "title": "Model evaluation card",
+            "description": null,
+            "type": "evaluation",
+            "difficulty": "beginner",
+            "deliverable": "Evaluation plan with target behavior, test cases, metrics, and limitations",
+            "safetyNote": null,
+            "notes": [
+              "Do not claim evaluation proves a model is safe in all contexts."
+            ],
+            "skills": [
+              "AI evaluation design",
+              "Experimental design"
+            ]
+          },
+          {
+            "projectId": "proj_ai_safety_ai_policy_comparison_brief",
+            "title": "AI policy comparison brief",
+            "description": null,
+            "type": "governance_analysis",
+            "difficulty": "beginner",
+            "deliverable": "Comparison of two policy approaches with stakeholder trade-offs",
+            "safetyNote": null,
+            "notes": [
+              "Distinguish legal requirements, voluntary standards, and personal recommendations."
+            ],
+            "skills": [
+              "Governance and policy analysis",
+              "Ethics and stakeholder analysis"
+            ]
+          }
+        ],
+        "accessConsiderations": [],
+        "knowledgeGaps": [
+          "The knowledge base links projects to the whole path, not to individual stages, so projects are not matched to a stage."
+        ],
+        "roadmapRequest": {
+          "method": "POST",
+          "path": "/v1/roadmaps",
+          "body": {
+            "careerId": "career_ai_safety"
+          }
+        }
+      },
+      {
+        "rank": 2,
+        "careerId": "career_quantum_computing",
+        "title": "Quantum Computing",
+        "category": "Quantum Technologies",
+        "summary": "Explore quantum information and computation by learning core concepts, building circuits, and testing small simulations with tools such as Qiskit.",
+        "fit": {
+          "kind": "heuristic_fit_score",
+          "scale": "0-100",
+          "score": 46.1,
+          "label": "Some alignment, worth exploring",
+          "labelId": "some_alignment",
+          "basis": "broad_answers",
+          "disclaimer": "Heuristic fit score based only on your answers. Not a prediction of success."
+        },
+        "explanation": {
+          "headline": "Quantum Computing lines up with several of your answers",
+          "summary": "Some of your interests connect with parts of Quantum Computing, though it is not a central match. Your strengths in research are used a lot in this path.",
+          "reasons": [
+            {
+              "factor": "interests",
+              "text": "Some of your interests connect with parts of Quantum Computing, though it is not a central match.",
+              "matched": []
+            },
+            {
+              "factor": "strengths",
+              "text": "Your strengths in research are used a lot in this path.",
+              "matched": [
+                {
+                  "id": "research",
+                  "label": "Research"
+                }
+              ]
+            },
+            {
+              "factor": "workStyle",
+              "text": "You like researching scientific questions, which is how much of the work in this path is done.",
+              "matched": [
+                {
+                  "id": "researching",
+                  "label": "Researching scientific questions"
+                }
+              ]
+            },
+            {
+              "factor": "goals",
+              "text": "This path supports your goals: conduct research.",
+              "matched": [
+                {
+                  "id": "research",
+                  "label": "Conduct research"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "A short questionnaire cannot tell you what you can or cannot do. Treat this as a starting point for exploring."
+          ]
+        },
+        "matched": {
+          "interests": [],
+          "strengths": [
+            {
+              "id": "research",
+              "label": "Research"
+            }
+          ],
+          "skillsToDevelop": [],
+          "workStyles": [
+            {
+              "id": "researching",
+              "label": "Researching scientific questions"
+            }
+          ],
+          "goals": [
+            {
+              "id": "research",
+              "label": "Conduct research"
+            }
+          ],
+          "subjects": []
+        },
+        "factorBreakdown": [
+          {
+            "factor": "interests",
+            "label": "Interests",
+            "status": "evaluated",
+            "weightPercent": 35,
+            "score": 5,
+            "contributionPoints": 1.8
+          },
+          {
+            "factor": "strengths",
+            "label": "Strengths and skills",
+            "status": "evaluated",
+            "weightPercent": 25,
+            "score": 77.5,
+            "contributionPoints": 19.4
+          },
+          {
+            "factor": "workStyle",
+            "label": "Preferred way of working",
+            "status": "evaluated",
+            "weightPercent": 15,
+            "score": 100,
+            "contributionPoints": 15
+          },
+          {
+            "factor": "academic",
+            "label": "Academic preparation",
+            "status": "evaluated",
+            "weightPercent": 15,
+            "score": 0,
+            "contributionPoints": 0
+          },
+          {
+            "factor": "goals",
+            "label": "Goals",
+            "status": "evaluated",
+            "weightPercent": 10,
+            "score": 100,
+            "contributionPoints": 10
+          }
+        ],
+        "careerBasis": [
+          "KB category: Quantum Technologies; audiences: students in computing, mathematics, physics or engineering, plus curious beginners",
+          "KB projects are educational simulations (random-number generator, BB84-style, teleportation, Grover, variational circuit)",
+          "KB skills include linear algebra foundations and Qiskit basics; Level 4 lists \"basic quantum states and gates\" as a prerequisite; the source describes a beginner-friendly exploration path"
+        ],
+        "skillGaps": {
+          "skillsToBuild": [
+            {
+              "skillId": "skill_quantum_computing_qubits_and_quantum_states",
+              "name": "Qubits and quantum states",
+              "level": "beginner",
+              "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice."
+            },
+            {
+              "skillId": "skill_quantum_computing_superposition",
+              "name": "Superposition",
+              "level": "beginner",
+              "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice."
+            },
+            {
+              "skillId": "skill_quantum_computing_measurement_and_probability",
+              "name": "Measurement and probability",
+              "level": "beginner",
+              "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice."
+            },
+            {
+              "skillId": "skill_quantum_computing_quantum_gates",
+              "name": "Quantum gates",
+              "level": "beginner",
+              "evidence": "Introduced in the roadmap; proficiency should be demonstrated through practice."
+            }
+          ],
+          "strengthsToBuild": [
+            {
+              "id": "mathematics",
+              "label": "Mathematics"
+            },
+            {
+              "id": "analytical_thinking",
+              "label": "Analytical thinking"
+            },
+            {
+              "id": "logical_reasoning",
+              "label": "Logical reasoning"
+            },
+            {
+              "id": "problem_solving",
+              "label": "Problem-solving"
+            }
+          ],
+          "prerequisites": [],
+          "bridgePath": null
+        },
+        "roadmap": {
+          "startingPoint": {
+            "stageId": "quantum_computing_level_1",
+            "order": 1,
+            "name": "Exploration",
+            "reason": "Everyone starts at the first stage unless they tell us they have already covered it. Move on whenever you feel ready."
+          },
+          "stages": [
+            {
+              "stageId": "quantum_computing_level_1",
+              "order": 1,
+              "name": "Exploration",
+              "status": "start_here",
+              "durationPerSource": "Days 0–7"
+            },
+            {
+              "stageId": "quantum_computing_level_2",
+              "order": 2,
+              "name": "Foundations",
+              "status": "upcoming",
+              "durationPerSource": "Weeks 1–3"
+            },
+            {
+              "stageId": "quantum_computing_level_3",
+              "order": 3,
+              "name": "Participation",
+              "status": "upcoming",
+              "durationPerSource": "Weeks 3–6"
+            },
+            {
+              "stageId": "quantum_computing_level_4",
+              "order": 4,
+              "name": "Deeper practice",
+              "status": "upcoming",
+              "durationPerSource": "6+ weeks"
+            }
+          ]
+        },
+        "firstStep": {
+          "text": "Start with “Quantum Computing for the Very Curious”.",
+          "stageId": "quantum_computing_level_1",
+          "activityId": "quantum_computing_activity_1",
+          "resource": {
+            "resourceId": "res_quantum_computing_quantum_computing_for_the_very_curious",
+            "title": "Quantum Computing for the Very Curious",
+            "url": "https://quantum.country/qcvc"
+          },
+          "flags": [],
+          "why": "It is the first item for the stage you are starting at, after taking your access needs into account."
+        },
+        "startingResources": [
+          {
+            "resourceId": "res_quantum_computing_quantum_computing_for_the_very_curious",
+            "title": "Quantum Computing for the Very Curious",
+            "provider": "Quantum Country",
+            "type": "interactive_text",
+            "url": "https://quantum.country/qcvc",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "interactive"
+              ]
+            },
+            "notes": [
+              "Introductory learning resource; verify current availability."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "res_quantum_computing_introduction_to_quantum_computing",
+            "title": "Introduction to Quantum Computing",
+            "provider": "Qiskit / YouTube",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=JhHMJCUmq28",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "video_heavy",
+              "needsAccountSetup": false,
+              "formats": [
+                "video"
+              ]
+            },
+            "notes": [
+              "Introductory video listed in the user-provided roadmap."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          }
+        ],
+        "projects": [
+          {
+            "projectId": "proj_quantum_computing_quantum_random_number_generator_simulation",
+            "title": "Quantum random number generator simulation",
+            "description": null,
+            "type": "simulation",
+            "difficulty": "beginner",
+            "deliverable": "Notebook that samples outcomes from a simulated circuit",
+            "safetyNote": null,
+            "notes": [
+              "Educational simulation only; do not claim certified randomness or use for production security."
+            ],
+            "skills": [
+              "Qiskit basics",
+              "Measurement and probability"
+            ]
+          },
+          {
+            "projectId": "proj_quantum_computing_bb84_style_key_distribution_simulation",
+            "title": "BB84-style key distribution simulation",
+            "description": null,
+            "type": "cryptography_simulation",
+            "difficulty": "beginner",
+            "deliverable": "Notebook explaining state preparation, measurement, and eavesdropping detection",
+            "safetyNote": null,
+            "notes": [
+              "Educational simulation only; not a production cryptographic implementation."
+            ],
+            "skills": [
+              "Quantum circuits",
+              "Measurement and probability"
+            ]
+          },
+          {
+            "projectId": "proj_quantum_computing_quantum_teleportation_circuit",
+            "title": "Quantum teleportation circuit",
+            "description": null,
+            "type": "quantum_circuit",
+            "difficulty": "intermediate",
+            "deliverable": "Annotated circuit and explanation of classical communication and entanglement",
+            "safetyNote": null,
+            "notes": [
+              "Explain the protocol accurately; it does not teleport matter or enable faster-than-light communication."
+            ],
+            "skills": [
+              "Quantum entanglement",
+              "Quantum teleportation concepts"
+            ]
+          }
+        ],
+        "accessConsiderations": [],
+        "knowledgeGaps": [
+          "The knowledge base links projects to the whole path, not to individual stages, so projects are not matched to a stage."
+        ],
+        "roadmapRequest": {
+          "method": "POST",
+          "path": "/v1/roadmaps",
+          "body": {
+            "careerId": "career_quantum_computing"
+          }
+        }
+      },
+      {
+        "rank": 3,
+        "careerId": "career_data_careers",
+        "title": "Data Careers",
+        "category": "Data",
+        "summary": "Build practical data skills through one focused learning track, consistent practice, and one or two portfolio projects.",
+        "fit": {
+          "kind": "heuristic_fit_score",
+          "scale": "0-100",
+          "score": 45.5,
+          "label": "Some alignment, worth exploring",
+          "labelId": "some_alignment",
+          "basis": "broad_answers",
+          "disclaimer": "Heuristic fit score based only on your answers. Not a prediction of success."
+        },
+        "explanation": {
+          "headline": "Data Careers lines up with several of your answers",
+          "summary": "Some of your interests connect with parts of Data Careers, though it is not a central match. Your strengths in research and communication are used a lot in this path.",
+          "reasons": [
+            {
+              "factor": "interests",
+              "text": "Some of your interests connect with parts of Data Careers, though it is not a central match.",
+              "matched": []
+            },
+            {
+              "factor": "strengths",
+              "text": "Your strengths in research and communication are used a lot in this path.",
+              "matched": [
+                {
+                  "id": "research",
+                  "label": "Research"
+                },
+                {
+                  "id": "communication",
+                  "label": "Communication"
+                }
+              ]
+            },
+            {
+              "factor": "workStyle",
+              "text": "You like researching scientific questions, which is how much of the work in this path is done.",
+              "matched": [
+                {
+                  "id": "researching",
+                  "label": "Researching scientific questions"
+                }
+              ]
+            },
+            {
+              "factor": "goals",
+              "text": "This path supports your goals: conduct research.",
+              "matched": [
+                {
+                  "id": "research",
+                  "label": "Conduct research"
+                }
+              ]
+            }
+          ],
+          "notes": [
+            "A short questionnaire cannot tell you what you can or cannot do. Treat this as a starting point for exploring."
+          ]
+        },
+        "matched": {
+          "interests": [],
+          "strengths": [
+            {
+              "id": "research",
+              "label": "Research"
+            },
+            {
+              "id": "communication",
+              "label": "Communication"
+            }
+          ],
+          "skillsToDevelop": [],
+          "workStyles": [
+            {
+              "id": "researching",
+              "label": "Researching scientific questions"
+            }
+          ],
+          "goals": [
+            {
+              "id": "research",
+              "label": "Conduct research"
+            }
+          ],
+          "subjects": []
+        },
+        "factorBreakdown": [
+          {
+            "factor": "interests",
+            "label": "Interests",
+            "status": "evaluated",
+            "weightPercent": 35,
+            "score": 20,
+            "contributionPoints": 7
+          },
+          {
+            "factor": "strengths",
+            "label": "Strengths and skills",
+            "status": "evaluated",
+            "weightPercent": 25,
+            "score": 70,
+            "contributionPoints": 17.5
+          },
+          {
+            "factor": "workStyle",
+            "label": "Preferred way of working",
+            "status": "evaluated",
+            "weightPercent": 15,
+            "score": 60,
+            "contributionPoints": 9
+          },
+          {
+            "factor": "academic",
+            "label": "Academic preparation",
+            "status": "evaluated",
+            "weightPercent": 15,
+            "score": 40,
+            "contributionPoints": 6
+          },
+          {
+            "factor": "goals",
+            "label": "Goals",
+            "status": "evaluated",
+            "weightPercent": 10,
+            "score": 60,
+            "contributionPoints": 6
+          }
+        ],
+        "careerBasis": [
+          "KB category: Data; track-based plan (choose one data career track)",
+          "KB projects: data reports and analysis deliverables",
+          "KB skills include Python for data, R for data, data wrangling, data visualization and data storytelling"
+        ],
+        "skillGaps": {
+          "skillsToBuild": [
+            {
+              "skillId": "data_skill_data_vocabulary",
+              "name": "Data vocabulary and concepts",
+              "level": null,
+              "evidence": null
+            },
+            {
+              "skillId": "data_skill_python",
+              "name": "Python for data",
+              "level": null,
+              "evidence": null
+            },
+            {
+              "skillId": "data_skill_r",
+              "name": "R for data",
+              "level": null,
+              "evidence": null
+            },
+            {
+              "skillId": "data_skill_data_wrangling",
+              "name": "Data wrangling",
+              "level": null,
+              "evidence": null
+            }
+          ],
+          "strengthsToBuild": [
+            {
+              "id": "analytical_thinking",
+              "label": "Analytical thinking"
+            },
+            {
+              "id": "mathematics",
+              "label": "Mathematics"
+            },
+            {
+              "id": "problem_solving",
+              "label": "Problem-solving"
+            }
+          ],
+          "prerequisites": [],
+          "bridgePath": null
+        },
+        "roadmap": {
+          "startingPoint": {
+            "stageId": "data_careers_stage_access_setup",
+            "order": 1,
+            "name": "Unlock student access",
+            "reason": "Everyone starts at the first stage unless they tell us they have already covered it. Move on whenever you feel ready."
+          },
+          "stages": [
+            {
+              "stageId": "data_careers_stage_access_setup",
+              "order": 1,
+              "name": "Unlock student access",
+              "status": "start_here",
+              "durationPerSource": "setup week"
+            },
+            {
+              "stageId": "data_careers_stage_choose_track",
+              "order": 2,
+              "name": "Choose one career track",
+              "status": "upcoming",
+              "durationPerSource": "early phase"
+            },
+            {
+              "stageId": "data_careers_stage_12_week_plan",
+              "order": 3,
+              "name": "Follow the 12-week plan",
+              "status": "upcoming",
+              "durationPerSource": "12 weeks"
+            },
+            {
+              "stageId": "data_careers_stage_show_progress",
+              "order": 4,
+              "name": "Show progress weekly",
+              "status": "upcoming",
+              "durationPerSource": "weekly habit"
+            }
+          ]
+        },
+        "firstStep": {
+          "text": "Start with “DataCamp for Students”.",
+          "stageId": "data_careers_stage_access_setup",
+          "activityId": null,
+          "resource": {
+            "resourceId": "data_res_students",
+            "title": "DataCamp for Students",
+            "url": "https://www.datacamp.com/students"
+          },
+          "flags": [],
+          "why": "It is the first item for the stage you are starting at, after taking your access needs into account."
+        },
+        "startingResources": [
+          {
+            "resourceId": "data_res_students",
+            "title": "DataCamp for Students",
+            "provider": "DataCamp",
+            "type": "student_access",
+            "url": "https://www.datacamp.com/students",
+            "bestFor": null,
+            "access": {
+              "cost": "source_mentions_free",
+              "costNote": "The source describes free access, but this has not been independently verified. Check current terms before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source claims eligible students may unlock three months free; verify current terms."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "data_res_classrooms",
+            "title": "DataCamp for Classrooms",
+            "provider": "DataCamp",
+            "type": "student_access",
+            "url": "https://www.datacamp.com/classrooms",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source suggests checking classroom access; verify current eligibility."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "data_res_tracks",
+            "title": "Career Track List",
+            "provider": "DataCamp",
+            "type": "track_catalog",
+            "url": "https://www.datacamp.com/tracks/career",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Track names and availability may change."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          }
+        ],
+        "projects": [
+          {
+            "projectId": "data_project_guided_datacamp",
+            "title": "Complete one guided DataCamp project",
+            "description": "Use a guided project or a small self-made project to apply skills from the chosen track.",
+            "type": "guided_project",
+            "difficulty": "not_specified",
+            "deliverable": null,
+            "safetyNote": null,
+            "notes": [],
+            "skills": []
+          },
+          {
+            "projectId": "data_project_data_story",
+            "title": "Two-minute data story",
+            "description": "Prepare a short explanation of a data question, approach, finding, and limitation.",
+            "type": "communication_portfolio",
+            "difficulty": "not_specified",
+            "deliverable": null,
+            "safetyNote": null,
+            "notes": [],
+            "skills": []
+          },
+          {
+            "projectId": "data_project_learning_notes",
+            "title": "Data vocabulary and learning notes",
+            "description": "Keep structured notes on terms, formulas, common mistakes, and learning progress.",
+            "type": "learning_artifact",
+            "difficulty": "not_specified",
+            "deliverable": null,
+            "safetyNote": null,
+            "notes": [],
+            "skills": []
+          }
+        ],
+        "accessConsiderations": [],
+        "knowledgeGaps": [
+          "The knowledge base links projects to the whole path, not to individual stages, so projects are not matched to a stage."
+        ],
+        "roadmapRequest": {
+          "method": "POST",
+          "path": "/v1/roadmaps",
+          "body": {
+            "careerId": "career_data_careers"
+          }
+        }
+      }
+    ],
+    "explore": {
+      "otherCareers": [
+        {
+          "careerId": "career_ai_ml_engineering",
+          "title": "AI/ML Engineering",
+          "category": "Artificial Intelligence and Machine Learning",
+          "summary": "AI/ML Engineering helps build systems that learn from data and make useful predictions or decisions.",
+          "fitScore": 41.6
+        },
+        {
+          "careerId": "career_project_management",
+          "title": "Project Management, Agile and Workflow Automation",
+          "category": "Project and Operations Management",
+          "summary": "Learn to define project scope, coordinate stakeholders, manage time and risks, run iterative delivery, and automate repeatable workflows using project-management tools.",
+          "fitScore": 39.8
+        },
+        {
+          "careerId": "career_cybersecurity",
+          "title": "Cybersecurity",
+          "category": "Cybersecurity",
+          "summary": "Protect computer systems, networks, people, and personal data from digital threats.",
+          "fitScore": 35.9
+        },
+        {
+          "careerId": "career_full_stack_web_development",
+          "title": "Full Stack Web Development",
+          "category": "Software Development",
+          "summary": "Build complete web applications end-to-end by learning front-end interfaces, back-end APIs, databases, version control, and deployment.",
+          "fitScore": 19.1
+        },
+        {
+          "careerId": "career_cloud_computing_aws",
+          "title": "Cloud Computing (AWS)",
+          "category": "Cloud Computing",
+          "summary": "Learn cloud concepts and AWS services, deploy real projects, document architecture and security decisions, and optionally pursue entry-level certification.",
+          "fitScore": 17.3
+        },
+        {
+          "careerId": "career_intro_to_coding",
+          "title": "Intro to Coding",
+          "category": "Programming Fundamentals",
+          "summary": "A four-week beginner track for learning programming fundamentals with JavaScript and browser-based tools, then sharing a small portfolio of projects.",
+          "fitScore": 15.8
+        }
+      ],
+      "hint": "Want to see other options? Browse these paths, or change your answers and ask again."
+    },
+    "notes": [],
+    "scoreNote": "This is a heuristic fit score (0 to 100) based only on the answers you gave. It is not a prediction of success and not a judgement of your potential. Use it to explore.",
+    "evidence": {
+      "level": "sufficient",
+      "answeredFactors": [
+        "interests",
+        "strengths",
+        "workStyle",
+        "academic",
+        "goals"
+      ],
+      "share": 100
+    },
+    "missingInformation": [],
+    "warnings": [],
+    "meta": {
+      "engineVersion": "0.1.0",
+      "knowledgeBaseVersion": "0.7",
+      "taxonomyVersion": "0.1.0-editorial",
+      "scoringModel": "weighted-affinity-v1",
+      "weights": {
+        "interests": 0.35,
+        "strengths": 0.25,
+        "workStyle": 0.15,
+        "academic": 0.15,
+        "goals": 0.1
+      }
+    }
+  }
+}

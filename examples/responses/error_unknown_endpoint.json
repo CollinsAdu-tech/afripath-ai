@@ -1,0 +1,10 @@
+{
+  "httpStatus": 404,
+  "body": {
+    "error": {
+      "code": "NOT_FOUND",
+      "message": "No endpoint at /v1/nothing-here.",
+      "requestId": "<request-id>"
+    }
+  }
+}

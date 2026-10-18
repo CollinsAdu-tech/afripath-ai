@@ -1,0 +1,57 @@
+[
+  {
+    "track_id": "data_track_analyst_python",
+    "title": "Data Analyst with Python",
+    "track_area": "analytics",
+    "summary": "Explore and communicate insights from data using Python.",
+    "provider": "DataCamp",
+    "catalog_resource_id": "data_res_tracks",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "source_listed_track_title_not_independently_verified",
+    "note": "A learning track, not a guarantee of employment or a complete definition of the occupation."
+  },
+  {
+    "track_id": "data_track_scientist_python",
+    "title": "Data Scientist with Python",
+    "track_area": "data_science",
+    "summary": "Learn data science workflows using Python.",
+    "provider": "DataCamp",
+    "catalog_resource_id": "data_res_tracks",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "source_listed_track_title_not_independently_verified",
+    "note": "A learning track, not a guarantee of employment or a complete definition of the occupation."
+  },
+  {
+    "track_id": "data_track_analyst_r",
+    "title": "Data Analyst with R",
+    "track_area": "analytics",
+    "summary": "Explore and communicate insights from data using R.",
+    "provider": "DataCamp",
+    "catalog_resource_id": "data_res_tracks",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "source_listed_track_title_not_independently_verified",
+    "note": "A learning track, not a guarantee of employment or a complete definition of the occupation."
+  },
+  {
+    "track_id": "data_track_engineer",
+    "title": "Data Engineer",
+    "track_area": "data_engineering",
+    "summary": "Explore skills used to prepare, move, and manage data systems.",
+    "provider": "DataCamp",
+    "catalog_resource_id": "data_res_tracks",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "source_listed_track_title_not_independently_verified",
+    "note": "A learning track, not a guarantee of employment or a complete definition of the occupation."
+  },
+  {
+    "track_id": "data_track_ml_scientist",
+    "title": "Machine Learning Scientist",
+    "track_area": "machine_learning",
+    "summary": "Explore modeling and machine-learning workflows.",
+    "provider": "DataCamp",
+    "catalog_resource_id": "data_res_tracks",
+    "source_id": "source_tap_paths_data_careers",
+    "verification_status": "source_listed_track_title_not_independently_verified",
+    "note": "A learning track, not a guarantee of employment or a complete definition of the occupation."
+  }
+]

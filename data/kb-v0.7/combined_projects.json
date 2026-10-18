@@ -1,0 +1,595 @@
+[
+  {
+    "project_id": "proj_data_report",
+    "title": "Data report",
+    "project_type": "data_analysis",
+    "difficulty": "not_specified",
+    "skills": [
+      "skill_project_building"
+    ],
+    "expected_deliverable": "A documented data report",
+    "source_fit": "aligned_with_ai_ml_roadmap",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "project_id": "proj_image_classifier",
+    "title": "Image classifier",
+    "project_type": "machine_learning",
+    "difficulty": "not_specified",
+    "skills": [
+      "skill_ml_fundamentals",
+      "skill_project_building"
+    ],
+    "expected_deliverable": "An image classification project",
+    "source_fit": "aligned_with_ai_ml_roadmap",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "project_id": "proj_chatbot",
+    "title": "Chatbot",
+    "project_type": "applied_ai",
+    "difficulty": "not_specified",
+    "skills": [
+      "skill_project_building"
+    ],
+    "expected_deliverable": "A working chatbot project",
+    "source_fit": "aligned_with_ai_ml_roadmap",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "project_id": "proj_vulnerability_assessment",
+    "title": "Vulnerability assessment of an application",
+    "project_type": "security",
+    "difficulty": "not_specified",
+    "skills": [],
+    "expected_deliverable": "Not specified in source",
+    "source_fit": "review_required_category_mismatch",
+    "source_note": "Listed in AI/ML Engineering roadmap's practical-project section but appears security-focused.",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "project_id": "proj_security_monitoring",
+    "title": "Security monitoring system setup",
+    "project_type": "security",
+    "difficulty": "not_specified",
+    "skills": [],
+    "expected_deliverable": "Not specified in source",
+    "source_fit": "review_required_category_mismatch",
+    "source_note": "Listed in AI/ML Engineering roadmap's practical-project section but appears security-focused.",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "project_id": "proj_encryption_implementation",
+    "title": "Encryption implementation project",
+    "project_type": "cryptography_security",
+    "difficulty": "not_specified",
+    "skills": [],
+    "expected_deliverable": "Not specified in source",
+    "source_fit": "review_required_category_mismatch",
+    "source_note": "Listed in AI/ML Engineering roadmap's practical-project section but appears security-focused.",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "project_id": "proj_network_traffic_analysis",
+    "title": "Network traffic analysis",
+    "project_type": "network_security",
+    "difficulty": "not_specified",
+    "skills": [],
+    "expected_deliverable": "Not specified in source",
+    "source_fit": "review_required_category_mismatch",
+    "source_note": "Listed in AI/ML Engineering roadmap's practical-project section but appears security-focused.",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "project_id": "proj_incident_response",
+    "title": "Security incident response simulation",
+    "project_type": "incident_response",
+    "difficulty": "not_specified",
+    "skills": [],
+    "expected_deliverable": "Not specified in source",
+    "source_fit": "review_required_category_mismatch",
+    "source_note": "Listed in AI/ML Engineering roadmap's practical-project section but appears security-focused.",
+    "source_id": "source_tap_paths_ai_ml_engineering"
+  },
+  {
+    "project_id": "cyber_project_home_lab",
+    "title": "Build a simple home lab",
+    "description": "Set up virtual machines and an intentionally vulnerable target in an isolated lab.",
+    "project_type": "hands_on_lab",
+    "career_id": "career_cybersecurity",
+    "source_id": "source_tap_paths_cybersecurity",
+    "safety_note": "Keep vulnerable targets isolated; do not expose them to the public internet or test systems without authorization."
+  },
+  {
+    "project_id": "cyber_project_github_portfolio",
+    "title": "Security lab notes and CTF portfolio",
+    "description": "Publish lab notes, CTF writeups, screenshots, and lessons learned on GitHub.",
+    "project_type": "portfolio",
+    "career_id": "career_cybersecurity",
+    "source_id": "source_tap_paths_cybersecurity",
+    "safety_note": "Do not publish secrets, credentials, personal data, or exploit details for live third-party targets."
+  },
+  {
+    "project_id": "cyber_project_incident_checklist",
+    "title": "Basic incident-response checklist",
+    "description": "Create a checklist for a common security incident scenario.",
+    "project_type": "documentation",
+    "career_id": "career_cybersecurity",
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "project_id": "cyber_project_security_hygiene_guide",
+    "title": "Personal security-hygiene guide",
+    "description": "Create a guide to safe digital habits that can be taught to peers or a community group.",
+    "project_type": "community_education",
+    "career_id": "career_cybersecurity",
+    "source_id": "source_tap_paths_cybersecurity"
+  },
+  {
+    "project_id": "cyber_project_ctf_writeups",
+    "title": "Beginner CTF writeups",
+    "description": "Solve beginner challenges on authorized CTF platforms and document the approach and lessons learned.",
+    "project_type": "practice_and_documentation",
+    "career_id": "career_cybersecurity",
+    "source_id": "source_tap_paths_cybersecurity",
+    "safety_note": "Only interact with the CTF targets and systems authorized by the platform."
+  },
+  {
+    "project_id": "data_project_guided_datacamp",
+    "title": "Complete one guided DataCamp project",
+    "description": "Use a guided project or a small self-made project to apply skills from the chosen track.",
+    "project_type": "guided_project",
+    "career_id": "career_data_careers",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "project_id": "data_project_data_story",
+    "title": "Two-minute data story",
+    "description": "Prepare a short explanation of a data question, approach, finding, and limitation.",
+    "project_type": "communication_portfolio",
+    "career_id": "career_data_careers",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "project_id": "data_project_learning_notes",
+    "title": "Data vocabulary and learning notes",
+    "description": "Keep structured notes on terms, formulas, common mistakes, and learning progress.",
+    "project_type": "learning_artifact",
+    "career_id": "career_data_careers",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "project_id": "data_project_public_notebook",
+    "title": "Publish a project notebook",
+    "description": "Publish a notebook or project artifact and summarize what was learned on GitHub or LinkedIn.",
+    "project_type": "portfolio",
+    "career_id": "career_data_careers",
+    "source_id": "source_tap_paths_data_careers"
+  },
+  {
+    "project_id": "aws_project_static_site",
+    "title": "Static personal website",
+    "description": "Deploy a static personal website using S3 and CloudFront.",
+    "project_type": "web_deployment",
+    "career_id": "career_cloud_computing_aws",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "required_artifacts": [
+      "architecture diagram",
+      "cost notes",
+      "security notes",
+      "deployment steps",
+      "screenshots"
+    ],
+    "safety_note": "Verify current service pricing, access settings, and cleanup steps before deploying."
+  },
+  {
+    "project_id": "aws_project_serverless_api",
+    "title": "Serverless API",
+    "description": "Build an API using Lambda and API Gateway with a simple database.",
+    "project_type": "serverless_application",
+    "career_id": "career_cloud_computing_aws",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "required_artifacts": [
+      "architecture diagram",
+      "cost notes",
+      "security notes",
+      "deployment steps",
+      "screenshots"
+    ],
+    "safety_note": "Restrict permissions and set cost controls; review current pricing."
+  },
+  {
+    "project_id": "aws_project_cloud_resume",
+    "title": "Cloud resume",
+    "description": "Build a cloud-hosted resume project using the Cloud Resume Challenge as a guide.",
+    "project_type": "portfolio_challenge",
+    "career_id": "career_cloud_computing_aws",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "required_artifacts": [
+      "architecture diagram",
+      "cost notes",
+      "security notes",
+      "deployment steps",
+      "screenshots"
+    ],
+    "safety_note": "Follow current challenge guidance and verify costs for all selected services."
+  },
+  {
+    "project_id": "aws_project_monitoring_dashboard",
+    "title": "Simple monitoring dashboard",
+    "description": "Create a simple dashboard using CloudWatch basics.",
+    "project_type": "monitoring",
+    "career_id": "career_cloud_computing_aws",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "required_artifacts": [
+      "architecture diagram",
+      "cost notes",
+      "security notes",
+      "deployment steps",
+      "screenshots"
+    ],
+    "safety_note": "Monitoring and logs may incur charges; check current pricing and retention settings."
+  },
+  {
+    "project_id": "aws_project_deploy_app",
+    "title": "Deploy a small application",
+    "description": "Deploy a small app using a container or managed platform.",
+    "project_type": "application_deployment",
+    "career_id": "career_cloud_computing_aws",
+    "source_id": "source_tap_paths_cloud_computing_aws",
+    "required_artifacts": [
+      "architecture diagram",
+      "cost notes",
+      "security notes",
+      "deployment steps",
+      "screenshots"
+    ],
+    "safety_note": "Check pricing and stop/delete unused resources."
+  },
+  {
+    "project_id": "fs_project_portfolio",
+    "title": "Personal portfolio website",
+    "description": "Create a personal portfolio with projects, screenshots, and live demo links.",
+    "project_type": "portfolio",
+    "career_id": "career_full_stack_web_development",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "recommended_artifacts": [
+      "live demo link",
+      "screenshots",
+      "README covering problem, features, technology stack, and run instructions",
+      "lessons learned and next improvements"
+    ]
+  },
+  {
+    "project_id": "fs_project_ecommerce",
+    "title": "E-commerce mini shop",
+    "description": "Build a small shop with a cart and a mocked checkout flow; do not process real payments in the beginner version.",
+    "project_type": "ecommerce",
+    "career_id": "career_full_stack_web_development",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "recommended_artifacts": [
+      "live demo link",
+      "screenshots",
+      "README covering problem, features, technology stack, and run instructions",
+      "lessons learned and next improvements"
+    ]
+  },
+  {
+    "project_id": "fs_project_social_dashboard",
+    "title": "Social media dashboard",
+    "description": "Build a dashboard with a feed and filtering controls.",
+    "project_type": "dashboard",
+    "career_id": "career_full_stack_web_development",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "recommended_artifacts": [
+      "live demo link",
+      "screenshots",
+      "README covering problem, features, technology stack, and run instructions",
+      "lessons learned and next improvements"
+    ]
+  },
+  {
+    "project_id": "fs_project_cms",
+    "title": "Content management mini system",
+    "description": "Build a CRUD content system with role-based access concepts.",
+    "project_type": "content_management",
+    "career_id": "career_full_stack_web_development",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "recommended_artifacts": [
+      "live demo link",
+      "screenshots",
+      "README covering problem, features, technology stack, and run instructions",
+      "lessons learned and next improvements"
+    ]
+  },
+  {
+    "project_id": "fs_project_collaboration",
+    "title": "Real-time collaboration tool",
+    "description": "Create basic chat or shared notes with live collaboration if feasible.",
+    "project_type": "collaboration",
+    "career_id": "career_full_stack_web_development",
+    "source_id": "source_tap_paths_full_stack_web_development",
+    "recommended_artifacts": [
+      "live demo link",
+      "screenshots",
+      "README covering problem, features, technology stack, and run instructions",
+      "lessons learned and next improvements"
+    ]
+  },
+  {
+    "project_id": "coding_project_calculator_quiz",
+    "title": "Calculator or short quiz",
+    "description": "Build a simple interactive calculator or quiz to practise variables, conditions, functions, and input/output.",
+    "project_type": "beginner_interactive_program",
+    "difficulty": "beginner",
+    "career_id": "career_intro_to_coding",
+    "skills": [
+      "coding_skill_javascript_syntax",
+      "coding_skill_input_output",
+      "coding_skill_functions"
+    ],
+    "expected_deliverable": "Working browser-based project with a short README or explanation.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "project_id": "coding_project_number_guessing",
+    "title": "Number-guessing game",
+    "description": "Create a game that compares a user's guess with a target and gives feedback; use loops or repeated attempts where appropriate.",
+    "project_type": "beginner_game",
+    "difficulty": "beginner",
+    "career_id": "career_intro_to_coding",
+    "skills": [
+      "coding_skill_loops",
+      "coding_skill_javascript_syntax",
+      "coding_skill_debugging"
+    ],
+    "expected_deliverable": "Playable game and a brief explanation of the logic.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "project_id": "coding_project_todo_list",
+    "title": "Simple to-do list",
+    "description": "Make a small to-do list that lets a user add and view tasks; keep the scope beginner-friendly.",
+    "project_type": "beginner_productivity_tool",
+    "difficulty": "beginner",
+    "career_id": "career_intro_to_coding",
+    "skills": [
+      "coding_skill_arrays",
+      "coding_skill_functions",
+      "coding_skill_input_output"
+    ],
+    "expected_deliverable": "Working list with clearly documented features and limitations.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "project_id": "coding_project_final_miniproject",
+    "title": "Final mini-project: quiz, calculator, or interactive story",
+    "description": "Choose a manageable idea, plan it, build it in steps, test it, and publish it.",
+    "project_type": "capstone_mini_project",
+    "difficulty": "beginner",
+    "career_id": "career_intro_to_coding",
+    "skills": [
+      "coding_skill_programming_concepts",
+      "coding_skill_functions",
+      "coding_skill_loops",
+      "coding_skill_project_delivery",
+      "coding_skill_code_sharing"
+    ],
+    "expected_deliverable": "Public GitHub repository or Replit project, screenshots if useful, and a short learning reflection.",
+    "source_id": "source_tap_paths_coding"
+  },
+  {
+    "project_id": "proj_quantum_computing_quantum_random_number_generator_simulation",
+    "title": "Quantum random number generator simulation",
+    "project_type": "simulation",
+    "difficulty": "beginner",
+    "skills": [
+      "Qiskit basics",
+      "Measurement and probability"
+    ],
+    "expected_deliverable": "Notebook that samples outcomes from a simulated circuit",
+    "source_fit": "aligned_with_quantum_computing_roadmap",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "notes": "Educational simulation only; do not claim certified randomness or use for production security."
+  },
+  {
+    "project_id": "proj_quantum_computing_bb84_style_key_distribution_simulation",
+    "title": "BB84-style key distribution simulation",
+    "project_type": "cryptography_simulation",
+    "difficulty": "beginner",
+    "skills": [
+      "Quantum circuits",
+      "Measurement and probability"
+    ],
+    "expected_deliverable": "Notebook explaining state preparation, measurement, and eavesdropping detection",
+    "source_fit": "aligned_with_quantum_computing_roadmap",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "notes": "Educational simulation only; not a production cryptographic implementation."
+  },
+  {
+    "project_id": "proj_quantum_computing_quantum_teleportation_circuit",
+    "title": "Quantum teleportation circuit",
+    "project_type": "quantum_circuit",
+    "difficulty": "intermediate",
+    "skills": [
+      "Quantum entanglement",
+      "Quantum teleportation concepts"
+    ],
+    "expected_deliverable": "Annotated circuit and explanation of classical communication and entanglement",
+    "source_fit": "aligned_with_quantum_computing_roadmap",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "notes": "Explain the protocol accurately; it does not teleport matter or enable faster-than-light communication."
+  },
+  {
+    "project_id": "proj_quantum_computing_tiny_grover_search",
+    "title": "Tiny Grover search",
+    "project_type": "quantum_algorithm",
+    "difficulty": "intermediate",
+    "skills": [
+      "Grover search concepts",
+      "Quantum circuits"
+    ],
+    "expected_deliverable": "Small circuit, simulator results, and comparison with classical search",
+    "source_fit": "aligned_with_quantum_computing_roadmap",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "notes": "Use a tiny toy example and avoid claims of practical quantum advantage."
+  },
+  {
+    "project_id": "proj_quantum_computing_variational_circuit_experiment",
+    "title": "Variational circuit experiment",
+    "project_type": "quantum_experiment",
+    "difficulty": "intermediate",
+    "skills": [
+      "Variational circuits",
+      "Circuit simulation"
+    ],
+    "expected_deliverable": "Experiment notebook varying circuit parameters and reporting results",
+    "source_fit": "aligned_with_quantum_computing_roadmap",
+    "source_id": "source_user_roadmap_quantum_computing",
+    "notes": "Document simulator limits and reproducibility."
+  },
+  {
+    "project_id": "proj_ai_safety_ai_incident_case_study",
+    "title": "AI incident case study",
+    "project_type": "case_study",
+    "difficulty": "beginner",
+    "skills": [
+      "Incident analysis",
+      "Research reading and synthesis"
+    ],
+    "expected_deliverable": "Short report documenting incident, stakeholders, harms, and mitigations",
+    "source_fit": "aligned_with_ai_safety_roadmap",
+    "source_id": "source_user_roadmap_ai_safety",
+    "notes": "Separate observed facts from inference and cite original sources."
+  },
+  {
+    "project_id": "proj_ai_safety_model_evaluation_card",
+    "title": "Model evaluation card",
+    "project_type": "evaluation",
+    "difficulty": "beginner",
+    "skills": [
+      "AI evaluation design",
+      "Experimental design"
+    ],
+    "expected_deliverable": "Evaluation plan with target behavior, test cases, metrics, and limitations",
+    "source_fit": "aligned_with_ai_safety_roadmap",
+    "source_id": "source_user_roadmap_ai_safety",
+    "notes": "Do not claim evaluation proves a model is safe in all contexts."
+  },
+  {
+    "project_id": "proj_ai_safety_red_team_a_small_demo_model",
+    "title": "Red-team a small demo model",
+    "project_type": "red_teaming",
+    "difficulty": "intermediate",
+    "skills": [
+      "Red-teaming fundamentals",
+      "Model behavior analysis"
+    ],
+    "expected_deliverable": "Documented test set, failure categories, and mitigation suggestions",
+    "source_fit": "aligned_with_ai_safety_roadmap",
+    "source_id": "source_user_roadmap_ai_safety",
+    "notes": "Use only systems and datasets you are authorized to test."
+  },
+  {
+    "project_id": "proj_ai_safety_ai_policy_comparison_brief",
+    "title": "AI policy comparison brief",
+    "project_type": "governance_analysis",
+    "difficulty": "beginner",
+    "skills": [
+      "Governance and policy analysis",
+      "Ethics and stakeholder analysis"
+    ],
+    "expected_deliverable": "Comparison of two policy approaches with stakeholder trade-offs",
+    "source_fit": "aligned_with_ai_safety_roadmap",
+    "source_id": "source_user_roadmap_ai_safety",
+    "notes": "Distinguish legal requirements, voluntary standards, and personal recommendations."
+  },
+  {
+    "project_id": "proj_ai_safety_dataset_documentation_and_risk_review",
+    "title": "Dataset documentation and risk review",
+    "project_type": "responsible_ai",
+    "difficulty": "intermediate",
+    "skills": [
+      "Responsible AI principles",
+      "AI evaluation design"
+    ],
+    "expected_deliverable": "Dataset datasheet with provenance, consent concerns, representation gaps, and intended use",
+    "source_fit": "aligned_with_ai_safety_roadmap",
+    "source_id": "source_user_roadmap_ai_safety",
+    "notes": "Do not publish sensitive personal data."
+  },
+  {
+    "project_id": "proj_project_management_campus_event_project_plan",
+    "title": "Campus event project plan",
+    "project_type": "project_plan",
+    "difficulty": "beginner",
+    "skills": [
+      "Project scoping",
+      "Milestone planning",
+      "Risk tracking"
+    ],
+    "expected_deliverable": "Scope, timeline, task board, budget assumptions, and risk register",
+    "source_fit": "aligned_with_project_management_roadmap",
+    "source_id": "source_user_roadmap_project_management",
+    "notes": "Use a real or realistic event and note assumptions."
+  },
+  {
+    "project_id": "proj_project_management_student_group_workflow_automation",
+    "title": "Student group workflow automation",
+    "project_type": "workflow_automation",
+    "difficulty": "beginner",
+    "skills": [
+      "Workflow automation",
+      "Form-to-task automation",
+      "Project status reporting"
+    ],
+    "expected_deliverable": "Form-to-task flow plus weekly summary and exception handling",
+    "source_fit": "aligned_with_project_management_roadmap",
+    "source_id": "source_user_roadmap_project_management",
+    "notes": "Use dummy data until permissions and privacy are clear."
+  },
+  {
+    "project_id": "proj_project_management_ngo_mini_program_delivery_plan",
+    "title": "NGO mini-program delivery plan",
+    "project_type": "project_plan",
+    "difficulty": "intermediate",
+    "skills": [
+      "Stakeholder communication",
+      "Risk tracking",
+      "Milestone planning"
+    ],
+    "expected_deliverable": "Stakeholder map, delivery plan, monitoring metrics, and retrospective",
+    "source_fit": "aligned_with_project_management_roadmap",
+    "source_id": "source_user_roadmap_project_management",
+    "notes": "Include accessibility, safeguarding, and resource constraints."
+  },
+  {
+    "project_id": "proj_project_management_airtable_project_dashboard",
+    "title": "Airtable project dashboard",
+    "project_type": "dashboard",
+    "difficulty": "beginner",
+    "skills": [
+      "Dashboard design",
+      "Task decomposition"
+    ],
+    "expected_deliverable": "Dashboard for tasks, owners, due dates, status, and risks",
+    "source_fit": "aligned_with_project_management_roadmap",
+    "source_id": "source_user_roadmap_project_management",
+    "notes": "Avoid entering confidential personal data into a public demo."
+  },
+  {
+    "project_id": "proj_project_management_productivity_system_case_study",
+    "title": "Productivity system case study",
+    "project_type": "operations",
+    "difficulty": "intermediate",
+    "skills": [
+      "Kanban workflow design",
+      "Retrospectives",
+      "Portfolio case-study writing"
+    ],
+    "expected_deliverable": "Before/after workflow, measures, reflection, and reusable template",
+    "source_fit": "aligned_with_project_management_roadmap",
+    "source_id": "source_user_roadmap_project_management",
+    "notes": "Report actual results honestly; do not invent impact metrics."
+  }
+]

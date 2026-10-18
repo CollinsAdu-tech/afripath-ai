@@ -1,0 +1,94 @@
+{
+  "httpStatus": 200,
+  "body": {
+    "careers": [
+      {
+        "careerId": "career_ai_ml_engineering",
+        "title": "AI/ML Engineering",
+        "category": "Artificial Intelligence and Machine Learning",
+        "summary": "AI/ML Engineering helps build systems that learn from data and make useful predictions or decisions.",
+        "stageCount": 4,
+        "projectCount": 3,
+        "scored": true
+      },
+      {
+        "careerId": "career_cybersecurity",
+        "title": "Cybersecurity",
+        "category": "Cybersecurity",
+        "summary": "Protect computer systems, networks, people, and personal data from digital threats.",
+        "stageCount": 4,
+        "projectCount": 5,
+        "scored": true
+      },
+      {
+        "careerId": "career_data_careers",
+        "title": "Data Careers",
+        "category": "Data",
+        "summary": "Build practical data skills through one focused learning track, consistent practice, and one or two portfolio projects.",
+        "stageCount": 4,
+        "projectCount": 4,
+        "scored": true
+      },
+      {
+        "careerId": "career_cloud_computing_aws",
+        "title": "Cloud Computing (AWS)",
+        "category": "Cloud Computing",
+        "summary": "Learn cloud concepts and AWS services, deploy real projects, document architecture and security decisions, and optionally pursue entry-level certification.",
+        "stageCount": 4,
+        "projectCount": 5,
+        "scored": true
+      },
+      {
+        "careerId": "career_full_stack_web_development",
+        "title": "Full Stack Web Development",
+        "category": "Software Development",
+        "summary": "Build complete web applications end-to-end by learning front-end interfaces, back-end APIs, databases, version control, and deployment.",
+        "stageCount": 4,
+        "projectCount": 5,
+        "scored": true
+      },
+      {
+        "careerId": "career_intro_to_coding",
+        "title": "Intro to Coding",
+        "category": "Programming Fundamentals",
+        "summary": "A four-week beginner track for learning programming fundamentals with JavaScript and browser-based tools, then sharing a small portfolio of projects.",
+        "stageCount": 4,
+        "projectCount": 4,
+        "scored": true
+      },
+      {
+        "careerId": "career_quantum_computing",
+        "title": "Quantum Computing",
+        "category": "Quantum Technologies",
+        "summary": "Explore quantum information and computation by learning core concepts, building circuits, and testing small simulations with tools such as Qiskit.",
+        "stageCount": 4,
+        "projectCount": 5,
+        "scored": true
+      },
+      {
+        "careerId": "career_ai_safety",
+        "title": "AI Safety, Alignment and Governance",
+        "category": "AI Safety and Responsible AI",
+        "summary": "Study how to make AI systems more reliable, controllable, accountable, and beneficial, spanning technical alignment, evaluations, governance, and responsible deployment.",
+        "stageCount": 4,
+        "projectCount": 5,
+        "scored": true
+      },
+      {
+        "careerId": "career_project_management",
+        "title": "Project Management, Agile and Workflow Automation",
+        "category": "Project and Operations Management",
+        "summary": "Learn to define project scope, coordinate stakeholders, manage time and risks, run iterative delivery, and automate repeatable workflows using project-management tools.",
+        "stageCount": 4,
+        "projectCount": 5,
+        "scored": true
+      }
+    ],
+    "meta": {
+      "engineVersion": "0.1.0",
+      "knowledgeBaseVersion": "0.7",
+      "taxonomyVersion": "0.1.0-editorial",
+      "scoringModel": "weighted-affinity-v1"
+    }
+  }
+}

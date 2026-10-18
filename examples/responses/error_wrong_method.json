@@ -1,0 +1,10 @@
+{
+  "httpStatus": 405,
+  "body": {
+    "error": {
+      "code": "METHOD_NOT_ALLOWED",
+      "message": "GET is not allowed on /v1/recommendations.",
+      "requestId": "<request-id>"
+    }
+  }
+}

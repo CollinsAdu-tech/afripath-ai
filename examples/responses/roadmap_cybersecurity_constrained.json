@@ -1,0 +1,712 @@
+{
+  "httpStatus": 200,
+  "body": {
+    "career": {
+      "careerId": "career_cybersecurity",
+      "title": "Cybersecurity",
+      "category": "Cybersecurity",
+      "summary": "Protect computer systems, networks, people, and personal data from digital threats."
+    },
+    "startingPoint": {
+      "stageId": "cybersecurity_level_1_exploration",
+      "order": 1,
+      "name": "Exploration",
+      "reason": "Everyone starts at the first stage unless they tell us they have already covered it. Move on whenever you feel ready."
+    },
+    "firstAction": {
+      "text": "Start with “Introduction to Cybersecurity”.",
+      "stageId": "cybersecurity_level_1_exploration",
+      "activityId": null,
+      "resource": {
+        "resourceId": "cyber_res_cisco_intro",
+        "title": "Introduction to Cybersecurity",
+        "url": "https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity"
+      },
+      "flags": [],
+      "why": "It is the first item for the stage you are starting at, after taking your access needs into account."
+    },
+    "pacing": {
+      "weeklyHours": 4,
+      "suggestedItemsPerWeek": 2,
+      "firstWeek": [
+        {
+          "title": "Introduction to Cybersecurity",
+          "resource": {
+            "resourceId": "cyber_res_cisco_intro",
+            "title": "Introduction to Cybersecurity",
+            "url": "https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity"
+          }
+        },
+        {
+          "title": "Google Cloud Cybersecurity Certificate (modules) / Cloud Skills Boost path",
+          "resource": {
+            "resourceId": "cyber_res_google_cloud_path_419",
+            "title": "Google Cloud Cybersecurity Certificate (modules) / Cloud Skills Boost path",
+            "url": "https://www.cloudskillsboost.google/paths/419"
+          }
+        }
+      ],
+      "note": "A suggestion for pacing only. Stage durations are shown exactly as written by the sources and are not turned into deadlines."
+    },
+    "stages": [
+      {
+        "stageId": "cybersecurity_level_1_exploration",
+        "order": 1,
+        "name": "Exploration",
+        "status": "start_here",
+        "durationPerSource": "no prerequisites",
+        "prerequisitesPerSource": [],
+        "focus": "Learn what cybersecurity is, common threats, and the main career tracks.",
+        "actions": [],
+        "weeklyPlanPerSource": [],
+        "checkpoints": [],
+        "activities": [],
+        "resources": [
+          {
+            "resourceId": "cyber_res_cisco_intro",
+            "title": "Introduction to Cybersecurity",
+            "provider": "Cisco Networking Academy",
+            "type": "course",
+            "url": "https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends as a quick-start course."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "cyber_res_google_cloud_path_419",
+            "title": "Google Cloud Cybersecurity Certificate (modules) / Cloud Skills Boost path",
+            "provider": "Google Cloud Skills Boost",
+            "type": "learning_path",
+            "url": "https://www.cloudskillsboost.google/paths/419",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source says modules; exact title, access, and price require verification."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "cyber_res_cyberpatriot_modules",
+            "title": "Cybersecurity Learning Modules",
+            "provider": "CyberPatriot",
+            "type": "learning_modules",
+            "url": "https://www.uscyberpatriot.org/competition/competition-overview/new-coaches-and-competitors/cybersecurity-learning-modules",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends exploring modules; audience/eligibility may vary."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "cyber_res_cisco_video",
+            "title": "What is Cybersecurity?",
+            "provider": "Cisco",
+            "type": "video",
+            "url": "https://www.youtube.com/watch?v=wbkM4rjYgA4",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "video_heavy",
+              "needsAccountSetup": false,
+              "formats": [
+                "video"
+              ]
+            },
+            "notes": [
+              "Source recommends as an introductory video."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": [
+              {
+                "code": "data_heavy",
+                "message": "Video-based, so it may use a lot of data. It is listed after lighter options; consider using it when your connection is better."
+              }
+            ]
+          }
+        ],
+        "communities": [],
+        "gaps": []
+      },
+      {
+        "stageId": "cybersecurity_level_2_foundations",
+        "order": 2,
+        "name": "Foundations",
+        "status": "upcoming",
+        "durationPerSource": "1–3 months",
+        "prerequisitesPerSource": [],
+        "focus": "Build fundamentals in networking, operating systems, and security basics.",
+        "actions": [],
+        "weeklyPlanPerSource": [],
+        "checkpoints": [],
+        "activities": [],
+        "resources": [
+          {
+            "resourceId": "cyber_res_cisco_essentials",
+            "title": "Cybersecurity Essentials",
+            "provider": "Cisco Networking Academy",
+            "type": "course",
+            "url": "https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends for foundations."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "cyber_res_google_learning_path_118",
+            "title": "Google Cybersecurity Learning Path",
+            "provider": "Google Cloud Skills Boost",
+            "type": "learning_path",
+            "url": "https://www.cloudskillsboost.google/paths/118",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source gives this as a Google Cybersecurity Learning Path; verify title because URL/path may have changed."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "cyber_res_ibm_skillsbuild_catalog",
+            "title": "IBM SkillsBuild Course Catalog",
+            "provider": "IBM SkillsBuild",
+            "type": "course_catalog",
+            "url": "https://skillsbuild.org/college-students/course-catalog",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends exploring cybersecurity content; specific course should be selected after review."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "cyber_res_google_coursera_certificate",
+            "title": "Google Cybersecurity Professional Certificate",
+            "provider": "Google / Coursera",
+            "type": "professional_certificate",
+            "url": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+            "bestFor": null,
+            "access": {
+              "cost": "may_involve_cost",
+              "costNote": "The knowledge base notes this may involve costs or fees. Check current pricing before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source says audit if available; cost, audit availability, and financial aid require verification."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": [
+              {
+                "code": "check_cost",
+                "message": "May involve costs, so it is listed after other options in this stage. Check current pricing before you commit."
+              }
+            ]
+          }
+        ],
+        "communities": [],
+        "gaps": []
+      },
+      {
+        "stageId": "cybersecurity_level_3_participation",
+        "order": 3,
+        "name": "Participation",
+        "status": "upcoming",
+        "durationPerSource": "3–6 months",
+        "prerequisitesPerSource": [],
+        "focus": "Do hands-on practice and start documenting work.",
+        "actions": [],
+        "weeklyPlanPerSource": [],
+        "checkpoints": [],
+        "activities": [],
+        "resources": [
+          {
+            "resourceId": "cyber_res_vulnhub",
+            "title": "VulnHub",
+            "provider": "VulnHub",
+            "type": "practice_lab",
+            "url": "https://www.vulnhub.com/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "hands_on"
+              ]
+            },
+            "notes": [
+              "Intentionally vulnerable machines; use only in an isolated lab and with authorization."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": [
+              {
+                "code": "matches_preferred_format",
+                "message": "Matches a learning format you said you prefer."
+              }
+            ]
+          },
+          {
+            "resourceId": "cyber_res_metasploitable",
+            "title": "Metasploitable",
+            "provider": "SourceForge / Rapid7 project distribution",
+            "type": "practice_lab",
+            "url": "https://sourceforge.net/projects/metasploitable/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "hands_on"
+              ]
+            },
+            "notes": [
+              "Intentionally vulnerable target; keep isolated and never expose it to public networks."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": [
+              {
+                "code": "matches_preferred_format",
+                "message": "Matches a learning format you said you prefer."
+              }
+            ]
+          },
+          {
+            "resourceId": "cyber_res_cybertalents_competitions",
+            "title": "CyberTalents Competitions",
+            "provider": "CyberTalents",
+            "type": "competition_platform",
+            "url": "https://cybertalents.com/competitions",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "hands_on"
+              ]
+            },
+            "notes": [
+              "Competitions/CTFs; scholarships are not guaranteed by participation."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": [
+              {
+                "code": "matches_preferred_format",
+                "message": "Matches a learning format you said you prefer."
+              }
+            ]
+          },
+          {
+            "resourceId": "cyber_res_github",
+            "title": "GitHub",
+            "provider": "GitHub",
+            "type": "portfolio_platform",
+            "url": "https://github.com/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends documenting writeups, screenshots, and lessons learned."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "cyber_res_tryhackme",
+            "title": "TryHackMe Beginner Path / platform",
+            "provider": "TryHackMe",
+            "type": "hands_on_lab",
+            "url": "https://tryhackme.com/path/outline/beginner",
+            "bestFor": null,
+            "access": {
+              "cost": "may_involve_cost",
+              "costNote": "The knowledge base notes this may involve costs or fees. Check current pricing before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "hands_on"
+              ]
+            },
+            "notes": [
+              "Source recommends beginner challenges; account requirements and free/paid boundaries require verification."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": [
+              {
+                "code": "check_cost",
+                "message": "May involve costs, so it is listed after other options in this stage. Check current pricing before you commit."
+              },
+              {
+                "code": "matches_preferred_format",
+                "message": "Matches a learning format you said you prefer."
+              }
+            ]
+          }
+        ],
+        "communities": [],
+        "gaps": []
+      },
+      {
+        "stageId": "cybersecurity_level_4_going_deeper",
+        "order": 4,
+        "name": "Going Deeper",
+        "status": "upcoming",
+        "durationPerSource": "6–18 months",
+        "prerequisitesPerSource": [],
+        "focus": "Specialize and prepare for stronger certifications and real-world work.",
+        "actions": [],
+        "weeklyPlanPerSource": [],
+        "checkpoints": [],
+        "activities": [],
+        "resources": [
+          {
+            "resourceId": "cyber_res_defcon",
+            "title": "DEF CON",
+            "provider": "DEF CON",
+            "type": "conference",
+            "url": "https://defcon.org/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "community"
+              ]
+            },
+            "notes": [
+              "Source suggests attending events; costs, dates, and accessibility vary."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "cyber_res_owasp",
+            "title": "OWASP",
+            "provider": "OWASP Foundation",
+            "type": "community_and_events",
+            "url": "https://owasp.org/",
+            "bestFor": null,
+            "access": {
+              "cost": "unknown",
+              "costNote": "The knowledge base does not state the cost. Check before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": [
+                "community"
+              ]
+            },
+            "notes": [
+              "Source suggests OWASP meetups; find a current local chapter/event before recommending."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": []
+          },
+          {
+            "resourceId": "cyber_res_cisco_cyberops",
+            "title": "Cisco CyberOps Associate / Cisco cybersecurity training",
+            "provider": "Cisco Networking Academy",
+            "type": "training_and_certification_path",
+            "url": "https://www.netacad.com/cybersecurity",
+            "bestFor": null,
+            "access": {
+              "cost": "may_involve_cost",
+              "costNote": "The knowledge base notes this may involve costs or fees. Check current pricing before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends advancing through Cisco CyberOps Associate; confirm current course and exam pathway."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": [
+              {
+                "code": "check_cost",
+                "message": "May involve costs, so it is listed after other options in this stage. Check current pricing before you commit."
+              }
+            ]
+          },
+          {
+            "resourceId": "cyber_res_google_cloud_security_cert",
+            "title": "Google Cloud Professional Cloud Security Engineer certification path",
+            "provider": "Google Cloud",
+            "type": "certification_path",
+            "url": "https://cloud.google.com/learn/certification/cloud-security-engineer",
+            "bestFor": null,
+            "access": {
+              "cost": "may_involve_cost",
+              "costNote": "The knowledge base notes this may involve costs or fees. Check current pricing before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends studying this path; exam costs and prerequisites should be verified."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": [
+              {
+                "code": "check_cost",
+                "message": "May involve costs, so it is listed after other options in this stage. Check current pricing before you commit."
+              }
+            ]
+          },
+          {
+            "resourceId": "cyber_res_comptia_security_plus",
+            "title": "CompTIA Security+",
+            "provider": "CompTIA",
+            "type": "certification",
+            "url": "https://www.comptia.org/certifications/security",
+            "bestFor": null,
+            "access": {
+              "cost": "may_involve_cost",
+              "costNote": "The knowledge base notes this may involve costs or fees. Check current pricing before you start.",
+              "dataUse": "not_stated",
+              "needsAccountSetup": false,
+              "formats": []
+            },
+            "notes": [
+              "Source recommends preparation; certification exam typically has a fee; verify current details."
+            ],
+            "verificationStatus": "not_independently_verified",
+            "linkStatus": "unverified_link",
+            "flags": [
+              {
+                "code": "check_cost",
+                "message": "May involve costs, so it is listed after other options in this stage. Check current pricing before you commit."
+              }
+            ]
+          }
+        ],
+        "communities": [],
+        "gaps": []
+      }
+    ],
+    "prerequisiteGuidance": {
+      "prerequisites": [],
+      "bridgePath": null
+    },
+    "projects": [
+      {
+        "projectId": "cyber_project_home_lab",
+        "title": "Build a simple home lab",
+        "description": "Set up virtual machines and an intentionally vulnerable target in an isolated lab.",
+        "type": "hands_on_lab",
+        "difficulty": "not_specified",
+        "deliverable": null,
+        "safetyNote": "Keep vulnerable targets isolated; do not expose them to the public internet or test systems without authorization.",
+        "notes": [],
+        "skills": []
+      },
+      {
+        "projectId": "cyber_project_github_portfolio",
+        "title": "Security lab notes and CTF portfolio",
+        "description": "Publish lab notes, CTF writeups, screenshots, and lessons learned on GitHub.",
+        "type": "portfolio",
+        "difficulty": "not_specified",
+        "deliverable": null,
+        "safetyNote": "Do not publish secrets, credentials, personal data, or exploit details for live third-party targets.",
+        "notes": [],
+        "skills": []
+      },
+      {
+        "projectId": "cyber_project_incident_checklist",
+        "title": "Basic incident-response checklist",
+        "description": "Create a checklist for a common security incident scenario.",
+        "type": "documentation",
+        "difficulty": "not_specified",
+        "deliverable": null,
+        "safetyNote": null,
+        "notes": [],
+        "skills": []
+      },
+      {
+        "projectId": "cyber_project_security_hygiene_guide",
+        "title": "Personal security-hygiene guide",
+        "description": "Create a guide to safe digital habits that can be taught to peers or a community group.",
+        "type": "community_education",
+        "difficulty": "not_specified",
+        "deliverable": null,
+        "safetyNote": null,
+        "notes": [],
+        "skills": []
+      },
+      {
+        "projectId": "cyber_project_ctf_writeups",
+        "title": "Beginner CTF writeups",
+        "description": "Solve beginner challenges on authorized CTF platforms and document the approach and lessons learned.",
+        "type": "practice_and_documentation",
+        "difficulty": "not_specified",
+        "deliverable": null,
+        "safetyNote": "Only interact with the CTF targets and systems authorized by the platform.",
+        "notes": [],
+        "skills": []
+      }
+    ],
+    "learningTracks": [],
+    "opportunityLeads": [
+      {
+        "opportunityId": "cyber_opp_cybertalents_ctfs",
+        "title": "CyberTalents CTFs and competitions",
+        "type": "competition",
+        "url": "https://cybertalents.com/competitions",
+        "eligibility": "Event-specific eligibility and prizes vary; do not label as a scholarship without an explicit current offer.",
+        "notes": null,
+        "status": "unverified_lead",
+        "statusNote": "Unverified lead. Do not assume it is open or funded. Check the official page for current dates, eligibility and costs.",
+        "verificationStatus": "not_independently_verified"
+      },
+      {
+        "opportunityId": "cyber_opp_cisco_talent_bridge",
+        "title": "Cisco Networking Academy Talent Bridge",
+        "type": "career_program",
+        "url": "https://www.netacad.com/careers/talent-bridge",
+        "eligibility": "Current status, geographic availability, and eligibility require verification.",
+        "notes": null,
+        "status": "unverified_lead",
+        "statusNote": "Unverified lead. Do not assume it is open or funded. Check the official page for current dates, eligibility and costs.",
+        "verificationStatus": "not_independently_verified"
+      },
+      {
+        "opportunityId": "cyber_opp_tryhackme_contests",
+        "title": "TryHackMe contests",
+        "type": "competition",
+        "url": "https://tryhackme.com/",
+        "eligibility": "Source mentions contests generally; find a specific active event before presenting it as an opportunity.",
+        "notes": null,
+        "status": "unverified_lead",
+        "statusNote": "Unverified lead. Do not assume it is open or funded. Check the official page for current dates, eligibility and costs.",
+        "verificationStatus": "not_independently_verified"
+      }
+    ],
+    "guidance": [
+      {
+        "text": "Consistency wins: 30 minutes daily beats 8 hours once a month.",
+        "type": "practitioner_advice"
+      },
+      {
+        "text": "Share progress, even small wins such as labs, writeups, and mini projects.",
+        "type": "portfolio_advice"
+      },
+      {
+        "text": "Break and fix things in a lab environment to learn faster.",
+        "type": "practice_advice"
+      }
+    ],
+    "accessConsiderations": [
+      {
+        "code": "cost_may_apply",
+        "message": "5 resources in this roadmap may involve costs. Within each stage they are listed after other options. Prices are not verified in the knowledge base, so compare before paying for anything, and consider practising with the other resources first.",
+        "resourceIds": [
+          "cyber_res_google_coursera_certificate",
+          "cyber_res_tryhackme",
+          "cyber_res_cisco_cyberops",
+          "cyber_res_google_cloud_security_cert",
+          "cyber_res_comptia_security_plus"
+        ]
+      },
+      {
+        "code": "data_use",
+        "message": "1 resources are video-based and may use a lot of data. Lighter resources are listed first within each stage.",
+        "resourceIds": [
+          "cyber_res_cisco_video"
+        ]
+      },
+      {
+        "code": "device",
+        "message": "The knowledge base does not state device requirements for this path. Check each resource before you start, especially tools you install or run locally."
+      }
+    ],
+    "knowledgeGaps": [
+      "The knowledge base links projects to the whole path, not to individual stages, so projects are not matched to a stage."
+    ],
+    "caveats": [
+      "Links, course availability, prices and opportunities come from a knowledge base that has not been independently verified. Check each one before relying on it.",
+      "Stage durations are shown as written by the sources. They are not promises or deadlines."
+    ],
+    "warnings": [],
+    "meta": {
+      "engineVersion": "0.1.0",
+      "knowledgeBaseVersion": "0.7",
+      "taxonomyVersion": "0.1.0-editorial",
+      "scoringModel": "weighted-affinity-v1"
+    }
+  }
+}

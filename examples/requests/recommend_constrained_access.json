@@ -1,0 +1,26 @@
+{
+  "profile": {
+    "interests": [
+      "web_building",
+      "intelligent_systems"
+    ],
+    "currentSkills": [
+      "problem_solving"
+    ],
+    "workStyles": [
+      "building"
+    ],
+    "programmingExperience": "none",
+    "budget": "none",
+    "internet": "unreliable",
+    "device": "phone_only",
+    "weeklyHours": 3,
+    "learningFormats": [
+      "text",
+      "interactive"
+    ]
+  },
+  "options": {
+    "maxResults": 3
+  }
+}
