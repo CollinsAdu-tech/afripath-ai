@@ -1,27 +1,19 @@
 {
-  "name": "kareer-pathfinder-engine",
-  "version": "0.1.0",
-  "description": "Deterministic, explainable career recommendation engine for Kareer Pathfinder AI (MVP V1)",
+  "name": "afripath-ai",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Dev helpers for the AfriPath AI monorepo. The engine is Python (FastAPI); Node is used only for the React front end in web/.",
   "type": "module",
-  "main": "src/engine/index.js",
-  "engines": {
-    "node": ">=20"
-  },
   "scripts": {
-    "start": "node src/api/start.js",
-    "test": "node --test \"test/**/*.test.js\"",
-    "data-quality": "node scripts/generate-data-quality-report.js",
-    "examples": "node scripts/generate-examples.js",
-    "recommend": "node scripts/recommend.js",
-    "openapi": "node scripts/generate-openapi.js",
     "dev": "node scripts/dev.mjs",
+    "start": "python3 -m pathfinder.api",
+    "test": "python3 -m pytest -q",
     "test:web": "npm --prefix web test",
     "build:web": "npm --prefix web run build",
-    "test:all": "npm test && npm run test:web"
-  },
-  "exports": {
-    ".": "./src/engine/index.js",
-    "./knowledge": "./src/knowledge/knowledgeBase.js",
-    "./knowledge/load": "./src/knowledge/loadFromDirectory.js"
+    "test:all": "npm test && npm run test:web",
+    "examples": "python3 scripts/generate_examples.py",
+    "data-quality": "python3 scripts/generate_data_quality_report.py",
+    "openapi": "python3 scripts/sync_openapi.py",
+    "recommend": "python3 scripts/recommend.py"
   }
 }

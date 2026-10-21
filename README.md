@@ -1,20 +1,21 @@
-# Kareer Pathfinder AI — Recommendation Engine (MVP V1)
+# AfriPath AI — Recommendation Engine (Python / FastAPI)
 
 A standalone, independently testable backend that turns a student's questionnaire answers into **explainable career-path recommendations** and **personalised learning roadmaps**, using the v0.7 Kareer Pathfinder knowledge base (9 career paths, 36 roadmap stages, 157 resources, 46 projects).
 
-The engine is exposed as a small JSON-over-HTTP API so any frontend, built with any framework, can integrate. A React + TypeScript front end (AfriPath AI) lives in `web/` and is the only consumer in this repo. The engine itself has **zero runtime dependencies**, no database, no external AI service and no paid API.
+The engine is written in **Python** and served with **FastAPI**, as a small JSON-over-HTTP API so any frontend can integrate. A React + TypeScript front end (AfriPath AI) lives in `web/`. There is no database, no external AI service and no paid API. The scoring is a deterministic, explainable heuristic today, and the code has a documented hook (`Engine(kb, ranker=...)`) where a machine-learning model can be plugged in later.
 
 ## Quick start
 
-Requires Node.js 20 or newer (developed and tested on Node 22).
+Requires Python 3.10 or newer (developed and tested on 3.13).
 
 ```bash
-npm test                      # 103 automated tests, no install step needed
-npm start                     # API on http://localhost:8080
+pip install -r requirements-dev.txt
+python -m pytest              # 105 automated tests
+python -m pathfinder.api      # API on http://localhost:8080  (Swagger UI at /docs)
 curl localhost:8080/health
 
 # Try the engine with no server at all:
-node scripts/recommend.js examples/requests/recommend_security_investigator.json
+python scripts/recommend.py examples/requests/recommend_security_investigator.json
 ```
 
 ```bash
@@ -25,27 +26,27 @@ curl -s -X POST localhost:8080/v1/recommendations \
 
 ## Architecture
 
-Three layers with enforced boundaries (see `test/architecture.test.js`):
+Three layers with enforced boundaries (see `tests/test_architecture.py`):
 
 ```
-src/knowledge/   Loads, normalises and validates the knowledge base. Knows nothing about students or HTTP.
-  knowledgeBase.js        pure: raw records -> one consistent shape + data-quality issues
-  loadFromDirectory.js    Node-only: reads the combined_*.json files
-src/engine/      Recommendation logic. No HTTP, no files, no clock, no randomness.
-  index.js                createEngine(kb) -> recommend / roadmap / listCareers / ...   (the only public entry point)
-  config.js               ALL weights and thresholds in one place
-  options.js              questionnaire option ids and labels
-  profileNormalizer.js    answers -> validated profile (warnings and errors)
-  taxonomy.js             manually maintained, evidence-annotated career mapping
-  careerFeatureMapper.js  profile x career -> per-factor sub-scores and matched answers
-  recommendationEngine.js weighted scoring, ranking, evidence assessment
-  recommendationExplainer.js  plain-language reasons, skill gaps, prerequisites
-  roadmapPersonalizer.js  starting stage, resource ordering, access flags, pacing
-  recommendationValidator.js  checks every id, link and score in an output against the KB
-src/api/         Thin HTTP layer (node:http). Depends only on the engine facade.
-  handlers.js             pure request -> response functions (testable without sockets)
-  server.js               body limits, JSON, CORS, request ids, logging
-  start.js                composition root: load KB -> create engine -> listen
+pathfinder/knowledge/   Loads, normalises and validates the knowledge base. Knows nothing about students or HTTP.
+  base.py                 pure: raw records -> typed dataclasses + data-quality issues
+  loader.py               reads the combined_*.json files
+pathfinder/engine/      Recommendation logic. No HTTP, no files, no clock, no randomness.
+  core.py                 Engine(kb) -> recommend / roadmap / list_careers / ...   (the only public entry point; ML ranker hook)
+  config.py               ALL weights and thresholds in one place
+  options.py              questionnaire option ids and labels
+  profile.py              answers -> validated profile (warnings and errors)
+  taxonomy.py             manually maintained, evidence-annotated career mapping
+  features.py             profile x career -> per-factor sub-scores and matched answers
+  scoring.py              weighted scoring, ranking (rank_careers), evidence assessment
+  explain.py              plain-language reasons, skill gaps, prerequisites
+  roadmap.py              starting stage, resource ordering, access flags, pacing
+  validate.py             checks every id, link and score in an output against the KB
+pathfinder/api/         Thin FastAPI layer. Depends only on the engine facade.
+  handlers.py             pure request -> response functions (testable without HTTP)
+  app.py                  body limits, JSON, CORS, request ids, logging, routes
+  main.py                 ASGI entry point (uvicorn pathfinder.api.main:app)
 ```
 
 ## Documentation
@@ -53,22 +54,22 @@ src/api/         Thin HTTP layer (node:http). Depends only on the engine facade.
 | Document | Contents |
 |---|---|
 | [docs/API.md](docs/API.md) | Integration contract: endpoints, request/response schemas, validation rules, errors, examples, how a frontend should handle each state |
-| [docs/openapi.json](docs/openapi.json) | Machine-readable OpenAPI 3.1 contract (generated by `npm run openapi`) |
+| [docs/openapi.json](docs/openapi.json) | Machine-readable OpenAPI 3.1 contract (kept in sync by `python scripts/sync_openapi.py`) |
 | [docs/SCORING_AND_MAPPING.md](docs/SCORING_AND_MAPPING.md) | How scoring works, how to change weights and career mappings safely |
 | [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Requirements, environment variables, health check, hardening notes |
-| [docs/DATA_QUALITY_REPORT.md](docs/DATA_QUALITY_REPORT.md) | Problems found in the knowledge base and how the engine handles each (generated by `npm run data-quality`) |
-| [examples/](examples) | Synthetic student requests and the **real** responses to them (regenerated by `npm run examples`; a test fails if they go stale) |
+| [docs/DATA_QUALITY_REPORT.md](docs/DATA_QUALITY_REPORT.md) | Problems found in the knowledge base and how the engine handles each (generated by `python scripts/generate_data_quality_report.py`) |
+| [examples/](examples) | Synthetic student requests and the **real** responses to them (regenerated by `python scripts/generate_examples.py`; a test fails if they go stale) |
 
 ## Scripts
 
 | Command | Purpose |
 |---|---|
-| `npm start` | Start the API |
-| `npm test` | Run all tests |
-| `npm run recommend -- <request.json>` | Run the engine directly on an example request |
-| `npm run examples` | Regenerate `examples/responses/` from the real server |
-| `npm run openapi` | Regenerate `docs/openapi.json` |
-| `npm run data-quality` | Regenerate the data-quality report |
+| `python -m pathfinder.api` | Start the API |
+| `python -m pytest` | Run all tests |
+| `python scripts/recommend.py <request.json>` | Run the engine directly on an example request |
+| `python scripts/generate_examples.py` | Regenerate `examples/responses/` from the real app |
+| `python scripts/sync_openapi.py` | Sync the enums in `docs/openapi.json` with the engine options |
+| `python scripts/generate_data_quality_report.py` | Regenerate the data-quality report |
 
 ## What the engine guarantees
 
@@ -81,7 +82,7 @@ src/api/         Thin HTTP layer (node:http). Depends only on the engine facade.
 
 ## Known limitations
 
-- **The career mapping is editorial.** The knowledge base has no field saying which interests or strengths suit a career, so `src/engine/taxonomy.js` holds a manually maintained mapping, annotated with evidence from the KB records. It has **not** been validated with students or educators; treat the weights and mapping as a documented starting point, not ground truth.
+- **The career mapping is editorial.** The knowledge base has no field saying which interests or strengths suit a career, so `pathfinder/engine/taxonomy.py` holds a manually maintained mapping, annotated with evidence from the KB records. It has **not** been validated with students or educators; treat the weights and mapping as a documented starting point, not ground truth.
 - **No outcome evaluation.** Recommendation quality has not been measured against real, consented student feedback. There is no feedback endpoint yet (see "Extension points" in docs/API.md).
 - **Knowledge-base content is unverified.** Links, prices, course availability, eligibility and opportunity dates may be out of date. Responses carry verification status and caveats; a human must verify before the UI says otherwise.
 - **Projects are linked to careers, not stages** and prerequisites are free text in the source, so neither can be matched or checked automatically. Responses say so.
@@ -96,8 +97,8 @@ A React + TypeScript site (Vite) lives in `web/`. It is a separate package that 
 HTTP API; the engine does not depend on it.
 
 ```
-npm run dev        # starts the engine (:8080) and the site (:5173); first run installs web/ dependencies
-npm test           # engine tests (zero dependencies)
+npm run dev        # starts the Python engine (:8080) and the site (:5173); first run installs web/ dependencies
+python -m pytest   # engine tests
 npm run test:web   # front-end tests (needs web/ dependencies: cd web && npm install)
 npm run build:web  # production build of the site into web/dist
 ```

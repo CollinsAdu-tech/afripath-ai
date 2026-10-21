@@ -6,12 +6,12 @@ React 19 + TypeScript (strict) + Vite. It talks to the recommendation engine onl
 ## Run it
 
 From the repository root (recommended): `npm run dev`, then open http://localhost:5173.
-That starts the engine on :8080 and Vite on :5173, and installs `web/` dependencies on first run. Needs Node 20 or newer.
+That starts the engine on :8080 and Vite on :5173, and installs `web/` dependencies on first run. Needs Node 20 or newer (front end) and Python 3.10 or newer (engine).
 
 Or run the pieces yourself:
 
 ```
-npm start                 # root: the engine API on :8080
+python -m pathfinder.api  # root: the engine API on :8080
 cd web && npm install
 npm run dev               # the site on :5173
 ```

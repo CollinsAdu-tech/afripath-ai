@@ -1,0 +1,17 @@
+[project]
+name = "pathfinder"
+version = "0.2.0"
+description = "Deterministic, explainable career-path recommendation engine (AfriPath AI) with a FastAPI service"
+requires-python = ">=3.10"
+dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "httpx>=0.27"]
+
+[tool.setuptools.packages.find]
+include = ["pathfinder*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::DeprecationWarning"]

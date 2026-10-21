@@ -1,0 +1,14 @@
+# Optional Render Blueprint (you can also set these fields by hand in the dashboard).
+services:
+  - type: web
+    name: afripath-engine
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn pathfinder.api.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.6
+      - key: CORS_ALLOWED_ORIGINS
+        sync: false   # set to your front-end URL, e.g. https://afripath-ai.<you>.workers.dev

@@ -1,6 +1,6 @@
 # Scoring model and career mapping
 
-Everything numeric lives in two files: **`src/engine/config.js`** (weights, blends, thresholds) and **`src/engine/taxonomy.js`** (career mapping). Nothing else hard-codes a weight (a test enforces this).
+Everything numeric lives in two files: **`pathfinder/engine/config.py`** (weights, blends, thresholds) and **`pathfinder/engine/taxonomy.py`** (career mapping). Nothing else hard-codes a weight (a test enforces this).
 
 ## The formula
 
@@ -41,7 +41,7 @@ fitScore(c) = 100 × Σ ( weight_f × subscore_f(c) ) / Σ ( weight_f )
 
 Because renormalisation makes sparse answers produce extreme numbers (one interest can score 100), exploratory results **never** use the strong/good labels.
 
-## The career taxonomy (`taxonomy.js`)
+## The career taxonomy (`taxonomy.py`)
 
 **Why it exists.** The v0.7 knowledge base has *no field* saying which interests, strengths, work styles or goals suit a career (verified against all 9 career records). Matching therefore needs an explicit, reviewable mapping.
 
@@ -51,26 +51,26 @@ Because renormalisation makes sparse answers produce extreme numbers (one intere
 
 ### Change a weight or threshold
 
-1. Edit the value in `src/engine/config.js` (weights stay relative; they are renormalised).
-2. `npm test`. Tests pinning the spec weights (`the weights in the shipped config are exactly the product spec`) and scenario rankings will tell you what moved. If the change is intentional, update those tests with the new decision.
-3. `npm run examples` (refresh documented responses) and `npm run openapi` if enum/limit values changed.
-4. Bump `ENGINE_VERSION` in `config.js`.
+1. Edit the value in `pathfinder/engine/config.py` (weights stay relative; they are renormalised).
+2. `python -m pytest`. Tests pinning the spec weights (`the weights in the shipped config are exactly the product spec`) and scenario rankings will tell you what moved. If the change is intentional, update those tests with the new decision.
+3. `python scripts/generate_examples.py` (refresh documented responses) and `python scripts/sync_openapi.py` if enum/limit values changed.
+4. Bump `ENGINE_VERSION` in `config.py`.
 
 ### Change a career mapping
 
-1. Edit that career's entry in `taxonomy.js`. Keep a number only if you can point to evidence; add or update the `evidence` strings.
+1. Edit that career's entry in `taxonomy.py`. Keep a number only if you can point to evidence; add or update the `evidence` strings.
 2. Bump `TAXONOMY_VERSION`.
-3. `npm test` (the structural check `validateTaxonomy` runs when the engine is built and rejects missing options, values outside 0..1 or empty evidence), then `npm run examples`.
+3. `python -m pytest` (the structural check `validate_taxonomy` runs when the engine is built and rejects missing options, values outside 0..1 or empty evidence), then `python scripts/generate_examples.py`.
 
 ### Add a career (new KB version)
 
-1. Add the career's records to the KB files; run `npm run data-quality`.
+1. Add the career's records to the KB files; run `python scripts/generate_data_quality_report.py`.
 2. Add a taxonomy entry with the **same `career_id`** (all 9 option groups, `prep`, `evidence`). Until then the engine reports `NO_TAXONOMY` and does not score the career (it still appears in `GET /v1/careers` with `scored:false`).
-3. `npm test`, `npm run examples`.
+3. `python -m pytest`, `python scripts/generate_examples.py`.
 
 ### Add a questionnaire option
 
-Add it in `src/engine/options.js` (the single source for validation, `GET /v1/options` and the OpenAPI enums), add its affinity to every career in `taxonomy.js` (and the count in `validateTaxonomy`), then `npm run openapi && npm run examples && npm test`.
+Add it in `pathfinder/engine/options.py` (the single source for validation, `GET /v1/options` and the OpenAPI enums), add its affinity to every career in `taxonomy.py` (and the count in `validate_taxonomy`), then `python scripts/sync_openapi.py && python scripts/generate_examples.py && python -m pytest`.
 
 ## Roadmap personalisation rules
 
@@ -86,3 +86,7 @@ Add it in `src/engine/options.js` (the single source for validation, `GET /v1/op
 ## Reproducibility
 
 Tests use only synthetic students (`examples/requests/*.json` and a seeded pseudo-random generator). The engine has no clock, randomness or environment access (enforced by an architecture test).
+
+## Where a machine-learning model plugs in
+
+`Engine(kb, ranker=...)` (see `pathfinder/engine/core.py`). The default ranker is `rank_careers` in `pathfinder/engine/scoring.py`: it scores each career with the weighted factors above. A learned ranker must return the same list shape (careerId, fitScore 0-100, applicableWeight, factors[], features{}), so explanations, roadmaps, validation and the API keep working unchanged. A sensible first step is to blend a model's score into `fitScore` while keeping the factor breakdown for explanations. A model should be trained and evaluated on real, consented outcome data, which this project does not yet have; until then the heuristic scores stay the source of truth.
