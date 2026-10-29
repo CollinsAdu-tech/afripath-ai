@@ -1,0 +1,28 @@
+# Pings the Render service every 12 minutes so the free instance (which sleeps after 15 minutes
+# of inactivity) is awake when a visitor arrives.
+#
+# Setup: GitHub repo -> Settings -> Secrets and variables -> Actions -> Variables -> New repository variable
+#   Name: ENGINE_URL     Value: https://<your-service>.onrender.com   (no trailing slash)
+#
+# Notes: GitHub may delay scheduled runs by a few minutes at busy times, and pauses schedules on a public
+# repo with no activity for 60 days (push a commit or click "Enable workflow" to resume).
+name: keep-awake
+
+on:
+  schedule:
+    - cron: "*/12 * * * *"
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Ping /health
+        env:
+          ENGINE_URL: ${{ vars.ENGINE_URL }}
+        run: |
+          if [ -z "$ENGINE_URL" ]; then echo "Set the ENGINE_URL repository variable"; exit 1; fi
+          # A sleeping instance can take about a minute to wake, so allow a long timeout and retry.
+          curl --fail --silent --show-error --max-time 90 --retry 2 --retry-delay 5 "$ENGINE_URL/health"
+          echo
