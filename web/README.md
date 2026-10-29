@@ -69,16 +69,9 @@ Hosting under a sub-path needs `base` set in `vite.config.ts` and `basename` on 
 
 Free hosts such as Render put the engine to sleep after a quiet spell, and waking it takes about a minute. The site handles this:
 
-- It pings `/health` as soon as any page opens, so the engine starts waking before the student reaches the survey.
+-The GitHub keep awake pings `/health` every twelve minutes, so the engine keeps awake.
 - A request that gets no answer, times out, or returns 502/503/504 is retried every few seconds for up to 75 seconds. Answers
   that are not about start-up (400, 404, 422, 500) are never retried. All calls are safe to repeat.
 - While a request is still waiting after 4 seconds, a "Waking up the server" notice is shown. It disappears as soon as the engine answers.
 - The numbers live in `retryPolicy` in `src/api/client.ts`.
 
-To avoid the wait entirely, you can have a free uptime monitor request `/health` every few minutes, but check your host's free-hours limit first.
-
-## Photos
-
-The design has photo slots; until you add images they show labelled placeholders. Drop files into `public/img/`:
-`hero.jpg`, `story.jpg`, `how.jpg`, `opportunities.jpg`, and transparent cut-outs `cta-left.png`, `cta-right.png`.
-Sizes are listed in `public/img/README.md`.
