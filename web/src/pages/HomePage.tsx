@@ -56,7 +56,7 @@ export function HomePage() {
           <LinkButton to="/afripath-ai" variant="primary" size="lg" arrow>Take the survey</LinkButton>
           <a className="btn btn--lg" href="#how">See how it works</a>
         </Reveal>
-        <Photo className="hero-photo" delay={0.2} src="/img/hero.jpg" alt="Students learning together" label="Hero photo" hint={<>Add <code>public/img/hero.jpg</code> (wide, about 1750×680)</>} />
+        <Photo className="hero-photo" delay={0.2} src="/img/hero.jpg" alt="Students learning together" label="Hero photo"/>
         <div className="stats" id="stats" aria-live="polite">
           <Reveal pop className="stat stat--blue"><strong>Survey first</strong><span>Your answers drive every suggestion</span></Reveal>
           {careers && <Reveal pop delay={0.08} className="stat stat--lime"><strong>{careers}</strong><span>Career paths in the engine today</span></Reveal>}
@@ -66,14 +66,14 @@ export function HomePage() {
       </div></section>
 
       <section className="section" id="story"><div className="wrap">
-        <div className="story"><StoryCard /><Photo className="story-photo" delay={0.15} src="/img/story.jpg" alt="A student writing in a notebook" label="Story photo" hint={<>Add <code>public/img/story.jpg</code> (portrait 4:5)</>} /></div>
+        <div className="story"><StoryCard /><Photo className="story-photo" delay={0.15} src="/img/story.jpg" alt="A student writing in a notebook" label="Story photo"/></div>
       </div></section>
 
       <section className="section" id="how" style={{ paddingTop: 0 }}>
         <div className="wrap how">
           <div className="how-left">
             <Reveal><h2 className="display h-lg">How it <Accent>works</Accent></h2><p className="lead">Three steps, then the hidden potential gets a clear direction.</p></Reveal>
-            <Photo src="/img/how.jpg" alt="A student thinking with a pencil" label="How-it-works photo" hint={<>Add <code>public/img/how.jpg</code> (portrait)</>} />
+            <Photo src="/img/how.jpg" alt="A student thinking with a pencil" label="How-it-works photo"/>
           </div>
           <div className="how-list">
             {STEPS.map((s) => (
@@ -107,7 +107,7 @@ export function HomePage() {
       </section>
 
       <section className="band-lime section"><div className="wrap split">
-        <Photo src="/img/opportunities.jpg" alt="A magnifying glass over a globe" label="Opportunities photo" />
+        <Photo src="/img/opportunities.jpg" alt="A magnifying glass over a globe" label="Opportunities photo"/>
         <div>
           <Reveal as="span" className="pill">Scholarships & Activities</Reveal>
           <Reveal as="h2" delay={0.06} className="display h-lg">What Opportunities are <Accent>Available to explore</Accent></Reveal>
