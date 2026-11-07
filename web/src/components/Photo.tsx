@@ -1,5 +1,5 @@
 
-import { useEffect, useState, type ReactNode } from 'react';
+import { useEffect, useState } from 'react';
 import { Reveal } from './ui';
 
 /** A photo slot: shows a labelled placeholder until the image file exists in public/img/. */
