@@ -7,14 +7,12 @@ export function Photo({
   src,
   alt,
   label,
-  hint,
   className = '',
   delay = 0,
 }: {
   src: string;
   alt: string;
   label: string;
-  hint?: ReactNode;
   className?: string;
   delay?: number;
 }) {
@@ -40,7 +38,6 @@ export function Photo({
       {ok && <img src={src} alt={alt} loading="lazy" decoding="async" />}
       <div className="ph">
         <b>{label}</b>
-        {hint && <span className="photo-hint">{hint}</span>}
       </div>
     </Reveal>
   );
