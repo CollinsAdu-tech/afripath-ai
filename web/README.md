@@ -81,4 +81,4 @@ To avoid the wait entirely, you can have a free uptime monitor request `/health`
 
 The design has photo slots; until you add images they show labelled placeholders. Drop files into `public/img/`:
 `hero.jpg`, `story.jpg`, `how.jpg`, `opportunities.jpg`, and transparent cut-outs `cta-left.png`, `cta-right.png`.
-Sizes are listed in `public/img/README.md`.
+Sizes are listed in `IMAGES.md`.

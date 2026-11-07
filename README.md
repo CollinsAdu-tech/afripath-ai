@@ -1,8 +1,10 @@
-# AfriPath AI — Recommendation Engine (Python / FastAPI)
+# AfriPath AI
 
-A standalone, independently testable backend that turns a student's questionnaire answers into **explainable career-path recommendations** and **personalised learning roadmaps**, using the v0.7 Kareer Pathfinder knowledge base (9 career paths, 36 roadmap stages, 157 resources, 46 projects).
+**Built by Collins Adu.**
 
-The engine is written in **Python** and served with **FastAPI**, as a small JSON-over-HTTP API so any frontend can integrate. A React + TypeScript front end (AfriPath AI) lives in `web/`. There is no database, no external AI service and no paid API. The scoring is a deterministic, explainable heuristic today, and the code has a documented hook (`Engine(kb, ranker=...)`) where a machine-learning model can be plugged in later.
+I built AfriPath AI to help students who feel lost about their future find a direction they can act on. This repository holds the recommendation engine, a standalone, independently testable backend that turns a student's questionnaire answers into **explainable career-path recommendations** and **personalised learning roadmaps**, using the v0.7 Kareer Pathfinder knowledge base (9 career paths, 36 roadmap stages, 157 resources, 46 projects).
+
+I wrote the engine in **Python** and serve it with **FastAPI** as a small JSON-over-HTTP API so any frontend can integrate. The React + TypeScript front end lives in `web/`. There is no database, no external AI service and no paid API. The scoring is a deterministic, explainable heuristic today, and my next goal is a trained, personalised model: the ranking step is a swappable component (`Engine(kb, ranker=...)`) so a model can replace it later.
 
 ## Quick start
 
@@ -104,3 +106,7 @@ npm run build:web  # production build of the site into web/dist
 ```
 
 See `web/README.md` for details (hosting, photos, regenerating the API types).
+
+## Author
+
+Collins Adu

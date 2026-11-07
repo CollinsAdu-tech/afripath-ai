@@ -1,23 +1,25 @@
-// Runs the real engine in-process so front-end tests use true engine output, never hand-made lookalikes.
+// Runs the real Python engine so front-end tests use true engine output, never hand-made lookalikes.
+import { execFileSync } from 'node:child_process';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
-// @ts-expect-error the engine is plain JavaScript without type declarations
-import { createEngine, KNOWN_FIELDS as KNOWN } from '../../../src/engine/index.js';
-// @ts-expect-error the engine is plain JavaScript without type declarations
-import { loadKnowledgeBaseFromDir } from '../../../src/knowledge/loadFromDirectory.js';
 import type { CareerListItem, OptionsResponse, RecommendationResponse, RoadmapResponse, StudentProfile } from '../api/types';
 
 const ROOT = resolve(__dirname, '..', '..', '..');
-const kb = await loadKnowledgeBaseFromDir(join(ROOT, 'data', 'kb-v0.7'));
-const raw = createEngine(kb) as {
-  recommend(p: StudentProfile, o?: object): RecommendationResponse;
-  roadmap(p: StudentProfile, careerId: string): RoadmapResponse;
-  listCareers(): CareerListItem[];
-  options(): OptionsResponse;
+const PY = process.env.PYTHON || 'python3';
+
+function run<T>(req: object): T {
+  const out = execFileSync(PY, [join(ROOT, 'scripts', 'engine_cli.py')], { input: JSON.stringify(req), encoding: 'utf8', cwd: ROOT, maxBuffer: 64 * 1024 * 1024 });
+  return JSON.parse(out) as T;
+}
+
+export const engine = {
+  recommend: (profile: StudentProfile, _o?: object) => run<RecommendationResponse>({ op: 'recommend', profile }),
+  roadmap: (profile: StudentProfile, careerId: string) => run<RoadmapResponse>({ op: 'roadmap', profile, careerId }),
+  listCareers: () => run<CareerListItem[]>({ op: 'careers' }),
+  options: () => run<OptionsResponse>({ op: 'options' }),
 };
 
-export const engine = raw;
-export const KNOWN_FIELDS = KNOWN as Set<string>;
+export const KNOWN_FIELDS = new Set<string>(run<string[]>({ op: 'known' }));
 
 const REQ_DIR = join(ROOT, 'examples', 'requests');
 export const REQUEST_NAMES = readdirSync(REQ_DIR).filter((f) => f.startsWith('recommend_')).map((f) => f.replace('.json', ''));

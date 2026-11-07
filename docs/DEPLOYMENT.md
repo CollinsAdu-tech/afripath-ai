@@ -85,6 +85,15 @@ FastAPI serves Swagger UI at `/docs` and the contract at `/openapi.json` (the co
 
 If you already deployed the Node service from v0.3.x: Render cannot switch an existing service from Node to Python, so create a **new** Python web service as above, then in Cloudflare change `VITE_API_BASE` to the new service URL and redeploy the front end. (Alternatively delete the old service and reuse its name.) The front end needs no code change.
 
+## Keeping the free Render service awake
+
+Render's free tier sleeps after 15 minutes without traffic, and the next visitor waits about a minute. Ping `/health` more often than every 15 minutes. Two free options:
+
+1. **GitHub Actions** (included): `.github/workflows/keep-awake.yml` pings every 12 minutes. In the GitHub repo add a variable `ENGINE_URL` (Settings -> Secrets and variables -> Actions -> Variables) with your Render URL. Run it once from the Actions tab to test.
+2. **cron-job.org or UptimeRobot** (more punctual): create a free job that sends a GET request to `https://<your-service>.onrender.com/health` every 5 to 10 minutes.
+
+A free Render service has about 750 instance hours a month, which covers one service running all month. Keeping two free services awake at once would use them up.
+
 ## Container note
 
 No Dockerfile is provided because none was built or tested here. A container needs a Python 3.10+ base image, `pip install -r requirements.txt`, `EXPOSE 8080` and `CMD ["uvicorn","pathfinder.api.main:app","--host","0.0.0.0","--port","8080"]`.

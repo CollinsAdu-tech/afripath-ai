@@ -2,6 +2,7 @@
   "name": "afripath-ai",
   "version": "0.4.0",
   "private": true,
+  "author": "Collins Adu",
   "description": "Dev helpers for the AfriPath AI monorepo. The engine is Python (FastAPI); Node is used only for the React front end in web/.",
   "type": "module",
   "scripts": {

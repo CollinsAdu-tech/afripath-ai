@@ -14,7 +14,7 @@ export function Photo({ src, alt, label, hint, className = '', delay = 0 }: { sr
   return (
     <Reveal pop delay={delay} className={`photo ${className}${ok ? ' has-img' : ''}`}>
       {ok && <img src={src} alt={alt} loading="lazy" decoding="async" />}
-      <div className="ph"><b>{label}</b>{hint ?? <>Add <code>public{src}</code></>}</div>
+      <div className="ph"><b>{label}</b></div>
     </Reveal>
   );
 }

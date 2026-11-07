@@ -2,6 +2,7 @@
 name = "pathfinder"
 version = "0.2.0"
 description = "Deterministic, explainable career-path recommendation engine (AfriPath AI) with a FastAPI service"
+authors = [{ name = "Collins Adu" }]
 requires-python = ">=3.10"
 dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1"]
 
